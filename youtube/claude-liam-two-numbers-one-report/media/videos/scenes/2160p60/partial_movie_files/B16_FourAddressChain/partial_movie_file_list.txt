@@ -1,0 +1,9 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-two-numbers-one-report/media/videos/scenes/2160p60/partial_movie_files/B16_FourAddressChain/1950727442_3861103891_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-two-numbers-one-report/media/videos/scenes/2160p60/partial_movie_files/B16_FourAddressChain/2672662345_4185440256_4121704054.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-two-numbers-one-report/media/videos/scenes/2160p60/partial_movie_files/B16_FourAddressChain/2672662345_2430022998_2851845123.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-two-numbers-one-report/media/videos/scenes/2160p60/partial_movie_files/B16_FourAddressChain/2672662345_1009504511_2173698157.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-two-numbers-one-report/media/videos/scenes/2160p60/partial_movie_files/B16_FourAddressChain/2672662345_2670481992_2424651467.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-two-numbers-one-report/media/videos/scenes/2160p60/partial_movie_files/B16_FourAddressChain/2672662345_3941307081_964344463.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-two-numbers-one-report/media/videos/scenes/2160p60/partial_movie_files/B16_FourAddressChain/2672662345_927683332_3674180107.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-two-numbers-one-report/media/videos/scenes/2160p60/partial_movie_files/B16_FourAddressChain/2672662345_3423249184_1616222510.mp4'

@@ -1,0 +1,1267 @@
+{
+  "metadata": {
+    "slug": "claude-liam-the-lever-nobody-pulled",
+    "title": "The Lever Nobody Pulled",
+    "topic": "THE OPERATOR LAYER IN UNIVERSITIES",
+    "purpose": "Three vendors sell universities a governance tier between the platform's rules and the student. Only one of them — Anthropic — ships an organisation-wide instruction field: Team and Enterprise, 3,000 characters, every conversation, taking precedence over the user. The reel shows the capability is real and specific to one vendor, then shows that across every institution with public evidence nobody has used it at campus scale. What exists instead was built one instructor at a time. The thesis is a negative claim and the reel says so out loud — twice, once for the finding and once for the research that produced it.",
+    "aspect_ratio": "16:9",
+    "style_preset": "claude",
+    "register": "Teardown",
+    "audience": "Claude",
+    "brand": "claude-liam",
+    "persona": "Liam (in for Bear)",
+    "palette": "claude",
+    "ground": "#FAF9F5",
+    "folderLabel": "@NikBearBrown",
+    "in_for_bear": true,
+    "engine": "kokoro",
+    "voice": "am_onyx",
+    "series": "deep-explainer",
+    "source": "User research prompt on university operator-layer configuration (three-vendor version with its own Part 5 verified-findings inventory), verified 2026-08-03 against support.claude.com (Set organization instructions), code.claude.com/docs/en/settings (managed-settings.json), and educational-innovation.sydney.edu.au (Cogniti). See SOURCES.md.",
+    "color_semantics": "TERRACOTTA = the operator layer itself, and the one unverified claim; INK = everything documented; CREAM = ground",
+    "note": "ZERO PUNTS. AUDIO FIRST — no GATE P, Kokoro is free, audio is generated before any compile and a silent slate is a failed build. Every quote on screen is verbatim from a primary source and attributed. The central claim is a NEGATIVE (nobody has done X) — B17 states that absence of public evidence is not proof of absence.",
+    "total_estimated_duration_seconds": 516,
+    "build": {
+      "at": "2026-08-04T23:56:03",
+      "cut": "master",
+      "filled": 23,
+      "of": 23,
+      "slates": [],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "cold open",
+      "estimated_duration_s": 22,
+      "narration_text": "Vanakkam — this is Liam, in for Bear. Three vendors sell universities an admin console. Only one of them ships a field that lets an organisation write instructions the model follows in every conversation, for every person, overriding what the user asks for. Three thousand characters. Universities on Enterprise have it. As far as public evidence goes, not one has written in it.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "audio_file": "mp3/beat-B00.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "media",
+        "at": "2026-08-04T23:56:03"
+      },
+      "shot": {
+        "type": "REMOTION",
+        "show": [
+          {
+            "at": 0,
+            "event": "ClaudeComposerAsk: greeting 'Vanakkam, Liam.' in EB Garamond above the composer"
+          },
+          {
+            "at": 0.3,
+            "event": "command types: 'Who is allowed to write instructions the student never sees?'"
+          },
+          {
+            "at": 0.62,
+            "event": "send arms, running indicator spins"
+          },
+          {
+            "at": 0.78,
+            "event": "output lines land"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Vanakkam, Liam.",
+            "topic": "THE OPERATOR LAYER IN UNIVERSITIES",
+            "segment": "The Lever Nobody Pulled",
+            "command": "Who is allowed to write instructions the student never sees?",
+            "runningText": "locating the layer…",
+            "output": [
+              "Three vendors. One field.",
+              "3,000 characters. Every conversation.",
+              "Nobody has written in it."
+            ],
+            "folderLabel": "@NikBearBrown",
+            "modelLabel": "Fable 5",
+            "effortLabel": "High"
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 19.69
+    },
+    {
+      "beat_id": "B01",
+      "act": "THREE BOSSES",
+      "estimated_duration_s": 24,
+      "narration_text": "Start with who Claude actually answers to. There are three, and they are ranked. The platform sets rules the model will not break. Beneath that, an operator — whoever deployed it — can write instructions. Beneath that, you. Most people only ever meet the third layer, so they assume it is the only one.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "audio_file": "mp3/beat-B01.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B01.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-04T23:56:03"
+      },
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "drawon",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "cream canvas; top band draws in — 'PLATFORM — rules the model will not break'"
+          },
+          {
+            "at": 0.34,
+            "event": "middle band draws in, TERRACOTTA — 'OPERATOR — whoever deployed it'"
+          },
+          {
+            "at": 0.6,
+            "event": "bottom band draws in — 'USER — the student'"
+          },
+          {
+            "at": 0.82,
+            "event": "a small figure icon appears at the bottom band only; the two bands above it stay unlit, captioned 'the only layer most people meet'"
+          }
+        ],
+        "graphic": {
+          "manim": "B01_ThreeBosses",
+          "scene_class": "B01_ThreeBosses",
+          "production_viz": {
+            "label": "three stacked authority bands, only the bottom one visible to the user",
+            "mechanic": "Cream canvas. Three horizontal bands stacked and generously sized to fill the safe area. TOP, ink: 'PLATFORM — rules the model will not break'. MIDDLE, TERRACOTTA (the one accent): 'OPERATOR — whoever deployed it'. BOTTOM, ink: 'USER — the student'. Each draws on its spoken name. Then a small figure icon appears beside the bottom band and a thin sight-line extends from it to that band ONLY; the two bands above remain untouched by the line. Serif caption: 'the only layer most people meet'.",
+            "colors": [
+              "#3D3929",
+              "#D97757"
+            ],
+            "note": "The operator band is terracotta because it is the subject of the whole film. The sight-line stopping short of the upper bands is the argument — do not extend it."
+          }
+        }
+      },
+      "motion_claim": "Bands draw in rank order as named; the user's sight-line visibly stops at the bottom band.",
+      "actual_duration_s": 15.19
+    },
+    {
+      "beat_id": "B02",
+      "act": "THE FIELD IS REAL",
+      "estimated_duration_s": 18,
+      "narration_text": "And the middle band is not a metaphor. Anthropic's help centre has a page for it: organisation instructions, available to admins and owners on Team and Enterprise plans, maximum length three thousand characters, applying to — their words — all people in your organisation, every conversation.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "audio_file": "mp3/beat-B02.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B02.mp4",
+        "filled_by": "media",
+        "at": "2026-08-04T23:56:03"
+      },
+      "shot": {
+        "type": "REMOTION",
+        "show": [
+          {
+            "at": 0.06,
+            "event": "a document surface draws on cream — the help-page title 'Set organization instructions'"
+          },
+          {
+            "at": 0.3,
+            "event": "'Team and Enterprise plans' highlights on its spoken cue"
+          },
+          {
+            "at": 0.54,
+            "event": "'3,000 characters' lands as a stat, terracotta"
+          },
+          {
+            "at": 0.78,
+            "event": "the verbatim line sets beneath: 'All people in your organization, every conversation.' with attribution"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeVerdictArtifact",
+          "props": {
+            "artifactTitle": "Set organization instructions",
+            "artifactHeading": "Team and Enterprise plans",
+            "artifactLines": [
+              "Available to: Admins, Owners, Primary Owners",
+              "Maximum length: 3,000 characters",
+              "\"All people in your organization, every conversation.\"",
+              "Source: Anthropic Help Center"
+            ]
+          },
+          "rendered": {
+            "out": "media/B02.mp4",
+            "at": ""
+          }
+        }
+      },
+      "motion_claim": "Each documented fact lands on its spoken cue; the character limit is the beat's single terracotta moment.",
+      "actual_duration_s": 16.26
+    },
+    {
+      "beat_id": "B03",
+      "act": "IT OUTRANKS YOU",
+      "estimated_duration_s": 23,
+      "narration_text": "Here is the part that makes it an operator layer rather than a preference. Quote: when both are set, organisation instructions take precedence. If an individual instruction directly contradicts an organisation instruction, Claude favours the organisation-level instruction. The student can ask for the opposite. The student loses.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "audio_file": "mp3/beat-B03.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B03.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-04T23:56:03"
+      },
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "drawon",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "two instruction cards draw in facing each other — left 'ORGANISATION: outline only, never finished prose', right 'USER: write my essay'"
+          },
+          {
+            "at": 0.34,
+            "event": "they advance and meet at the centre"
+          },
+          {
+            "at": 0.56,
+            "event": "the user card is pushed back and greys; the organisation card holds, ringed terracotta"
+          },
+          {
+            "at": 0.8,
+            "event": "verbatim quote sets beneath with attribution"
+          }
+        ],
+        "graphic": {
+          "manim": "B03_Precedence",
+          "scene_class": "B03_Precedence",
+          "production_viz": {
+            "label": "two contradicting instructions collide; the operator's survives",
+            "mechanic": "Cream canvas. Two cards drawn facing each other across the frame. LEFT (ink): 'ORGANISATION — outline and guiding questions, never finished prose'. RIGHT (ink): 'USER — write my essay'. Both translate toward the centre and meet. On contact the RIGHT card recedes and fades to 40%; the LEFT card holds position and takes a TERRACOTTA ring. Beneath, at readable size, the verbatim quote: “If an individual instruction directly contradicts an organization instruction, Claude favors the organization-level instruction.” with small attribution 'Anthropic Help Center'.",
+            "colors": [
+              "#3D3929",
+              "#D97757"
+            ],
+            "note": "The collision must be a real physical push — the user card loses ground. This is the beat that makes the layer matter."
+          }
+        }
+      },
+      "motion_claim": "The two cards collide and one is pushed back, on the spoken words 'the student loses'.",
+      "actual_duration_s": 17.11
+    },
+    {
+      "beat_id": "B04",
+      "act": "AND IT HAS A CEILING",
+      "estimated_duration_s": 21,
+      "narration_text": "It is not unlimited. Same page, next paragraph: organisation preferences cannot disable Claude's built-in safety guidelines or content policies. Instructions that conflict with Claude's core training will not be followed. So the whole ranking is documented in one help article — the platform outranks the operator, the operator outranks you.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "audio_file": "mp3/beat-B04.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B04.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-04T23:56:03"
+      },
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "drawon",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "the B01 three-band stack redraws, smaller, at left"
+          },
+          {
+            "at": 0.3,
+            "event": "an arrow rises from the operator band toward the platform band and stops at a drawn ceiling line"
+          },
+          {
+            "at": 0.55,
+            "event": "the ceiling label draws: 'cannot disable built-in safety guidelines or content policies'"
+          },
+          {
+            "at": 0.78,
+            "event": "a downward arrow from operator to user completes, unobstructed; caption 'documented, both directions'"
+          }
+        ],
+        "graphic": {
+          "manim": "B04_Ceiling",
+          "scene_class": "B04_Ceiling",
+          "production_viz": {
+            "label": "the operator layer's reach — blocked upward, free downward",
+            "mechanic": "Cream canvas. Redraw the three bands from B01 at reduced scale on the left third. From the TERRACOTTA operator band, an arrow rises toward the platform band and terminates at a solid drawn ceiling line with the verbatim label 'cannot disable Claude's built-in safety guidelines or content policies'. Then a second arrow descends from the operator band to the user band, unobstructed, reaching it cleanly. Serif caption right: 'Documented, both directions.' Attribution small.",
+            "colors": [
+              "#3D3929",
+              "#D97757"
+            ],
+            "note": "Blocked up, free down — the asymmetry is the whole point of an operator layer and both halves must be visible in one frame."
+          }
+        }
+      },
+      "motion_claim": "One arrow stops at a ceiling and the other arrives cleanly, in the same frame — the asymmetry is watched.",
+      "actual_duration_s": 18.77
+    },
+    {
+      "beat_id": "B05",
+      "act": "THREE VENDORS, ONE LEVER",
+      "estimated_duration_s": 27,
+      "narration_text": "Before we ask who used it, be fair about who has it. Three vendors, three different amounts of lever. Anthropic ships the instruction field we just read. OpenAI's Enterprise and Edu give you roles, permissions, and custom GPTs you can push across a workspace — but no workspace-level setting that restrains how answers come out. You build that by hand, inside one GPT. Google's education controls are toggles: per app, per org unit, plus age gating. Which surfaces are on. Not how they behave.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "audio_file": "mp3/beat-B05.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B05.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-04T23:56:03"
+      },
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "drawon",
+        "show": [
+          {
+            "at": 0.04,
+            "event": "three columns draw in, equal width — ANTHROPIC · OPENAI · GOOGLE"
+          },
+          {
+            "at": 0.3,
+            "event": "the Anthropic column fills with a single terracotta row: 'organisation instruction — every conversation'"
+          },
+          {
+            "at": 0.55,
+            "event": "the OpenAI column fills with ink rows: 'roles', 'permissions', 'workspace custom GPTs' — and one struck-through row 'workspace-level answer restraint'"
+          },
+          {
+            "at": 0.78,
+            "event": "the Google column fills with toggle glyphs, per app and per org unit, plus an age gate; no instruction row appears at all"
+          },
+          {
+            "at": 0.9,
+            "event": "serif caption sets beneath: 'Which surfaces are on. Not how they behave.'"
+          }
+        ],
+        "graphic": {
+          "manim": "B05_ThreeVendors",
+          "scene_class": "B05_ThreeVendors",
+          "production_viz": {
+            "label": "ThreeVendors — one column has a row the other two do not",
+            "mechanic": "Cream canvas. Three equal columns spanning the safe width, headed ANTHROPIC · OPENAI · GOOGLE in small caps ink. Each column fills with its real controls as they are spoken. The ONLY terracotta element in the frame is the single row in the Anthropic column reading 'organisation instruction — every conversation'. The OpenAI column shows 'roles', 'permissions', 'workspace custom GPTs' in ink, then one row 'workspace-level answer restraint' draws and is immediately STRUCK THROUGH. The Google column shows toggle glyphs only — small on/off marks against 'Docs', 'Slides', 'Classroom', 'per org unit', plus an age-gate mark. Crucially the Google column never receives an instruction row: the empty space where one would be must be visible, not collapsed. Serif caption beneath, centred: 'Which surfaces are on. Not how they behave.'",
+            "colors": [
+              "#3D3929",
+              "#D97757"
+            ],
+            "note": "This beat is why the film's title is fair. Two of the three vendors do not ship the lever at all, so 'nobody pulled it' is a claim about ONE vendor's field. Do not let the columns read as a scoreboard — no ticks, no crosses, no winner. They are different shapes, not different scores."
+          }
+        }
+      },
+      "actual_duration_s": 26.69
+    },
+    {
+      "beat_id": "B06",
+      "act": "ASK — who used it",
+      "estimated_duration_s": 7,
+      "narration_text": "So the lever exists, it is precise, and it is documented. The obvious question is who has pulled it.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "audio_file": "mp3/beat-B06.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B06.mp4",
+        "filled_by": "media",
+        "at": "2026-08-04T23:56:03"
+      },
+      "shot": {
+        "type": "REMOTION",
+        "show": [
+          {
+            "at": 0,
+            "event": "ClaudeComposerAsk inner-beat form — spark line above, ask already typed"
+          },
+          {
+            "at": 0.45,
+            "event": "runningText spins: 'searching institutions…'"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Who pulled it?",
+            "topic": "THE SEARCH",
+            "segment": "Configured, not merely licensed",
+            "command": "Which universities have written an organisation-wide instruction — not just bought a licence?",
+            "runningText": "searching institutions…",
+            "folderLabel": "@NikBearBrown",
+            "modelLabel": "Fable 5",
+            "effortLabel": "High"
+          },
+          "rendered": {
+            "out": "media/B06.mp4",
+            "at": ""
+          }
+        }
+      },
+      "motion_claim": "ASK→RESULT pair: this is the ask; B07 through B10 are what came back.",
+      "actual_duration_s": 6.02
+    },
+    {
+      "beat_id": "B07",
+      "act": "TWO QUESTIONS, ONE ANSWER",
+      "estimated_duration_s": 26,
+      "narration_text": "And immediately the research gets hard, for a reason worth naming. Having a contract and having configured behaviour are different facts, and almost every announcement collapses them. A university buys Enterprise for data privacy and compliance. The admin console appears. Nobody opens it. The press release still says the university has adopted Claude — which is true, and tells you nothing.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "audio_file": "mp3/beat-B07.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B07.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-04T23:56:03"
+      },
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "drawon",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "a large circle draws left — 'HAS A LICENCE'"
+          },
+          {
+            "at": 0.3,
+            "event": "a second circle draws right — 'HAS CONFIGURED BEHAVIOUR'"
+          },
+          {
+            "at": 0.52,
+            "event": "the circles move together but overlap only slightly; the lens is hatched and labelled 'the actual question'"
+          },
+          {
+            "at": 0.76,
+            "event": "a banner draws across the left circle only: 'university adopts Claude' — technically true, ringed terracotta"
+          }
+        ],
+        "graphic": {
+          "manim": "B07_TwoCircles",
+          "scene_class": "B07_TwoCircles",
+          "production_viz": {
+            "label": "licence and configuration as two nearly-disjoint sets",
+            "mechanic": "Cream canvas. Two large circles, LEFT 'HAS A LICENCE' drawn substantially bigger, RIGHT 'HAS CONFIGURED BEHAVIOUR' drawn much smaller. They translate toward each other and settle with a deliberately SMALL lens of overlap, which fills with hatching labelled 'the actual question'. Finally a headline banner draws across the LEFT circle only, reading 'University adopts Claude', ringed TERRACOTTA, with a small serif note: 'true of the left circle alone'.",
+            "colors": [
+              "#3D3929",
+              "#D97757"
+            ],
+            "note": "The size difference and the small overlap carry the argument. Do not make the circles equal or the lens generous."
+          }
+        }
+      },
+      "motion_claim": "The overlap is drawn small and stays small; the banner lands over one circle only.",
+      "actual_duration_s": 20.52
+    },
+    {
+      "beat_id": "B08",
+      "act": "THE NAMES THAT AREN'T EVIDENCE",
+      "estimated_duration_s": 24,
+      "narration_text": "And that distinction eats the most obvious candidates. Northeastern, the London School of Economics, Champlain, Carnegie Mellon — every one has a real deal with a real vendor, single sign-on, privacy terms, access to the vendor's own learning-mode template. Not one of those is a university-authored instruction. The announcement is true. It is also not the thing.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "audio_file": "mp3/beat-B08.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B08.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-04T23:56:03"
+      },
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "drawon",
+        "show": [
+          {
+            "at": 0.06,
+            "event": "four institution chips draw across the frame"
+          },
+          {
+            "at": 0.34,
+            "event": "beneath each, three ink ticks land: 'contract', 'single sign-on', \"vendor's own template\""
+          },
+          {
+            "at": 0.66,
+            "event": "a fourth row draws beneath all four chips — 'university-authored instruction' — and stays EMPTY across every column, ringed terracotta"
+          },
+          {
+            "at": 0.88,
+            "event": "serif caption: 'The announcement is true. It is also not the thing.'"
+          }
+        ],
+        "graphic": {
+          "manim": "B08_FourNames",
+          "scene_class": "B08_FourNames",
+          "production_viz": {
+            "label": "FourNames — three rows filled, the fourth empty under every one",
+            "mechanic": "Cream canvas. Four institution chips in a row, ink, evenly spaced and generously sized: NORTHEASTERN · LSE · CHAMPLAIN · CARNEGIE MELLON. Beneath them a small matrix. Three ink rows fill for every column as they are spoken: 'contract', 'single sign-on', \"vendor's own template\". Then a FOURTH row draws — 'university-authored instruction' — and receives NOTHING in any column. Ring that empty row terracotta; it is the only accent. Serif caption beneath: 'The announcement is true. It is also not the thing.'",
+            "colors": [
+              "#3D3929",
+              "#D97757"
+            ],
+            "note": "These are institutions, not people. No individual is named anywhere in this beat. The empty fourth row is the argument — do not fill it with a dash, an X, or an 'n/a' glyph. Empty means empty."
+          }
+        }
+      },
+      "actual_duration_s": 19.31
+    },
+    {
+      "beat_id": "B09",
+      "act": "THE THIRD QUESTION",
+      "estimated_duration_s": 24,
+      "narration_text": "There is a third question underneath, and it is the one that started this. Who inside the institution has authority to write that field — and do they know they have it? A committee can spend a semester drafting syllabus language about AI while the technical lever that would enforce any of it sits in a console nobody on the committee has heard of.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "audio_file": "mp3/beat-B09.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B09.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-04T23:56:03"
+      },
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "drawon",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "left column draws — 'THE COMMITTEE' with 'syllabus language', 'academic integrity policy', 'assignment guidance'"
+          },
+          {
+            "at": 0.34,
+            "event": "right column draws — 'THE CONSOLE' with 'organisation instructions · 3,000 characters'"
+          },
+          {
+            "at": 0.58,
+            "event": "the gap between them draws in as a dashed void, no connector, labelled 'no channel'"
+          },
+          {
+            "at": 0.8,
+            "event": "serif caption: 'Writing policy at a layer with no wire to the software.'"
+          }
+        ],
+        "graphic": {
+          "manim": "B09_NoWire",
+          "scene_class": "B09_NoWire",
+          "production_viz": {
+            "label": "two columns with a deliberately empty gap between them",
+            "mechanic": "Cream canvas. LEFT column headed 'THE COMMITTEE' with three ink rows: 'syllabus language', 'academic integrity policy', 'assignment guidance'. RIGHT column headed 'THE CONSOLE' with one TERRACOTTA row: 'organisation instructions — 3,000 characters'. Between them, a wide vertical dashed void labelled 'no channel' — NOTHING crosses it, no arrow, no line. Serif caption beneath: 'Writing policy at a layer with no wire to the software.'",
+            "colors": [
+              "#3D3929",
+              "#D97757"
+            ],
+            "note": "The absence of a connector is the entire beat. Resist any impulse to draw a dotted line across — the emptiness is the finding."
+          }
+        }
+      },
+      "motion_claim": "The gap is drawn and nothing ever crosses it, on the words 'no channel'.",
+      "actual_duration_s": 17.92
+    },
+    {
+      "beat_id": "B10",
+      "act": "THE FINDING",
+      "estimated_duration_s": 27,
+      "narration_text": "And here is what the search returned. Across every institution with public evidence — IT policy pages, AI task force reports, faculty governance minutes — there is no documented case of a university writing an organisation-wide instruction at campus scale. Not a weak signal. No signal. The capability is real and, as far as anything public shows, essentially unused at the level of every student, every conversation.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "audio_file": "mp3/beat-B10.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B10.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-04T23:56:03"
+      },
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "drawon",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "a vertical scope axis draws — bottom 'ONE COURSE', middle 'ONE DEPARTMENT', top 'EVERY STUDENT, EVERY CONVERSATION'"
+          },
+          {
+            "at": 0.32,
+            "event": "dots begin landing at the bottom of the axis, several of them"
+          },
+          {
+            "at": 0.56,
+            "event": "a few land at the middle band"
+          },
+          {
+            "at": 0.74,
+            "event": "the top band stays empty; it rings terracotta and its label reads 'no confirmed case'"
+          },
+          {
+            "at": 0.9,
+            "event": "serif caption: 'The lever is at the top. Everything built is at the bottom.'"
+          }
+        ],
+        "graphic": {
+          "manim": "B10_ScopeAxis",
+          "scene_class": "B10_ScopeAxis",
+          "production_viz": {
+            "label": "a scope axis where the top band never receives a dot",
+            "mechanic": "Cream canvas. A vertical axis spanning the safe height, banded bottom to top: 'ONE COURSE / ONE INSTRUCTOR', 'ONE DEPARTMENT / ONE UNIT', 'EVERY STUDENT, EVERY CONVERSATION'. Ink dots land in the bottom band one at a time (seven or so), then two or three in the middle band. The TOP band receives NOTHING and is ringed TERRACOTTA with the label 'no confirmed case'. Serif caption: 'The lever is at the top. Everything built is at the bottom.'",
+            "colors": [
+              "#3D3929",
+              "#D97757"
+            ],
+            "note": "The empty top band is the film's thesis. Hold on it. Do not add a faint or partial dot for balance — the emptiness is the result."
+          }
+        }
+      },
+      "motion_claim": "Dots accumulate in the lower bands while the top band is watched staying empty.",
+      "actual_duration_s": 22.31
+    },
+    {
+      "beat_id": "B11",
+      "act": "WHAT WAS BUILT INSTEAD",
+      "estimated_duration_s": 26,
+      "narration_text": "What people built instead is genuinely interesting, and it is all one rung down. Sydney built Cogniti — a platform where an educator writes plain-language instructions for an agent. Their words: no programming knowledge is needed, and the instruction, quote, isn't seen by students. The teacher, they write, is in the AI's driver's seat.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "audio_file": "mp3/beat-B11.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B11.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-04T23:56:03"
+      },
+      "shot": {
+        "type": "VOX",
+        "source": "pantry",
+        "show": [
+          {
+            "at": 0,
+            "event": "pantry still: Cogniti / Teaching@Sydney page, duotone cutout treatment, slow ease-out Ken Burns push"
+          },
+          {
+            "at": 0.4,
+            "event": "verbatim quote types in over the lower third: 'isn't seen by students'"
+          },
+          {
+            "at": 0.75,
+            "event": "attribution sets small: 'Teaching@Sydney, University of Sydney'"
+          }
+        ],
+        "vox": {
+          "still": "pantry/B11_cogniti.png",
+          "treatment": "duotone",
+          "motion": "kenburns-ease-out",
+          "shopping": {
+            "tier": "A",
+            "what": "Cogniti / Teaching@Sydney article header or Cogniti agent-builder screen",
+            "duration_s": 26,
+            "source": "educational-innovation.sydney.edu.au — screenshot, re-themed to cream",
+            "fallback": "If the still cannot be captured, DO NOT slate and DO NOT ask. Convert this beat to GRAPHIC/own, scene_class B11_CognitiRecreation: cream canvas, a plain-language system-message box drawn in ink with the verbatim line 'isn't seen by students' set beside it in terracotta, attributed 'Teaching@Sydney, University of Sydney'. Same 26s, same narration."
+          }
+        },
+        "rendered": {
+          "out": "media/B11.mp4",
+          "at": ""
+        }
+      },
+      "motion_claim": "VOX beat — ease-out Ken Burns on the pantry still with the verbatim quote landing on its spoken words.",
+      "actual_duration_s": 17.75
+    },
+    {
+      "beat_id": "B12",
+      "act": "MRS S",
+      "estimated_duration_s": 25,
+      "narration_text": "And the most concrete artifact in this entire space is an agent called Mrs S. An occupational therapy educator instructed it to roleplay as a busy kindergarten teacher and — their words — challenge the ideas that the students presented, push back if dissatisfied. That is an operator layer doing pedagogy. One course. One instructor. Written by hand.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "audio_file": "mp3/beat-B12.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B12.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-04T23:56:03"
+      },
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "drawon",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "an instruction card draws centre — 'Mrs S' — with the verbatim role line"
+          },
+          {
+            "at": 0.36,
+            "event": "a student message enters from the left: 'here is my intervention plan'"
+          },
+          {
+            "at": 0.58,
+            "event": "instead of agreement, a pushback arrow returns in terracotta — 'challenge · push back if dissatisfied'"
+          },
+          {
+            "at": 0.82,
+            "event": "scope stamp lands beneath: 'ONE COURSE · ONE INSTRUCTOR · HAND-WRITTEN'"
+          }
+        ],
+        "graphic": {
+          "manim": "B12_MrsS",
+          "scene_class": "B12_MrsS",
+          "production_viz": {
+            "label": "an agent instructed to disagree, and the scope it operates at",
+            "mechanic": "Cream canvas. Centre: an instruction card headed 'Mrs S' carrying the verbatim line 'roleplay as a busy kindergarten teacher… challenge the ideas that students presented, push back if dissatisfied' with attribution. A student message block enters from the left and reaches the card. The reply that returns is NOT an agreement tick — it is a TERRACOTTA pushback arrow labelled 'challenge · push back'. Finally a small stamp lands beneath the card: 'ONE COURSE · ONE INSTRUCTOR · HAND-WRITTEN'.",
+            "colors": [
+              "#3D3929",
+              "#D97757"
+            ],
+            "note": "The reply arrow going BACKWARD against the student is the beat. The scope stamp is what connects it to B10's empty top band."
+          }
+        }
+      },
+      "motion_claim": "The agent's reply travels back against the student's message rather than forward, on the words 'push back'.",
+      "actual_duration_s": 18.92
+    },
+    {
+      "beat_id": "B13",
+      "act": "THE OTHERS",
+      "estimated_duration_s": 24,
+      "narration_text": "Sydney is not alone at that rung. San Diego's TritonGPT lets instructors pick approved sources and a Socratic or directive style, and students cannot add their own materials. Michigan's Maizey lets faculty write system prompts against course sources. Arizona State built a language tutor. Vanderbilt built a platform. Every one of them, one course or one unit at a time.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "audio_file": "mp3/beat-B13.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B13.mp4",
+        "filled_by": "media",
+        "at": "2026-08-04T23:56:03"
+      },
+      "shot": {
+        "type": "REMOTION",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "FormBCard title 'Built one rung down' springs in"
+          },
+          {
+            "at": 0.24,
+            "event": "TritonGPT card springs in on its spoken cue"
+          },
+          {
+            "at": 0.46,
+            "event": "Maizey card springs in"
+          },
+          {
+            "at": 0.66,
+            "event": "Language Buddy card springs in"
+          },
+          {
+            "at": 0.84,
+            "event": "Amplify card springs in"
+          }
+        ],
+        "remotion": {
+          "pattern": "FormBCard",
+          "props": {
+            "title": "Built one rung down",
+            "dark": false,
+            "items": [
+              {
+                "label": "TritonGPT",
+                "sub": "UC San Diego — approved sources, Socratic or directive",
+                "icon": "clipboard-list",
+                "cue_phrase": "San Diego's TritonGPT",
+                "cueFrame": 115
+              },
+              {
+                "label": "Maizey",
+                "sub": "Michigan — faculty write prompts against course sources",
+                "icon": "lock",
+                "cue_phrase": "Michigan's Maizey",
+                "cueFrame": 220
+              },
+              {
+                "label": "Language Buddy",
+                "sub": "Arizona State — level-appropriate vocabulary tutor",
+                "icon": "star",
+                "cue_phrase": "Arizona State built a language tutor",
+                "cueFrame": 150
+              },
+              {
+                "label": "Amplify",
+                "sub": "Vanderbilt — per-course assistants, nothing campus-wide",
+                "icon": "list-checks",
+                "cue_phrase": "Vanderbilt built a platform",
+                "cueFrame": 402
+              }
+            ]
+          },
+          "rendered": {
+            "out": "media/B13.mp4",
+            "at": ""
+          }
+        }
+      },
+      "motion_claim": "FormB karaoke reveal — each institution lands on its spoken name.",
+      "actual_duration_s": 19.95
+    },
+    {
+      "beat_id": "B14",
+      "act": "THE HONEST ONE",
+      "estimated_duration_s": 24,
+      "narration_text": "And one of them said the quiet part out loud. At York, an instructor built a course tutor as a Gemini Gem — lecture materials, subject boundaries, the lot — and then told the students they could copy the prompt and the materials straight into any other AI tool. Not a leak. A design statement. They built a scaffold and refused to call it a fence.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "audio_file": "mp3/beat-B14.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B14.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-04T23:56:03"
+      },
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "drawon",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "a tutor card draws, ink — 'lecture materials', 'subject boundaries', 'temporal scope'"
+          },
+          {
+            "at": 0.38,
+            "event": "a copy of the same card slides OUT of the enclosure and comes to rest outside it, unimpeded"
+          },
+          {
+            "at": 0.62,
+            "event": "the instructor's own line sets beneath in terracotta: 'you can copy this into another tool'"
+          },
+          {
+            "at": 0.85,
+            "event": "the enclosure is relabelled — the word 'FENCE' strikes through and re-letters as 'SCAFFOLD'"
+          }
+        ],
+        "graphic": {
+          "manim": "B14_Scaffold",
+          "scene_class": "B14_Scaffold",
+          "production_viz": {
+            "label": "Scaffold — the builder hands you the way out",
+            "mechanic": "Cream canvas. A tutor card drawn in ink inside a light dashed enclosure, listing 'lecture materials', 'subject boundaries', 'temporal scope'. A DUPLICATE of the card then slides cleanly out through the dashed edge and settles outside it — no resistance, no break animation, because nothing was broken. Beneath, in TERRACOTTA, the instructor's own position: 'you can copy this into another tool'. Finally the enclosure's label 'FENCE' draws, strikes through, and re-letters to 'SCAFFOLD'.",
+            "colors": [
+              "#3D3929",
+              "#D97757"
+            ],
+            "note": "The instructor is not named. This beat is admiring, not gotcha — the animation must not read as a breach. The duplicate leaves easily BECAUSE the builder opened the gate."
+          }
+        }
+      },
+      "actual_duration_s": 17.69
+    },
+    {
+      "beat_id": "B15",
+      "act": "THE PATTERN",
+      "estimated_duration_s": 22,
+      "narration_text": "Look at what those have in common. Every one is built by an instructor or a unit, inside a platform the university wrote itself, for one course at a time. None is the vendor's own field. The institutions did not decline to use the operator layer. They built a parallel one, by hand, because the vendor's version was never presented to them as a thing a teacher could touch.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "audio_file": "mp3/beat-B15.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B15.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-04T23:56:03"
+      },
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "drawon",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "left: the vendor stack from B01 redraws, its operator band terracotta and conspicuously EMPTY"
+          },
+          {
+            "at": 0.34,
+            "event": "right: a second stack draws, home-built — 'university platform', 'instructor prompt', 'course sources' — populated"
+          },
+          {
+            "at": 0.62,
+            "event": "a curved arrow draws from the empty vendor band around to the populated home-built stack, labelled 'built around it'"
+          },
+          {
+            "at": 0.84,
+            "event": "serif caption: 'They did not decline the layer. They never saw it.'"
+          }
+        ],
+        "graphic": {
+          "manim": "B15_ParallelLayer",
+          "scene_class": "B15_ParallelLayer",
+          "production_viz": {
+            "label": "the vendor's operator slot empty beside a hand-built one that is full",
+            "mechanic": "Cream canvas, two stacks side by side. LEFT is the vendor stack from B01 with the TERRACOTTA operator band drawn as an EMPTY outline — visibly hollow. RIGHT is a home-built stack drawn in ink and fully filled: 'university platform' / 'instructor-written prompt' / 'course sources'. A curved arrow leaves the empty vendor band, travels around the outside, and terminates at the right-hand stack, labelled 'built around it'. Serif caption: 'They did not decline the layer. They never saw it.'",
+            "colors": [
+              "#3D3929",
+              "#D97757"
+            ],
+            "note": "Hollow versus filled is the contrast. The arrow going AROUND rather than through says they routed past the vendor slot."
+          }
+        }
+      },
+      "motion_claim": "The arrow travels around the empty vendor band rather than through it — the detour is the finding.",
+      "actual_duration_s": 18.67
+    },
+    {
+      "beat_id": "B16",
+      "act": "THE CORRECTION",
+      "estimated_duration_s": 25,
+      "narration_text": "One correction I owe the source, and it corrected itself first. An earlier draft named a file called managed-settings dot json as the mechanism behind campus deployments. It is real, but it is Claude Code — deployed by IT to developer machines, governing tool permissions. It does carry a field that injects organisation-managed instructions. It is not the chat layer, and treating it as one is a category error.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "audio_file": "mp3/beat-B16.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B16.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-04T23:56:03"
+      },
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "drawon",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "two surfaces draw side by side — left 'CHAT · the student's Claude', right 'CLAUDE CODE · a developer's machine'"
+          },
+          {
+            "at": 0.32,
+            "event": "managed-settings.json lands on the RIGHT surface only, with its real path shown in mono"
+          },
+          {
+            "at": 0.56,
+            "event": "its contents list: permissions, tool allow/deny, MCP allowlists — and 'claudeMd: org-managed memory'"
+          },
+          {
+            "at": 0.8,
+            "event": "an arrow attempts to cross from right to left and is blocked; caption 'different surface, not a smaller version of the same one'"
+          }
+        ],
+        "graphic": {
+          "manim": "B16_CategoryError",
+          "scene_class": "B16_CategoryError",
+          "production_viz": {
+            "label": "two distinct surfaces, and a file that belongs to only one",
+            "mechanic": "Cream canvas, two clearly separated surfaces. LEFT: 'CHAT — the student's Claude'. RIGHT: 'CLAUDE CODE — a developer's machine, MDM-deployed'. The file chip 'managed-settings.json' draws onto the RIGHT surface with its real path in mono (/Library/Application Support/ClaudeCode/). Beneath it a short list: 'permission rules', 'tool allow / deny', 'MCP allowlists', and one TERRACOTTA row 'claudeMd — organization-managed memory'. An arrow then attempts to travel from the right surface to the left and is stopped by a drawn barrier. Serif caption: 'A different surface — not a smaller version of the same one.'",
+            "colors": [
+              "#3D3929",
+              "#D97757"
+            ],
+            "note": "Be precise: claudeMd DOES exist and does inject org instructions, so do not draw the right surface as instruction-free. The error is the surface, not the existence."
+          }
+        }
+      },
+      "motion_claim": "The blocked crossing shows the two surfaces are not interchangeable; claudeMd is shown present, in terracotta, rather than denied.",
+      "actual_duration_s": 21.95
+    },
+    {
+      "beat_id": "B17",
+      "act": "THE PASS THAT MADE THINGS UP",
+      "estimated_duration_s": 28,
+      "narration_text": "One more thing belongs in this film, because it happened while making it. A second research pass came back with more: named campus tools, precise counts, thousands of assistants, tens of thousands of students. It also invented a detail about the co-authors of the paper it was helping write. Every specific from that pass is quarantined — not disproved, unconfirmed. A source that fabricates one thing you can check has told you exactly what to do with everything you cannot.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "audio_file": "mp3/beat-B17.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B17.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-04T23:56:03"
+      },
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "drawon",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "a dense results panel draws — tool names blurred to shape, and three crisp figures"
+          },
+          {
+            "at": 0.35,
+            "event": "one row lights terracotta: a claim about the paper's own co-authors"
+          },
+          {
+            "at": 0.55,
+            "event": "that row is struck through — it was checkable, and it was wrong"
+          },
+          {
+            "at": 0.72,
+            "event": "the strike propagates: every other row in the panel dims to 40% and the panel is enclosed and labelled QUARANTINED"
+          },
+          {
+            "at": 0.9,
+            "event": "serif caption: 'Not disproved. Unconfirmed.'"
+          }
+        ],
+        "graphic": {
+          "manim": "B17_Quarantine",
+          "scene_class": "B17_Quarantine",
+          "production_viz": {
+            "label": "Quarantine — one checkable error dims everything uncheckable",
+            "mechanic": "Cream canvas. A results panel drawn in ink, dense and convincing: six or seven rows of plausible findings, tool names rendered as legible-but-generic shapes, and three crisp numeric figures so the panel looks authoritative. One row — 'a detail about this paper's own co-authors' — lights TERRACOTTA, then strikes through. Immediately afterwards every other row in the panel dims to 40% opacity in a single propagating sweep, and a thin enclosure draws around the whole panel labelled QUARANTINED. Serif caption beneath: 'Not disproved. Unconfirmed.'",
+            "colors": [
+              "#3D3929",
+              "#D97757"
+            ],
+            "note": "Do not invent or display the fabricated detail itself, and do not show any of the quarantined tool names legibly — rendering them would reintroduce exactly the claims this beat exists to withhold. The propagating dim is the whole argument: one checkable lie costs the source everything uncheckable."
+          }
+        }
+      },
+      "actual_duration_s": 22.91
+    },
+    {
+      "beat_id": "B18",
+      "act": "WHAT A NEGATIVE PROVES",
+      "estimated_duration_s": 26,
+      "narration_text": "And the honest caveat, because this film's central claim is a negative. Nobody found a campus-wide deployment. That is not the same as nobody having one. Universities do not publish their admin console configuration, and there is no reason they would. What the evidence supports is narrower and still worth saying: if any institution is shaping model behaviour at that scope, they have told no one, and nobody has written it down.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "audio_file": "mp3/beat-B18.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B18.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-04T23:56:03"
+      },
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "drawon",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "a claim card draws: 'no university has configured a campus-wide instruction'"
+          },
+          {
+            "at": 0.32,
+            "event": "it narrows visibly, shrinking to a smaller card: 'no PUBLIC EVIDENCE of one exists'"
+          },
+          {
+            "at": 0.58,
+            "event": "the searched sources list beneath: IT policy pages, task force reports, faculty governance minutes, vendor announcements"
+          },
+          {
+            "at": 0.8,
+            "event": "an unsearchable region draws to the side, hatched and terracotta: 'admin consoles — not public, never will be'"
+          }
+        ],
+        "graphic": {
+          "manim": "B18_NarrowingClaim",
+          "scene_class": "B18_NarrowingClaim",
+          "production_viz": {
+            "label": "the strong claim shrinking to the defensible one, with the blind spot drawn",
+            "mechanic": "Cream canvas. A large card 'NO UNIVERSITY HAS CONFIGURED A CAMPUS-WIDE INSTRUCTION' draws, holds, then visibly SHRINKS and re-letters into a smaller card 'NO PUBLIC EVIDENCE OF ONE EXISTS'. Beneath, a list of what was searched: IT policy pages · AI task force reports · faculty governance minutes · vendor announcements. To the side, a hatched TERRACOTTA region labelled 'admin consoles — not public, never will be', drawn deliberately OUTSIDE the searched set. Serif caption: 'The blind spot is the size of the claim.'",
+            "colors": [
+              "#3D3929",
+              "#D97757"
+            ],
+            "note": "The card must physically shrink — the audience watches the claim get weaker and more honest. The unsearchable region must sit visibly outside the searched list."
+          }
+        }
+      },
+      "motion_claim": "The claim card shrinks on screen as the narration narrows it — the retreat is watched, not asserted.",
+      "actual_duration_s": 21.42
+    },
+    {
+      "beat_id": "B19",
+      "act": "THE STAKE",
+      "estimated_duration_s": 22,
+      "narration_text": "So the gap is not that universities chose the wrong configuration. It is that the people writing AI policy and the people holding the field that would implement it are, at most institutions, not the same people — and have never been in the same room. That is a fixable problem, and it is a much more interesting paper than another syllabus clause.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "audio_file": "mp3/beat-B19.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B19.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-04T23:56:03"
+      },
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "drawon",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "B09's two columns redraw, the void still between them"
+          },
+          {
+            "at": 0.36,
+            "event": "for the first time a connector draws across the void, terracotta"
+          },
+          {
+            "at": 0.62,
+            "event": "it is labelled 'the missing conversation', not 'the missing feature'"
+          },
+          {
+            "at": 0.84,
+            "event": "serif caption: 'Fixable. Which is the whole argument for writing it down.'"
+          }
+        ],
+        "graphic": {
+          "manim": "B19_TheWire",
+          "scene_class": "B19_TheWire",
+          "production_viz": {
+            "label": "the void from B09, finally crossed",
+            "mechanic": "Cream canvas. Redraw B09's two columns — THE COMMITTEE and THE CONSOLE — with the same dashed void between them, so the callback is unmistakable. Then, for the first time in the film, a TERRACOTTA connector draws across the void and lands on both sides. Its label reads 'the missing conversation' — explicitly NOT 'the missing feature'. Serif caption beneath: 'Fixable. Which is the whole argument for writing it down.'",
+            "colors": [
+              "#3D3929",
+              "#D97757"
+            ],
+            "note": "This is the only beat where anything crosses that gap. B09 earns it by leaving it empty; do not let any earlier beat spend this move."
+          }
+        }
+      },
+      "motion_claim": "The connector B09 deliberately withheld is finally drawn — the payoff is a callback, not a new figure.",
+      "actual_duration_s": 18.37
+    },
+    {
+      "beat_id": "BVDT",
+      "act": "VERDICT",
+      "estimated_duration_s": 15,
+      "narration_text": "One vendor ships the field. It is documented, precise, and it outranks the student. Every deployment anyone can point to was built one course at a time, around it rather than in it. And the reason is not technical.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "audio_file": "mp3/beat-BVDT.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BVDT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-04T23:56:03"
+      },
+      "shot": {
+        "type": "REMOTION",
+        "show": [
+          {
+            "at": 0,
+            "event": "ClaudeVerdictArtifact opens on cream"
+          },
+          {
+            "at": 0.25,
+            "event": "verdict lines land one by one"
+          },
+          {
+            "at": 0.82,
+            "event": "artifact holds"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeVerdictArtifact",
+          "props": {
+            "artifactTitle": "The Lever Nobody Pulled",
+            "artifactHeading": "What the evidence supports",
+            "artifactLines": [
+              "Of three vendors, only Anthropic ships an organisation-wide instruction field.",
+              "It outranks the user and cannot outrank the platform — both documented on one page.",
+              "Every public deployment is one course or one unit, in a platform the university built itself.",
+              "No public evidence of campus scale — which is not the same as nobody having one."
+            ]
+          },
+          "rendered": {
+            "out": "media/BVDT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 12.1
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "YOUR TURN",
+      "estimated_duration_s": 28,
+      "narration_text": "Your turn. Paste this into Claude: find out who administers my university's Enterprise or Education contract, and ask them one question — has anyone ever written an organisation-level instruction, and who would have the authority to. Not whether we have a licence. Everyone has a licence. The second question is the one nobody has been asked, and at most institutions the answer will be a name that surprises you. Liam, in for Bear.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "audio_file": "mp3/beat-BHTF.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BHTF.mp4",
+        "filled_by": "media",
+        "at": "2026-08-04T23:56:03"
+      },
+      "shot": {
+        "type": "REMOTION",
+        "show": [
+          {
+            "at": 0,
+            "event": "ClaudeComposerAsk: greeting 'Your turn.' above the composer"
+          },
+          {
+            "at": 0.18,
+            "event": "the prompt types itself in"
+          },
+          {
+            "at": 0.6,
+            "event": "runningText: 'paste this into Claude…'"
+          },
+          {
+            "at": 0.8,
+            "event": "composer holds while the narration reads and discusses the prompt"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "YOUR TURN — FIND THE ADMIN",
+            "segment": "The Lever Nobody Pulled",
+            "command": "Who administers my university's Enterprise or Education contract, and has anyone ever written an organisation-level instruction in it?",
+            "runningText": "paste this into Claude…",
+            "folderLabel": "@NikBearBrown",
+            "modelLabel": "Fable 5",
+            "effortLabel": "Low"
+          },
+          "rendered": {
+            "out": "media/BHTF.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 20.71
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "OUTRO",
+      "estimated_duration_s": 8,
+      "narration_text": "",
+      "audio_file": "mp3/beat-BOUT.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BOUT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-04T23:56:03"
+      },
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "props": {
+            "title": "The Lever Nobody Pulled",
+            "slug": "claude-liam-the-lever-nobody-pulled",
+            "handle": "@NikBearBrown",
+            "subline": ""
+          },
+          "rendered": {
+            "out": "media/BOUT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 8.0
+    }
+  ]
+}

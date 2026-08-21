@@ -1,0 +1,7 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-detector-never-the-standard/media/videos/scenes/2160p24/partial_movie_files/B37_DisparityBars/4124586937_2206543373_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-detector-never-the-standard/media/videos/scenes/2160p24/partial_movie_files/B37_DisparityBars/3090979338_2464604136_2161476554.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-detector-never-the-standard/media/videos/scenes/2160p24/partial_movie_files/B37_DisparityBars/3090979338_2513238583_4044344429.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-detector-never-the-standard/media/videos/scenes/2160p24/partial_movie_files/B37_DisparityBars/3090979338_1393062304_2739764778.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-detector-never-the-standard/media/videos/scenes/2160p24/partial_movie_files/B37_DisparityBars/3090979338_2776405135_505713173.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-detector-never-the-standard/media/videos/scenes/2160p24/partial_movie_files/B37_DisparityBars/3090979338_3278807600_1418506728.mp4'

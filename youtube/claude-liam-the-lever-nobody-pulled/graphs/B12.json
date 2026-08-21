@@ -1,0 +1,27 @@
+{
+  "beat": "B12",
+  "layout": "hierarchical-lr",
+  "safe": [96, 54, 1824, 1026],
+  "style_table": {
+    "process":  {"shape": "rect",    "fill": "none", "stroke": "ink",  "accent": false},
+    "terminal": {"shape": "rounded", "fill": "none", "stroke": "ink",  "accent": false},
+    "store":    {"shape": "cylinder","fill": "none", "stroke": "ink",  "accent": false},
+    "decision": {"shape": "diamond", "fill": "none", "stroke": "ink",  "accent": false},
+    "io":       {"shape": "parallelogram","fill": "none","stroke":"ink","accent": false}
+  },
+  "nodes": [
+    {"id":"mrs_s",      "type":"process", "label":"Mrs S — instruction card",          "x":960, "y":380,"w":600,"h":220},
+    {"id":"student_msg","type":"terminal","label":"student message",                    "x":260, "y":380,"w":260,"h":100},
+    {"id":"scope_stamp","type":"io",      "label":"ONE COURSE · ONE INSTRUCTOR · HAND-WRITTEN","x":960,"y":820,"w":700,"h":80}
+  ],
+  "edges": [
+    {"from":"student_msg","to":"mrs_s","kind":"flow",
+     "path":[[390,380],[660,380]]},
+    {"from":"mrs_s","to":"student_msg","kind":"back","channel":"top_margin","curve_offset":80,
+     "path":[[660,270],[400,180],[130,270]],
+     "label":"challenge · push back",
+     "label_box":[130,130,660,170]},
+    {"from":"mrs_s","to":"scope_stamp","kind":"flow",
+     "path":[[960,490],[960,780]]}
+  ]
+}

@@ -1,0 +1,85 @@
+1
+00:00:00,000 --> 00:00:12,020
+Merhaba — this is Liam, in for Bear. One
+dataset can hand you four different true
+numbers. Two parties each got a menu. Both
+
+2
+00:00:12,070 --> 00:00:24,670
+It starts with a good study. Four
+detection tools, a hundred and sixty
+documents, known ground truth,
+
+3
+00:00:24,720 --> 00:00:28,400
+Rebuild the accuracy table from the
+detection-tools study.
+
+4
+00:00:28,450 --> 00:00:38,280
+On fully machine-written papers: one tool
+scored zero. A second scored zero. A third
+scored zero. The fourth scored highest —
+
+5
+00:00:38,330 --> 00:00:49,440
+Sixty-five percent strict. Ninety-seven
+point five inclusive. The difference is
+what inclusive forgives: a score of sixty
+
+6
+00:00:49,490 --> 00:00:58,510
+The zero-false-positive result — forty
+human theses, not one flagged — comes from
+non-native English speakers writing before
+
+7
+00:00:58,560 --> 00:01:10,090
+Pre-2019 text guarantees clean ground
+truth — nothing could have generated it.
+That makes it the easiest possible
+
+8
+00:01:10,140 --> 00:01:22,190
+The authors say it in the abstract:
+detection results should not be used as
+sole evidence in high-stakes decision-
+
+9
+00:01:22,240 --> 00:01:27,420
+Pull up the Pangram report on AI writing
+rates across social-media platforms.
+
+10
+00:01:27,470 --> 00:01:31,050
+Rebuild the vendor's third-party
+evaluations page.
+
+11
+00:01:31,100 --> 00:01:44,900
+That study appears on Pangram's
+evaluations page — listed as institution
+name and month, no DOI, no authors, no
+
+12
+00:01:44,950 --> 00:01:52,370
+Two documents, two picks. From each one,
+the figure that stayed behind was the one
+that limits what the chosen figure can
+
+13
+00:01:52,420 --> 00:01:55,610
+Where does the platform's accuracy claim
+link to?
+
+14
+00:01:55,660 --> 00:02:02,910
+And then it is a button. Any document, any
+reader, a score returned on request. The
+chain is complete. The qualifiers are not.
+
+15
+00:02:02,960 --> 00:02:20,490
+That's the short version. The full video
+also covers Pangram report — four-figure
+menu, 40% highlighted, second pick — same

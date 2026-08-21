@@ -1,0 +1,1121 @@
+{
+ "metadata": {
+  "slug": "claude-liam-the-smallest-lever",
+  "title": "The Smallest Lever",
+  "topic": "CONFIGURING A TUTOR YOU CANNOT ENFORCE",
+  "purpose": "The companion to The Lever Nobody Pulled. That reel showed the operator layer is real and unused; this one asks what an institution should actually write in it. It starts by killing the instruction everyone reaches for first, lays out the four real design axes, shows all four being bypassed, and then reframes the question from 'how do we enforce restraint' to 'what is the smallest intervention that changes behaviour without assuming enforcement' — under which exactly two of the four survive.",
+  "aspect_ratio": "16:9",
+  "style_preset": "claude",
+  "register": "Teardown",
+  "audience": "Claude",
+  "brand": "claude-liam",
+  "persona": "Liam (in for Bear)",
+  "palette": "claude",
+  "ground": "#FAF9F5",
+  "folderLabel": "@NikBearBrown",
+  "in_for_bear": true,
+  "engine": "kokoro",
+  "voice": "am_onyx",
+  "series": "deep-explainer",
+  "companion": "claude-liam-the-lever-nobody-pulled — watch that one first; this reel assumes the operator layer is understood.",
+  "source": "User research prompt on university operator-layer configuration, Part 3 (enforcement gap) and the pedagogical-shape brainstorm, plus the Part 5 inventory entries for Washington University, Utah and Duke. Verified 2026-08-03. See SOURCES.md.",
+  "color_semantics": "TERRACOTTA = the thing under test in each beat, and the surviving controls; INK = everything else; CREAM = ground",
+  "note": "ZERO PUNTS. AUDIO FIRST — no GATE P, Kokoro is free, audio is generated before any compile and a silent slate is a failed build. B01 must make the naive prompt look good before it stamps it. B14 is a Transform, never a cut.",
+  "total_estimated_duration_seconds": 470,
+  "build": {
+   "at": "",
+   "cut": "slate",
+   "filled": 0,
+   "of": 21,
+   "slates": [],
+   "skin_warnings": []
+  }
+ },
+ "beats": [
+  {
+   "beat_id": "B00",
+   "act": "cold open",
+   "estimated_duration_s": 22,
+   "narration_text": "Sawubona — Liam, in for Bear. Every AI policy a university writes has the same hole in it: it assumes enforcement. And every control anyone has actually built loses to a student opening a second browser tab. So the useful question is not how to enforce restraint. It is what the smallest lever is that changes behaviour without assuming you can enforce anything.",
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "audio_file": "mp3/beat-B00.mp3",
+   "build": {
+    "status": "PENDING",
+    "src": "media/B00.mp4",
+    "filled_by": "",
+    "at": ""
+   },
+   "shot": {
+    "type": "REMOTION",
+    "show": [
+     {
+      "at": 0,
+      "event": "ClaudeComposerAsk: greeting 'Sawubona, Liam.' in EB Garamond above the composer"
+     },
+     {
+      "at": 0.3,
+      "event": "command types: 'What can I actually configure, if I assume I can enforce nothing?'"
+     },
+     {
+      "at": 0.62,
+      "event": "send arms, running indicator spins"
+     },
+     {
+      "at": 0.8,
+      "event": "output lines land"
+     }
+    ],
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Sawubona, Liam.",
+      "topic": "CONFIGURING A TUTOR THAT CANNOT BE ENFORCED",
+      "segment": "The Smallest Lever",
+      "command": "What can I actually configure, if I assume I can enforce nothing?",
+      "runningText": "discarding the unenforceable…",
+      "output": [
+       "Manner is the wrong knob.",
+       "Two of four controls survive.",
+       "Both survive by assuming nothing."
+      ],
+      "folderLabel": "@NikBearBrown",
+      "modelLabel": "Fable 5",
+      "effortLabel": "High"
+     },
+     "rendered": {
+      "out": "media/B00.mp4",
+      "at": ""
+     }
+    }
+   }
+  },
+  {
+   "beat_id": "B01",
+   "act": "THE NAIVE VERSION",
+   "estimated_duration_s": 22,
+   "narration_text": "Start with the instruction everyone reaches for first, because everyone does reach for it. Don't just give students the answer — make them think. It sounds like pedagogy. As a system prompt it is close to useless, and if a paper's design section stops there, a reviewer will call it toothless, and the reviewer will be right.",
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "audio_file": "mp3/beat-B01.mp3",
+   "build": {
+    "status": "PENDING",
+    "src": "manim/B01.mp4",
+    "filled_by": "",
+    "at": ""
+   },
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "motion": "drawon",
+    "show": [
+     {
+      "at": 0.06,
+      "event": "a system-prompt box draws on cream, one line inside it, handsome and confident"
+     },
+     {
+      "at": 0.4,
+      "event": "the line reads: 'Don't just give students the answer — make them think.'"
+     },
+     {
+      "at": 0.68,
+      "event": "a terracotta stamp lands across the box: NOT A SPECIFICATION"
+     },
+     {
+      "at": 0.88,
+      "event": "serif caption: 'It sounds like pedagogy. It specifies nothing.'"
+     }
+    ],
+    "graphic": {
+     "manim": "B01_NaiveVersion",
+     "scene_class": "B01_NaiveVersion",
+     "production_viz": {
+      "label": "NaiveVersion — a confident prompt that specifies nothing",
+      "mechanic": "Cream canvas. A single system-prompt box drawn in ink, centred and generously sized, with one line of EB Garamond inside: “Don't just give students the answer — make them think.” Let it hold long enough to look reasonable. Then a TERRACOTTA stamp rotates in across the box reading NOT A SPECIFICATION — stamped, not typed. Serif caption beneath: 'It sounds like pedagogy. It specifies nothing.'",
+      "colors": [
+       "#3D3929",
+       "#D97757"
+      ],
+      "note": "The beat only works if the prompt looks GOOD first. Draw it with care, hold it, then stamp it. If the stamp lands early the audience never feels the pull of the naive version."
+     }
+    }
+   }
+  },
+  {
+   "beat_id": "B02",
+   "act": "WHY IT FAILS",
+   "estimated_duration_s": 26,
+   "narration_text": "Here is the mechanism. To follow that instruction the model has to sort every request into a genuine learning moment or a legitimate need for a straight answer — and it cannot do that reliably, because the difference is in the student's head, not in the text. So a blanket instruction produces an inconsistent tutor: it refuses things it should help with, and helps with things it should refuse. Both failures, from one rule.",
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "audio_file": "mp3/beat-B02.mp3",
+   "build": {
+    "status": "PENDING",
+    "src": "manim/B02.mp4",
+    "filled_by": "",
+    "at": ""
+   },
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "motion": "drawon",
+    "show": [
+     {
+      "at": 0.05,
+      "event": "a single incoming request draws, then a sorter splits it toward two bins"
+     },
+     {
+      "at": 0.3,
+      "event": "bins label themselves: 'LEARNING MOMENT' and 'LEGITIMATE ASK' — identical text on both incoming cards"
+     },
+     {
+      "at": 0.55,
+      "event": "the sorter stalls visibly; the deciding signal is drawn OUTSIDE the frame, in the student's head, unreachable"
+     },
+     {
+      "at": 0.75,
+      "event": "two failure cards fall out: 'refused what it should have helped', 'helped with what it should have refused'"
+     },
+     {
+      "at": 0.9,
+      "event": "terracotta caption: 'Both failures. One rule.'"
+     }
+    ],
+    "graphic": {
+     "manim": "B02_Sorter",
+     "scene_class": "B02_Sorter",
+     "production_viz": {
+      "label": "Sorter — the deciding signal is not in the text",
+      "mechanic": "Cream canvas. An incoming request card travels to a drawn sorter that must route it to one of two bins, 'LEARNING MOMENT' or 'LEGITIMATE ASK'. Crucially, show TWO request cards whose visible text is IDENTICAL heading into the sorter — that identity is the argument. The sorter stalls: animate a small hesitation, then draw a dashed line from the sorter reaching toward a region OUTSIDE the safe area labelled 'the student's intent — not in the text', and let that line stop short. Two failure cards then fall from the sorter in ink: 'refused what it should have helped' and 'helped with what it should have refused'. TERRACOTTA caption: 'Both failures. One rule.'",
+      "colors": [
+       "#3D3929",
+       "#D97757"
+      ],
+      "note": "The two identical request cards are non-negotiable — if their text differs the beat argues the opposite. One terracotta moment only: the closing caption."
+     }
+    }
+   }
+  },
+  {
+   "beat_id": "B03",
+   "act": "ASK — the four knobs",
+   "estimated_duration_s": 9,
+   "narration_text": "So if manner is the wrong knob, what are the right ones? There are four, and only two of them survive contact with a real student.",
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "audio_file": "mp3/beat-B03.mp3",
+   "build": {
+    "status": "PENDING",
+    "src": "media/B03.mp4",
+    "filled_by": "",
+    "at": ""
+   },
+   "shot": {
+    "type": "REMOTION",
+    "show": [
+     {
+      "at": 0,
+      "event": "inner-beat composer — spark line above, ask already typed"
+     },
+     {
+      "at": 0.5,
+      "event": "runningText spins: 'sorting by what it assumes…'"
+     }
+    ],
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Four knobs, not one.",
+      "topic": "THE DESIGN AXES",
+      "segment": "What is actually configurable",
+      "command": "What can an operator set that does not depend on the student cooperating?",
+      "runningText": "sorting by what it assumes…",
+      "folderLabel": "@NikBearBrown",
+      "modelLabel": "Fable 5",
+      "effortLabel": "High"
+     },
+     "rendered": {
+      "out": "media/B03.mp4",
+      "at": ""
+     }
+    }
+   }
+  },
+  {
+   "beat_id": "B04",
+   "act": "AXIS ONE — SCOPE",
+   "estimated_duration_s": 25,
+   "narration_text": "Axis one. Restrict what the model may discuss, not how it answers. Course readings, the syllabus, office hours — and nothing else. This is the only one on the list a system today can actually hold, because it needs no judgment about the student's intent: the retrieval set either contains the material or it does not. It is also what every commercial deployment already does.",
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "audio_file": "mp3/beat-B04.mp3",
+   "build": {
+    "status": "PENDING",
+    "src": "manim/B04.mp4",
+    "filled_by": "",
+    "at": ""
+   },
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "motion": "drawon",
+    "show": [
+     {
+      "at": 0.06,
+      "event": "a bounded region draws — the retrieval set — with three ink items inside it"
+     },
+     {
+      "at": 0.36,
+      "event": "an out-of-scope question arrives and simply finds nothing to answer from; no refusal, no judgment"
+     },
+     {
+      "at": 0.62,
+      "event": "a small terracotta annotation: 'no intent inference required'"
+     },
+     {
+      "at": 0.86,
+      "event": "serif caption: 'Restrict the material. Not the manner.'"
+     }
+    ],
+    "graphic": {
+     "manim": "B04_ScopeSet",
+     "scene_class": "B04_ScopeSet",
+     "production_viz": {
+      "label": "ScopeSet — a boundary that needs no judgment",
+      "mechanic": "Cream canvas. A clean bounded region drawn in ink labelled 'the retrieval set', containing three items: 'assigned readings', 'the syllabus', 'office-hours logistics'. An incoming question travels toward it, crosses the boundary, and finds NOTHING to match — animate it coming to rest against empty interior space rather than being bounced or blocked. That distinction matters: the model is not refusing, there is simply nothing there. One TERRACOTTA annotation sets beside the boundary: 'no intent inference required'. Serif caption: 'Restrict the material. Not the manner.'",
+      "colors": [
+       "#3D3929",
+       "#D97757"
+      ],
+      "note": "Do NOT draw a barrier, shield, or stop glyph. A wall implies enforcement, which is exactly the thing scope does not need. The question arrives freely and finds an empty shelf."
+     }
+    }
+   }
+  },
+  {
+   "beat_id": "B05",
+   "act": "AXIS TWO — DISCLOSURE",
+   "estimated_duration_s": 24,
+   "narration_text": "Axis two. Stop trying to shape the answer and shape the artifact instead. Every substantive output carries a visible note: what was asked, what was generated, what the student still has to verify. Lower pedagogical ambition, much higher reliability — because it sidesteps the judgment call entirely. It does not decide whether the help was legitimate. It makes the help auditable.",
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "audio_file": "mp3/beat-B05.mp3",
+   "build": {
+    "status": "PENDING",
+    "src": "manim/B05.mp4",
+    "filled_by": "",
+    "at": ""
+   },
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "motion": "drawon",
+    "show": [
+     {
+      "at": 0.06,
+      "event": "an output document draws, ink, ordinary"
+     },
+     {
+      "at": 0.34,
+      "event": "a note appends beneath it in terracotta: asked / generated / to verify"
+     },
+     {
+      "at": 0.6,
+      "event": "two dials draw at the side — AMBITION falls, RELIABILITY rises"
+     },
+     {
+      "at": 0.86,
+      "event": "serif caption: 'It does not judge the help. It makes the help legible.'"
+     }
+    ],
+    "graphic": {
+     "manim": "B05_DisclosureNote",
+     "scene_class": "B05_DisclosureNote",
+     "production_viz": {
+      "label": "DisclosureNote — shaping the artifact, not the answer",
+      "mechanic": "Cream canvas. An output document drawn in ink on the left, deliberately unremarkable. A note then appends beneath it — the ONE terracotta element — with three short labelled rows: 'asked', 'generated', 'still to verify'. On the right, two simple drawn dials or sliders animate in opposite directions: AMBITION down, RELIABILITY up, each with a small ink label. Serif caption beneath: 'It does not judge the help. It makes the help legible.'",
+      "colors": [
+       "#3D3929",
+       "#D97757"
+      ],
+      "note": "The trade is the beat. If both dials move the same way the argument disappears."
+     }
+    }
+   }
+  },
+  {
+   "beat_id": "B06",
+   "act": "AXIS THREE — THE GRAIN",
+   "estimated_duration_s": 26,
+   "narration_text": "Axis three is not a setting, it is a grain. Course-level policy is the wrong unit. One semester contains a weekly reading response where AI is fine and a capstone essay where it is not, and 'this course allows AI' flattens both into one answer. A layer that matched how instructors actually think would key off the assignment, not the course — which needs learning-management integration most IT departments have never built.",
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "audio_file": "mp3/beat-B06.mp3",
+   "build": {
+    "status": "PENDING",
+    "src": "manim/B06.mp4",
+    "filled_by": "",
+    "at": ""
+   },
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "motion": "drawon",
+    "show": [
+     {
+      "at": 0.05,
+      "event": "a semester strip draws — fourteen weeks, mixed assignment marks along it"
+     },
+     {
+      "at": 0.32,
+      "event": "a single course-level verdict slabs across the entire strip, flattening every mark under one label"
+     },
+     {
+      "at": 0.58,
+      "event": "the slab lifts; per-assignment marks resolve individually, some green-lit in ink, some not"
+     },
+     {
+      "at": 0.8,
+      "event": "a terracotta connector reaches toward an LMS block and stops short of it, unbuilt"
+     },
+     {
+      "at": 0.92,
+      "event": "serif caption: 'The right grain is the one nobody has wired.'"
+     }
+    ],
+    "graphic": {
+     "manim": "B06_Grain",
+     "scene_class": "B06_Grain",
+     "production_viz": {
+      "label": "Grain — a semester flattened, then resolved",
+      "mechanic": "Cream canvas. A horizontal semester strip spanning the safe width, marked into fourteen weeks with small assignment glyphs of differing weight along it. A single opaque slab draws ACROSS the whole strip carrying one label, 'this course allows AI', hiding every individual mark — hold it so the flattening registers. The slab then lifts and each assignment resolves on its own terms. Finally a TERRACOTTA connector extends from the strip toward a block labelled 'learning-management integration' and STOPS SHORT, not touching it. Serif caption: 'The right grain is the one nobody has wired.'",
+      "colors": [
+       "#3D3929",
+       "#D97757"
+      ],
+      "note": "The connector must visibly fail to land. This is the same gesture as the void beats in the companion reel and it means the same thing: the absence is the finding."
+     }
+    }
+   }
+  },
+  {
+   "beat_id": "B07",
+   "act": "AXIS FOUR — A VISIBLE SWITCH",
+   "estimated_duration_s": 24,
+   "narration_text": "Axis four. If you want a Socratic mode, make it a switch the student throws, not a shift they have to reverse-engineer by getting refused. Both Anthropic and OpenAI ship a version of this already. Which raises a cheaper question than any bespoke build: has the institution turned on the one the vendor already wrote?",
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "audio_file": "mp3/beat-B07.mp3",
+   "build": {
+    "status": "PENDING",
+    "src": "manim/B07.mp4",
+    "filled_by": "",
+    "at": ""
+   },
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "motion": "drawon",
+    "show": [
+     {
+      "at": 0.05,
+      "event": "two panels draw side by side — SILENT SHIFT and VISIBLE SWITCH"
+     },
+     {
+      "at": 0.34,
+      "event": "in the silent panel a student figure hits an unexplained refusal and a '?' draws above them"
+     },
+     {
+      "at": 0.6,
+      "event": "in the visible panel a labelled toggle sits in the student's own hand, terracotta"
+     },
+     {
+      "at": 0.85,
+      "event": "serif caption: 'Both vendors already shipped one. Is it on?'"
+     }
+    ],
+    "graphic": {
+     "manim": "B07_VisibleSwitch",
+     "scene_class": "B07_VisibleSwitch",
+     "production_viz": {
+      "label": "VisibleSwitch — a choice, not a discovery",
+      "mechanic": "Cream canvas, two panels side by side, equal weight. LEFT, 'SILENT SHIFT': a small student figure sends a request and receives an unexplained refusal card; a question mark draws above them and stays. RIGHT, 'VISIBLE SWITCH': the same figure, with a clearly labelled toggle drawn beside their hand — 'Study mode / Draft mode' — rendered in TERRACOTTA as the one accent. Serif caption beneath, spanning both: 'Both vendors already shipped one. Is it on?'",
+      "colors": [
+       "#3D3929",
+       "#D97757"
+      ],
+      "note": "The left panel is the current default at most institutions and should feel slightly bleak. Do not caricature it — no frowning face, no red. Just an unanswered question mark."
+     }
+    }
+   }
+  },
+  {
+   "beat_id": "B08",
+   "act": "THE TRADE-OFF",
+   "estimated_duration_s": 24,
+   "narration_text": "Put the four on one axis and the shape is obvious. Ambition and reliability run opposite. Scope is the least ambitious and the only one that holds. Disclosure gives up on shaping answers and gets auditability in exchange. Assignment-grain is the most faithful to teaching and the most expensive to build. And the switch is the most respectful and the easiest to switch off.",
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "audio_file": "mp3/beat-B08.mp3",
+   "build": {
+    "status": "PENDING",
+    "src": "media/B08.mp4",
+    "filled_by": "",
+    "at": ""
+   },
+   "shot": {
+    "type": "REMOTION",
+    "show": [
+     {
+      "at": 0.05,
+      "event": "four cards land in sequence on their spoken cue"
+     },
+     {
+      "at": 0.9,
+      "event": "caption sets beneath: ambition rises, reliability falls"
+     }
+    ],
+    "remotion": {
+     "pattern": "FormBCard",
+     "props": {
+      "dark": false,
+      "items": [
+       {
+        "label": "Scope",
+        "sub": "restrict the material, not the manner — enforceable"
+       },
+       {
+        "label": "Disclosure",
+        "sub": "shape the artifact; trade ambition for an audit trail"
+       },
+       {
+        "label": "Assignment grain",
+        "sub": "matches teaching; needs an LMS wire nobody built"
+       },
+       {
+        "label": "Visible switch",
+        "sub": "respects the student; can be switched off"
+       }
+      ],
+      "folderLabel": "@NikBearBrown"
+     },
+     "rendered": {
+      "out": "media/B08.mp4",
+      "at": ""
+     }
+    }
+   }
+  },
+  {
+   "beat_id": "B09",
+   "act": "THE BYPASSES",
+   "estimated_duration_s": 26,
+   "narration_text": "Now the part any honest design section has to lead with. Every one of these has a bypass and none of them is subtle. Restrict the scope, the student pastes the material into a different tool. Require a disclosure note, the note is deleted before submission. Gate by assignment, that needs the integration nobody built. Offer a switch, and a switch can be switched off.",
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "audio_file": "mp3/beat-B09.mp3",
+   "build": {
+    "status": "PENDING",
+    "src": "manim/B09.mp4",
+    "filled_by": "",
+    "at": ""
+   },
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "motion": "drawon",
+    "show": [
+     {
+      "at": 0.05,
+      "event": "the four controls redraw as a column, solid, in ink"
+     },
+     {
+      "at": 0.3,
+      "event": "bypass one arrives and defeats scope — content leaves to a second tool"
+     },
+     {
+      "at": 0.5,
+      "event": "bypass two deletes the disclosure note"
+     },
+     {
+      "at": 0.68,
+      "event": "bypass three stalls at the unbuilt integration"
+     },
+     {
+      "at": 0.84,
+      "event": "bypass four simply flips the switch off"
+     },
+     {
+      "at": 0.93,
+      "event": "all four controls now carry a thin terracotta strike"
+     }
+    ],
+    "graphic": {
+     "manim": "B09_Bypasses",
+     "scene_class": "B09_Bypasses",
+     "production_viz": {
+      "label": "Bypasses — four controls, four defeats",
+      "mechanic": "Cream canvas. The four controls from the previous beat redraw as a vertical column on the left, in ink, each looking SOLID — boxed, weighted, deliberate. Then one bypass animates against each in spoken order, entering from the right: content copied out to 'another tool'; a disclosure note struck and removed; an assignment gate stalling at an unbuilt integration block; a toggle flipping off. When all four have landed, a single thin TERRACOTTA strike draws through the column as one continuous gesture.",
+      "colors": [
+       "#3D3929",
+       "#D97757"
+      ],
+      "note": "Draw the controls to look genuinely solid before they fail. If they look flimsy up front, the beat is a strawman. One terracotta moment: the final strike, drawn once."
+     }
+    }
+   }
+  },
+  {
+   "beat_id": "B10",
+   "act": "THE COMMON FAILURE",
+   "estimated_duration_s": 22,
+   "narration_text": "And notice they all fail the same way. Not one of them fails because the model misbehaved. Every single bypass is a student using a second account, a personal subscription, or another tab — which means every one of these controls is a statement about the tool, and none of them is a statement about the student.",
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "audio_file": "mp3/beat-B10.mp3",
+   "build": {
+    "status": "PENDING",
+    "src": "manim/B10.mp4",
+    "filled_by": "",
+    "at": ""
+   },
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "motion": "drawon",
+    "show": [
+     {
+      "at": 0.06,
+      "event": "the four bypasses redraw and converge to a single shared cause"
+     },
+     {
+      "at": 0.4,
+      "event": "the cause resolves: 'a second account, a personal subscription, another tab'"
+     },
+     {
+      "at": 0.65,
+      "event": "a boundary draws around what the operator controls; the student figure stands outside it"
+     },
+     {
+      "at": 0.88,
+      "event": "serif caption: 'A statement about the tool. Not about the student.'"
+     }
+    ],
+    "graphic": {
+     "manim": "B10_SharedCause",
+     "scene_class": "B10_SharedCause",
+     "production_viz": {
+      "label": "SharedCause — every bypass leaves the operator's boundary",
+      "mechanic": "Cream canvas. Four short arrows representing the bypasses converge from the sides into one node, which resolves into a single ink label: 'a second account · a personal subscription · another tab'. A boundary then draws around the region the operator controls, and a small student figure is drawn plainly OUTSIDE it — not escaping, not sneaking, simply standing there. Ring the boundary TERRACOTTA. Serif caption: 'A statement about the tool. Not about the student.'",
+      "colors": [
+       "#3D3929",
+       "#D97757"
+      ],
+      "note": "The student figure is not an adversary in this beat. No motion lines, no sneaking. They are outside the boundary because the boundary was never around them."
+     }
+    }
+   }
+  },
+  {
+   "beat_id": "B11",
+   "act": "WHO ACTUALLY TESTED IT",
+   "estimated_duration_s": 28,
+   "narration_text": "Almost nobody has written this down. One exception, and it is the best public document in the whole survey: Washington University's guidance for building a Socratic tutor tells staff to attack their own bot before deploying it. Not to announce it. To attack it. That is a small sentence with a large idea inside it: the configuration is a claim about behaviour, and a claim about behaviour is something you can try to break. Almost every other institution treated theirs as an announcement.",
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "audio_file": "mp3/beat-B11.mp3",
+   "build": {
+    "status": "PENDING",
+    "src": "media/B11.mp4",
+    "filled_by": "",
+    "at": ""
+   },
+   "shot": {
+    "type": "VOX",
+    "source": "pantry",
+    "show": [
+     {
+      "at": 0,
+      "event": "pantry still: WashU public guidance page for building a tutor, duotone cutout, slow ease-out Ken Burns push"
+     },
+     {
+      "at": 0.45,
+      "event": "the operative phrase types in over the lower third: 'test it adversarially'"
+     },
+     {
+      "at": 0.78,
+      "event": "attribution sets small: 'Washington University — public Gemini Gem guidance'"
+     }
+    ],
+    "vox": {
+     "still": "pantry/B11_washu.png",
+     "treatment": "duotone",
+     "motion": "kenburns-ease-out",
+     "shopping": {
+      "tier": "A",
+      "what": "WashU public guidance page for building a Socratic tutor / Gemini Gem",
+      "duration_s": 28,
+      "source": "public university guidance page — screenshot, re-themed to cream",
+      "fallback": "If the still cannot be captured, DO NOT slate and DO NOT ask. Convert this beat to GRAPHIC/own, scene_class B11_GuidanceRecreation: cream canvas, a guidance document drawn in ink with one instruction line lifted out in terracotta — 'test it adversarially' — attributed to Washington University. Same 28s, same narration."
+     }
+    },
+    "rendered": {
+     "out": "media/B11.mp4",
+     "at": ""
+    }
+   }
+  },
+  {
+   "beat_id": "B12",
+   "act": "THE TWO TESTS",
+   "estimated_duration_s": 24,
+   "narration_text": "And the two tests they name are exactly right, because they are the two ways a tutor actually breaks. One: does the bot cave if the student simply begs? Two: does it fold if the student invents a term that does not exist? The first tests whether the restraint is real. The second tests whether the knowledge is.",
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "audio_file": "mp3/beat-B12.mp3",
+   "build": {
+    "status": "PENDING",
+    "src": "manim/B12.mp4",
+    "filled_by": "",
+    "at": ""
+   },
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "motion": "drawon",
+    "show": [
+     {
+      "at": 0.06,
+      "event": "two test cards draw side by side, empty"
+     },
+     {
+      "at": 0.34,
+      "event": "card one fills: 'the student begs' → does the restraint hold?"
+     },
+     {
+      "at": 0.58,
+      "event": "card two fills: 'the student invents a term' → does the knowledge hold?"
+     },
+     {
+      "at": 0.8,
+      "event": "beneath each, the property under test sets in terracotta: RESTRAINT · KNOWLEDGE"
+     },
+     {
+      "at": 0.92,
+      "event": "serif caption: 'Two failure modes. Two tests. That is the whole method.'"
+     }
+    ],
+    "graphic": {
+     "manim": "B12_TwoTests",
+     "scene_class": "B12_TwoTests",
+     "production_viz": {
+      "label": "TwoTests — one for restraint, one for knowledge",
+      "mechanic": "Cream canvas. Two test cards drawn side by side, generous, initially empty. Card one fills in ink: 'the student begs' with a small pressure glyph. Card two fills: 'the student invents a term that does not exist'. Beneath each card, the property under test sets in TERRACOTTA small caps: RESTRAINT under the first, KNOWLEDGE under the second. Serif caption spanning both: 'Two failure modes. Two tests. That is the whole method.'",
+      "colors": [
+       "#3D3929",
+       "#D97757"
+      ],
+      "note": "Two terracotta words is one terracotta MOMENT — they land together as a single reveal, not as two separate accents. If the animation staggers them, land them on one cue instead."
+     }
+    }
+   }
+  },
+  {
+   "beat_id": "B13",
+   "act": "STRUCTURE, NO ARTIFACT",
+   "estimated_duration_s": 25,
+   "narration_text": "Two more institutions have the machinery and no published output. Utah runs an actual review-and-publish pipeline — owner identity, audience, data disclosures, a maintenance plan, all required before a custom assistant goes live — and has a named office with a chief AI officer. Duke provisions a dedicated instance per class with admin control over models and knowledge. Real governance. No public artifact to point at.",
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "audio_file": "mp3/beat-B13.mp3",
+   "build": {
+    "status": "PENDING",
+    "src": "manim/B13.mp4",
+    "filled_by": "",
+    "at": ""
+   },
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "motion": "drawon",
+    "show": [
+     {
+      "at": 0.05,
+      "event": "a review pipeline draws left to right — four gates, each labelled"
+     },
+     {
+      "at": 0.42,
+      "event": "a second track draws beneath it: per-class instances, admin control over models and knowledge"
+     },
+     {
+      "at": 0.68,
+      "event": "both tracks arrive at an output slot that is drawn and left EMPTY, ringed terracotta"
+     },
+     {
+      "at": 0.88,
+      "event": "serif caption: 'The machinery is real. The output is not public.'"
+     }
+    ],
+    "graphic": {
+     "manim": "B13_Machinery",
+     "scene_class": "B13_Machinery",
+     "production_viz": {
+      "label": "Machinery — a working pipeline with an empty output slot",
+      "mechanic": "Cream canvas. An upper track drawn left to right as four sequential gates in ink: 'owner identity', 'audience', 'data disclosures', 'maintenance plan', ending at a publish step. A lower track draws beneath: 'a dedicated instance per class' with two admin controls, 'models' and 'knowledge'. Both tracks converge on a single output slot at the right which is DRAWN and left EMPTY, ringed TERRACOTTA and labelled 'no public artifact'. Serif caption: 'The machinery is real. The output is not public.'",
+      "colors": [
+       "#3D3929",
+       "#D97757"
+      ],
+      "note": "This beat is not a criticism and must not read as one. Governance without a published artifact is still governance — it is a gap in the EVIDENCE, not in the institution."
+     }
+    }
+   }
+  },
+  {
+   "beat_id": "B14",
+   "act": "THE REFRAME",
+   "estimated_duration_s": 24,
+   "narration_text": "Which is where the question has to change. If enforcement loses to a second tab every time, then 'how do we enforce restraint' is not a hard research question — it is an unanswerable one, and a paper that asks it reads as policy theatre. Replace it. What is the smallest technical intervention that changes behaviour without assuming you can enforce anything?",
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "audio_file": "mp3/beat-B14.mp3",
+   "build": {
+    "status": "PENDING",
+    "src": "manim/B14.mp4",
+    "filled_by": "",
+    "at": ""
+   },
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "motion": "drawon",
+    "show": [
+     {
+      "at": 0.06,
+      "event": "the old question draws large: HOW DO WE ENFORCE RESTRAINT?"
+     },
+     {
+      "at": 0.38,
+      "event": "it does not get crossed out — it visibly TRANSFORMS, letter by letter"
+     },
+     {
+      "at": 0.68,
+      "event": "it resolves into the new question, terracotta"
+     },
+     {
+      "at": 0.88,
+      "event": "serif caption beneath: 'The second one has a way to be wrong.'"
+     }
+    ],
+    "graphic": {
+     "manim": "B14_Reframe",
+     "scene_class": "B14_Reframe",
+     "production_viz": {
+      "label": "Reframe — one question transforming into another",
+      "mechanic": "Cream canvas. The old question draws large and centred in EB Garamond ink: 'HOW DO WE ENFORCE RESTRAINT?' Hold it. Then a real Manim Transform — not a cut, not a fade — re-letters it into: 'WHAT IS THE SMALLEST INTERVENTION THAT CHANGES BEHAVIOUR WITHOUT ASSUMING ENFORCEMENT?' in TERRACOTTA, resized to fit the safe area. Serif caption beneath: 'The second one has a way to be wrong.'",
+      "colors": [
+       "#3D3929",
+       "#D97757"
+      ],
+      "note": "A Transform, never a cut. The point is that this is the SAME question grown up, not a different topic. If the first question is struck through or dismissed, the beat is wrong."
+     }
+    }
+   }
+  },
+  {
+   "beat_id": "B15",
+   "act": "WHAT SURVIVES",
+   "estimated_duration_s": 24,
+   "narration_text": "Run the four axes back through that question and two survive. Scope survives, because it never needed enforcement — it is a property of the retrieval set, not of the student's willingness. Disclosure survives, because an audit trail is useful even when it is incomplete. Assignment-gating and the switch do not survive: both assume compliance, and compliance is the thing we just gave up on.",
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "audio_file": "mp3/beat-B15.mp3",
+   "build": {
+    "status": "PENDING",
+    "src": "manim/B15.mp4",
+    "filled_by": "",
+    "at": ""
+   },
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "motion": "drawon",
+    "show": [
+     {
+      "at": 0.06,
+      "event": "the four controls redraw and pass through a drawn filter labelled 'assumes compliance?'"
+     },
+     {
+      "at": 0.36,
+      "event": "scope passes through cleanly"
+     },
+     {
+      "at": 0.54,
+      "event": "disclosure passes through cleanly"
+     },
+     {
+      "at": 0.72,
+      "event": "assignment-gating and the switch are caught by the filter and held"
+     },
+     {
+      "at": 0.9,
+      "event": "the two survivors sit alone on the far side, terracotta"
+     }
+    ],
+    "graphic": {
+     "manim": "B15_Filter",
+     "scene_class": "B15_Filter",
+     "production_viz": {
+      "label": "Filter — two of four pass",
+      "mechanic": "Cream canvas. The four controls redraw at the left and travel rightward toward a drawn filter labelled 'assumes the student cooperates?'. Scope and Disclosure pass through it cleanly and come to rest on the right, where they are rendered in TERRACOTTA as the one accent. Assignment-grain and the visible switch are caught AT the filter and held there in ink — not destroyed, not struck, simply not through. Serif caption: 'Two survive. Both survive by assuming nothing.'",
+      "colors": [
+       "#3D3929",
+       "#D97757"
+      ],
+      "note": "Held, not destroyed. The two that fail are good ideas that need an assumption nobody can make yet; the film says so in the previous beat and the animation must agree with it."
+     }
+    }
+   }
+  },
+  {
+   "beat_id": "B16",
+   "act": "THE CHECKBOX TEST",
+   "estimated_duration_s": 22,
+   "narration_text": "So here is a test you can run on any institution in about ninety seconds. Ask what happens when the student uses a different account, a personal subscription, or a browser extension. If the answer is 'we haven't considered that', the configuration is a compliance checkbox wearing a pedagogy costume, and it should be recorded as one.",
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "audio_file": "mp3/beat-B16.mp3",
+   "build": {
+    "status": "PENDING",
+    "src": "manim/B16.mp4",
+    "filled_by": "",
+    "at": ""
+   },
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "motion": "drawon",
+    "show": [
+     {
+      "at": 0.06,
+      "event": "a single question card draws, small and plain"
+     },
+     {
+      "at": 0.36,
+      "event": "two answer branches draw beneath it"
+     },
+     {
+      "at": 0.6,
+      "event": "the left branch resolves to 'a working pedagogical control'"
+     },
+     {
+      "at": 0.78,
+      "event": "the right branch resolves to 'a compliance checkbox', terracotta"
+     },
+     {
+      "at": 0.92,
+      "event": "serif caption: 'Ninety seconds. One question. Code it honestly.'"
+     }
+    ],
+    "graphic": {
+     "manim": "B16_CheckboxTest",
+     "scene_class": "B16_CheckboxTest",
+     "production_viz": {
+      "label": "CheckboxTest — one question, two branches",
+      "mechanic": "Cream canvas. A small plain question card at the top in ink: 'what happens when the student uses another account, a personal subscription, or an extension?' Two branches draw downward. LEFT resolves to a card reading 'a working pedagogical control' in ink. RIGHT resolves to a card reading 'a compliance checkbox' in TERRACOTTA — the one accent. Serif caption beneath: 'Ninety seconds. One question. Code it honestly.'",
+      "colors": [
+       "#3D3929",
+       "#D97757"
+      ],
+      "note": "Keep the question card physically small against the two large outcomes. The disproportion is the point: one cheap question decides how the whole deployment is classified."
+     }
+    }
+   }
+  },
+  {
+   "beat_id": "B17",
+   "act": "THE CLOSE",
+   "estimated_duration_s": 22,
+   "narration_text": "None of this makes the problem smaller. It makes it fundable. 'Stop students cheating' has no defensible finish line. 'Find the least technical intervention that shifts behaviour without enforcement' has a hypothesis, a control, and a way to be wrong — which is the difference between a research programme and a syllabus footnote.",
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "audio_file": "mp3/beat-B17.mp3",
+   "build": {
+    "status": "PENDING",
+    "src": "manim/B17.mp4",
+    "filled_by": "",
+    "at": ""
+   },
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "motion": "drawon",
+    "show": [
+     {
+      "at": 0.06,
+      "event": "two research questions draw as facing cards"
+     },
+     {
+      "at": 0.36,
+      "event": "the left card is measured against three criteria and fails all three"
+     },
+     {
+      "at": 0.62,
+      "event": "the right card is measured against the same three and meets them: hypothesis · control · falsifier"
+     },
+     {
+      "at": 0.86,
+      "event": "the falsifier row lights terracotta"
+     },
+     {
+      "at": 0.94,
+      "event": "serif caption: 'A programme, not a footnote.'"
+     }
+    ],
+    "graphic": {
+     "manim": "B17_Fundable",
+     "scene_class": "B17_Fundable",
+     "production_viz": {
+      "label": "Fundable — measured against the same three criteria",
+      "mechanic": "Cream canvas. Two question cards face each other. LEFT: 'stop students cheating'. RIGHT: 'find the least intervention that shifts behaviour without enforcement'. Beneath both, the same three criteria rows draw: 'hypothesis', 'control', 'a way to be wrong'. The left card receives nothing in any row — leave them empty, do not mark them. The right card fills all three in ink, and the third row, 'a way to be wrong', lights TERRACOTTA. Serif caption: 'A programme, not a footnote.'",
+      "colors": [
+       "#3D3929",
+       "#D97757"
+      ],
+      "note": "Empty rows, not crosses. This channel's whole position is that a claim without a falsifier is not a weaker claim, it is a different kind of thing."
+     }
+    }
+   }
+  },
+  {
+   "beat_id": "BVDT",
+   "act": "VERDICT",
+   "estimated_duration_s": 15,
+   "narration_text": "Manner cannot be enforced, and scope never needed to be. The only two controls that survive a determined student are the two that never assumed compliance in the first place. Everything else is a checkbox in a costume.",
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "audio_file": "mp3/beat-BVDT.mp3",
+   "build": {
+    "status": "PENDING",
+    "src": "media/BVDT.mp4",
+    "filled_by": "",
+    "at": ""
+   },
+   "shot": {
+    "type": "REMOTION",
+    "show": [
+     {
+      "at": 0,
+      "event": "verdict artifact opens on cream"
+     },
+     {
+      "at": 0.25,
+      "event": "lines land one per spoken clause"
+     }
+    ],
+    "remotion": {
+     "pattern": "ClaudeVerdictArtifact",
+     "props": {
+      "artifactTitle": "The Smallest Lever",
+      "artifactHeading": "What survives a determined student",
+      "artifactLines": [
+       "Manner is the wrong knob: the model cannot tell a learning moment from a legitimate ask.",
+       "Scope holds because it needs no judgment. Disclosure holds because it needs no compliance.",
+       "Assignment-gating needs an integration nobody built; a switch can be switched off.",
+       "If nobody has asked what a second browser tab does, it is a compliance checkbox."
+      ],
+      "folderLabel": "@NikBearBrown"
+     },
+     "rendered": {
+      "out": "media/BVDT.mp4",
+      "at": ""
+     }
+    }
+   }
+  },
+  {
+   "beat_id": "BHTF",
+   "act": "YOUR TURN",
+   "estimated_duration_s": 28,
+   "narration_text": "Your turn. Paste this into Claude: here is my course AI policy — find the sentence that assumes I can enforce something, and rewrite it as a scope restriction or a disclosure requirement instead. Then ask it what a student with a personal subscription does to your rewrite. If it cannot answer that, the policy is not finished. If it can, you have the beginning of the paper. Liam, in for Bear.",
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "audio_file": "mp3/beat-BHTF.mp3",
+   "build": {
+    "status": "PENDING",
+    "src": "media/BHTF.mp4",
+    "filled_by": "",
+    "at": ""
+   },
+   "shot": {
+    "type": "REMOTION",
+    "show": [
+     {
+      "at": 0,
+      "event": "ClaudeComposerAsk: greeting 'Your turn.' above the composer"
+     },
+     {
+      "at": 0.2,
+      "event": "the prompt types itself in"
+     },
+     {
+      "at": 0.6,
+      "event": "runningText: 'paste this into Claude…'"
+     },
+     {
+      "at": 0.8,
+      "event": "composer holds while the narration reads and discusses the prompt"
+     }
+    ],
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Your turn.",
+      "topic": "YOUR TURN — FIND THE ASSUMPTION",
+      "segment": "The Smallest Lever",
+      "command": "Here is my course AI policy. Find the sentence that assumes I can enforce something, and rewrite it as scope or disclosure.",
+      "runningText": "paste this into Claude…",
+      "folderLabel": "@NikBearBrown",
+      "modelLabel": "Fable 5",
+      "effortLabel": "Low"
+     },
+     "rendered": {
+      "out": "media/BHTF.mp4",
+      "at": ""
+     }
+    }
+   }
+  },
+  {
+   "beat_id": "BOUT",
+   "act": "OUTRO",
+   "estimated_duration_s": 8,
+   "narration_text": "",
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "audio_file": "",
+   "build": {
+    "status": "PENDING",
+    "src": "media/BOUT.mp4",
+    "filled_by": "",
+    "at": ""
+   },
+   "shot": {
+    "type": "REMOTION",
+    "remotion": {
+     "pattern": "ClaudeTitleOutro",
+     "props": {
+      "title": "The Smallest Lever",
+      "slug": "claude-liam-the-smallest-lever",
+      "handle": "@NikBearBrown",
+      "subline": ""
+     },
+     "rendered": {
+      "out": "media/BOUT.mp4",
+      "at": ""
+     }
+    }
+   }
+  }
+ ]
+}

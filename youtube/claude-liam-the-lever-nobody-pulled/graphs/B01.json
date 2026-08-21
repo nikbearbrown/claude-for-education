@@ -1,0 +1,28 @@
+{
+  "beat": "B01",
+  "layout": "hierarchical-tb",
+  "safe": [96, 54, 1824, 1026],
+  "style_table": {
+    "process":  {"shape": "rect",    "fill": "none", "stroke": "ink",  "accent": false},
+    "terminal": {"shape": "rounded", "fill": "none", "stroke": "ink",  "accent": false},
+    "store":    {"shape": "cylinder","fill": "none", "stroke": "ink",  "accent": false},
+    "decision": {"shape": "diamond", "fill": "none", "stroke": "ink",  "accent": false},
+    "io":       {"shape": "parallelogram","fill": "none","stroke":"ink","accent": false}
+  },
+  "nodes": [
+    {"id":"platform", "type":"process", "label":"PLATFORM — rules the model will not break", "x":960, "y":200, "w":1400, "h":130},
+    {"id":"operator", "type":"process", "label":"OPERATOR — whoever deployed it",            "x":960, "y":400, "w":1400, "h":130},
+    {"id":"user",     "type":"process", "label":"USER — the student",                        "x":960, "y":600, "w":1400, "h":130},
+    {"id":"figure",   "type":"terminal","label":"[figure icon]",                             "x":140, "y":600, "w":60,   "h":80}
+  ],
+  "edges": [
+    {"from":"platform","to":"operator","kind":"flow",
+     "path":[[960,265],[960,335]]},
+    {"from":"operator","to":"user","kind":"flow",
+     "path":[[960,465],[960,535]]},
+    {"from":"figure","to":"user","kind":"flow",
+     "path":[[170,600],[260,600]],
+     "label":"the only layer most people meet",
+     "label_box":[200,700,700,740]}
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "beat": "B16",
+  "layout": "hierarchical-lr",
+  "safe": [96, 54, 1824, 1026],
+  "style_table": {
+    "process":  {"shape": "rect",    "fill": "none", "stroke": "ink",  "accent": false},
+    "terminal": {"shape": "rounded", "fill": "none", "stroke": "ink",  "accent": false},
+    "store":    {"shape": "cylinder","fill": "none", "stroke": "ink",  "accent": false},
+    "decision": {"shape": "diamond", "fill": "none", "stroke": "ink",  "accent": false},
+    "io":       {"shape": "parallelogram","fill": "none","stroke":"ink","accent": false}
+  },
+  "nodes": [
+    {"id":"chat",        "type":"process","label":"CHAT — the student's Claude",          "x":380, "y":430,"w":560,"h":640},
+    {"id":"claude_code", "type":"process","label":"CLAUDE CODE — a developer's machine",  "x":1540,"y":430,"w":560,"h":640}
+  ],
+  "edges": [
+    {"from":"claude_code","to":"chat","kind":"flow",
+     "path":[[1260,430],[660,430]],
+     "label":"different surface — not a smaller version of the same one",
+     "label_box":[700,350,1220,390]}
+  ]
+}

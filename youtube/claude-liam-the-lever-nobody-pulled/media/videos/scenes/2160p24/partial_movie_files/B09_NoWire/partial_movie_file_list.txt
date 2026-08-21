@@ -1,0 +1,10 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-the-lever-nobody-pulled/media/videos/scenes/2160p24/partial_movie_files/B09_NoWire/4124586937_269626641_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-the-lever-nobody-pulled/media/videos/scenes/2160p24/partial_movie_files/B09_NoWire/3090979338_2574473371_1357414954.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-the-lever-nobody-pulled/media/videos/scenes/2160p24/partial_movie_files/B09_NoWire/3090979338_1797773412_2076529995.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-the-lever-nobody-pulled/media/videos/scenes/2160p24/partial_movie_files/B09_NoWire/3090979338_3506589752_1718016377.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-the-lever-nobody-pulled/media/videos/scenes/2160p24/partial_movie_files/B09_NoWire/3090979338_3366223800_1441275541.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-the-lever-nobody-pulled/media/videos/scenes/2160p24/partial_movie_files/B09_NoWire/3090979338_3397319799_1512114157.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-the-lever-nobody-pulled/media/videos/scenes/2160p24/partial_movie_files/B09_NoWire/3090979338_4079250704_138038903.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-the-lever-nobody-pulled/media/videos/scenes/2160p24/partial_movie_files/B09_NoWire/3090979338_1608353106_745373917.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-the-lever-nobody-pulled/media/videos/scenes/2160p24/partial_movie_files/B09_NoWire/3090979338_1596188867_3151811595.mp4'

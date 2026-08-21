@@ -1,0 +1,10 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-two-numbers-one-report/media/videos/scenes/480p15/partial_movie_files/B14_LinkGraph/1592632320_4054318089_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-two-numbers-one-report/media/videos/scenes/480p15/partial_movie_files/B14_LinkGraph/1636175790_3506131593_203539420.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-two-numbers-one-report/media/videos/scenes/480p15/partial_movie_files/B14_LinkGraph/1636175790_2156386963_209601247.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-two-numbers-one-report/media/videos/scenes/480p15/partial_movie_files/B14_LinkGraph/1636175790_2899982652_3391952425.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-two-numbers-one-report/media/videos/scenes/480p15/partial_movie_files/B14_LinkGraph/1636175790_3235372635_2504692989.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-two-numbers-one-report/media/videos/scenes/480p15/partial_movie_files/B14_LinkGraph/1636175790_1604486063_3347161796.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-two-numbers-one-report/media/videos/scenes/480p15/partial_movie_files/B14_LinkGraph/1636175790_1016240215_2786149712.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-two-numbers-one-report/media/videos/scenes/480p15/partial_movie_files/B14_LinkGraph/1636175790_167520199_3156527366.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-two-numbers-one-report/media/videos/scenes/480p15/partial_movie_files/B14_LinkGraph/1636175790_2338903258_1784800600.mp4'

@@ -1,0 +1,10 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-the-lever-nobody-pulled/media/videos/scenes/2160p24/partial_movie_files/B01_ThreeBosses/4124586937_128700809_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-the-lever-nobody-pulled/media/videos/scenes/2160p24/partial_movie_files/B01_ThreeBosses/3090979338_160516573_3218664466.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-the-lever-nobody-pulled/media/videos/scenes/2160p24/partial_movie_files/B01_ThreeBosses/3090979338_4017012423_2128008997.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-the-lever-nobody-pulled/media/videos/scenes/2160p24/partial_movie_files/B01_ThreeBosses/3090979338_95173422_3725857040.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-the-lever-nobody-pulled/media/videos/scenes/2160p24/partial_movie_files/B01_ThreeBosses/3090979338_2683628468_3938749689.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-the-lever-nobody-pulled/media/videos/scenes/2160p24/partial_movie_files/B01_ThreeBosses/3090979338_1105215870_344588226.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-the-lever-nobody-pulled/media/videos/scenes/2160p24/partial_movie_files/B01_ThreeBosses/3090979338_1047844154_3001986113.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-the-lever-nobody-pulled/media/videos/scenes/2160p24/partial_movie_files/B01_ThreeBosses/3090979338_2003028401_3757604003.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-the-lever-nobody-pulled/media/videos/scenes/2160p24/partial_movie_files/B01_ThreeBosses/3090979338_388958936_2551297585.mp4'

@@ -1,0 +1,9 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-two-numbers-one-report/media/videos/scenes/480p15/partial_movie_files/B05_HumanCorpus/1592632320_818802737_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-two-numbers-one-report/media/videos/scenes/480p15/partial_movie_files/B05_HumanCorpus/1636175790_3337263881_2641491597.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-two-numbers-one-report/media/videos/scenes/480p15/partial_movie_files/B05_HumanCorpus/1636175790_876271105_79712650.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-two-numbers-one-report/media/videos/scenes/480p15/partial_movie_files/B05_HumanCorpus/1636175790_2358451328_798845806.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-two-numbers-one-report/media/videos/scenes/480p15/partial_movie_files/B05_HumanCorpus/1636175790_4052837333_2015759894.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-two-numbers-one-report/media/videos/scenes/480p15/partial_movie_files/B05_HumanCorpus/1636175790_1862304535_3445742840.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-two-numbers-one-report/media/videos/scenes/480p15/partial_movie_files/B05_HumanCorpus/1636175790_2547698846_1422700317.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-two-numbers-one-report/media/videos/scenes/480p15/partial_movie_files/B05_HumanCorpus/1636175790_1928592829_1076660987.mp4'

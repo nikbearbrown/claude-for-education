@@ -1,0 +1,13 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-two-numbers-one-report/media/videos/scenes/2160p60/partial_movie_files/B17_WhatFellOff/1950727442_1196517962_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-two-numbers-one-report/media/videos/scenes/2160p60/partial_movie_files/B17_WhatFellOff/2672662345_2470340468_4073338920.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-two-numbers-one-report/media/videos/scenes/2160p60/partial_movie_files/B17_WhatFellOff/2672662345_3343099439_1604404141.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-two-numbers-one-report/media/videos/scenes/2160p60/partial_movie_files/B17_WhatFellOff/2672662345_3712792495_2739007882.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-two-numbers-one-report/media/videos/scenes/2160p60/partial_movie_files/B17_WhatFellOff/2672662345_1303175606_2588001595.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-two-numbers-one-report/media/videos/scenes/2160p60/partial_movie_files/B17_WhatFellOff/2672662345_4057551069_832162192.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-two-numbers-one-report/media/videos/scenes/2160p60/partial_movie_files/B17_WhatFellOff/2672662345_3687411441_459171354.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-two-numbers-one-report/media/videos/scenes/2160p60/partial_movie_files/B17_WhatFellOff/2672662345_168586182_1345542160.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-two-numbers-one-report/media/videos/scenes/2160p60/partial_movie_files/B17_WhatFellOff/2672662345_781481746_2385650319.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-two-numbers-one-report/media/videos/scenes/2160p60/partial_movie_files/B17_WhatFellOff/2672662345_506924239_847295704.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-two-numbers-one-report/media/videos/scenes/2160p60/partial_movie_files/B17_WhatFellOff/2672662345_2927046513_3505602210.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-two-numbers-one-report/media/videos/scenes/2160p60/partial_movie_files/B17_WhatFellOff/2672662345_3676631036_3686528790.mp4'

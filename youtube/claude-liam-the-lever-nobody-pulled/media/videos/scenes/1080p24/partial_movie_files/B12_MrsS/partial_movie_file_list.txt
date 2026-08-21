@@ -1,0 +1,11 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-the-lever-nobody-pulled/media/videos/scenes/1080p24/partial_movie_files/B12_MrsS/3585836669_336692631_2607329171.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-the-lever-nobody-pulled/media/videos/scenes/1080p24/partial_movie_files/B12_MrsS/2875243264_3506589752_1937884994.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-the-lever-nobody-pulled/media/videos/scenes/1080p24/partial_movie_files/B12_MrsS/2875243264_3478470512_227867299.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-the-lever-nobody-pulled/media/videos/scenes/1080p24/partial_movie_files/B12_MrsS/2875243264_1688222845_143321527.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-the-lever-nobody-pulled/media/videos/scenes/1080p24/partial_movie_files/B12_MrsS/2875243264_4079250704_1612354508.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-the-lever-nobody-pulled/media/videos/scenes/1080p24/partial_movie_files/B12_MrsS/2875243264_79915613_3925232971.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-the-lever-nobody-pulled/media/videos/scenes/1080p24/partial_movie_files/B12_MrsS/2875243264_752880142_736932173.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-the-lever-nobody-pulled/media/videos/scenes/1080p24/partial_movie_files/B12_MrsS/2875243264_4079250704_2480177033.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-the-lever-nobody-pulled/media/videos/scenes/1080p24/partial_movie_files/B12_MrsS/2875243264_1907947488_410545638.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-the-lever-nobody-pulled/media/videos/scenes/1080p24/partial_movie_files/B12_MrsS/2875243264_2362376133_617553033.mp4'

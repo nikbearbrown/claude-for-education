@@ -1,0 +1,10 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-the-lever-nobody-pulled/short/media/videos/scenes/3840p24/partial_movie_files/B03_Precedence/173446861_1087285275_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-the-lever-nobody-pulled/short/media/videos/scenes/3840p24/partial_movie_files/B03_Precedence/1199207140_2983574198_1308385172.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-the-lever-nobody-pulled/short/media/videos/scenes/3840p24/partial_movie_files/B03_Precedence/1199207140_3047060821_2709002022.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-the-lever-nobody-pulled/short/media/videos/scenes/3840p24/partial_movie_files/B03_Precedence/1199207140_3800378487_2501240572.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-the-lever-nobody-pulled/short/media/videos/scenes/3840p24/partial_movie_files/B03_Precedence/1199207140_3286667489_1287987469.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-the-lever-nobody-pulled/short/media/videos/scenes/3840p24/partial_movie_files/B03_Precedence/1199207140_765837064_818398791.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-the-lever-nobody-pulled/short/media/videos/scenes/3840p24/partial_movie_files/B03_Precedence/1199207140_1883023461_2845016928.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-the-lever-nobody-pulled/short/media/videos/scenes/3840p24/partial_movie_files/B03_Precedence/1199207140_3962922016_1048697858.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-the-lever-nobody-pulled/short/media/videos/scenes/3840p24/partial_movie_files/B03_Precedence/1199207140_2678054126_800416724.mp4'

@@ -1,0 +1,34 @@
+{
+  "beat": "B15",
+  "layout": "hierarchical-tb",
+  "safe": [96, 54, 1824, 1026],
+  "style_table": {
+    "process":  {"shape": "rect",    "fill": "none", "stroke": "ink",  "accent": false},
+    "terminal": {"shape": "rounded", "fill": "none", "stroke": "ink",  "accent": false},
+    "store":    {"shape": "cylinder","fill": "none", "stroke": "ink",  "accent": false},
+    "decision": {"shape": "diamond", "fill": "none", "stroke": "ink",  "accent": false},
+    "io":       {"shape": "parallelogram","fill": "none","stroke":"ink","accent": false}
+  },
+  "nodes": [
+    {"id":"vendor_platform",    "type":"process","label":"VENDOR PLATFORM",          "x":320, "y":200,"w":440,"h":100},
+    {"id":"vendor_operator",    "type":"process","label":"VENDOR OPERATOR (empty)",  "x":320, "y":380,"w":440,"h":100},
+    {"id":"vendor_user",        "type":"process","label":"VENDOR USER",              "x":320, "y":540,"w":440,"h":100},
+    {"id":"homebuilt_platform", "type":"process","label":"UNIVERSITY PLATFORM",      "x":1600,"y":200,"w":440,"h":100},
+    {"id":"homebuilt_operator", "type":"process","label":"INSTRUCTOR PROMPT",        "x":1600,"y":380,"w":440,"h":100},
+    {"id":"homebuilt_user",     "type":"process","label":"COURSE SOURCES",           "x":1600,"y":540,"w":440,"h":100}
+  ],
+  "edges": [
+    {"from":"vendor_platform","to":"vendor_operator","kind":"flow",
+     "path":[[320,250],[320,330]]},
+    {"from":"vendor_operator","to":"vendor_user","kind":"flow",
+     "path":[[320,430],[320,490]]},
+    {"from":"homebuilt_platform","to":"homebuilt_operator","kind":"flow",
+     "path":[[1600,250],[1600,330]]},
+    {"from":"homebuilt_operator","to":"homebuilt_user","kind":"flow",
+     "path":[[1600,430],[1600,490]]},
+    {"from":"vendor_operator","to":"homebuilt_operator","kind":"flow",
+     "path":[[550,380],[960,95],[1370,380]],
+     "label":"built around it",
+     "label_box":[760,55,1160,92]}
+  ]
+}

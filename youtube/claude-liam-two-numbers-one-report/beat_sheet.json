@@ -1,0 +1,1682 @@
+{
+  "metadata": {
+    "slug": "claude-liam-two-numbers-one-report",
+    "title": "Pick a Number, Any Number",
+    "topic": "CLAUDE · AI INTEGRITY TOOLS",
+    "purpose": "One dataset can hand you four different true numbers. Two parties each got a menu. Both picked the highest one. Which number you quote is the whole argument, and the decimal point on it does the persuading. Nobody lies; everybody picks.",
+    "channel": "claude-liam",
+    "voice_kokoro": "am_onyx",
+    "engine": "kokoro",
+    "aspect": "16:9",
+    "palette": "claude",
+    "folderLabel": "@NikBearBrown",
+    "clock": "narration",
+    "register": "Teardown",
+    "companion": "claude-liam-detector-never-the-standard",
+    "companion_fp": "claude-liam-a-p-value-is-not-a-verdict",
+    "plan_revision": "rev 4",
+    "honesty_law": "BINDING — see PLAN.md §HONESTY LAW. B09 carries the INFERENCE label on screen. 65% and 97.5% shown together in B04. 40% and 21.9% shown together in BRM. Three academic studies plus commercial reviews acknowledged in B09. Substack and Pangram named (Law 3a). Paper/authors/university NOT named (Law 3b).",
+    "build": {
+      "at": "2026-08-20T08:42:36",
+      "cut": "master",
+      "filled": 24,
+      "of": 24,
+      "slates": [],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "cold open",
+      "narration_text": "Merhaba — this is Liam, in for Bear. One dataset can hand you four different true numbers. Two parties each got a menu. Both picked the highest one. Following what each chose — and what they passed over — is the whole film.",
+      "estimated_duration_s": 20,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": "0.0",
+            "event": "ClaudeComposerAsk opens; ask types: 'One dataset, four true numbers. How does a platform end up with one?'"
+          },
+          {
+            "at": "four different true numbers",
+            "event": "send button arms terracotta"
+          },
+          {
+            "at": "0.9",
+            "event": "running indicator pulses"
+          },
+          {
+            "at": "Both picked the highest one",
+            "event": "output lines appear: 'two parties · two picks · nobody lied'"
+          },
+          {
+            "at": "is the whole film",
+            "event": "chain completes; ask answered"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "topic": "ONE DATASET, FOUR TRUE NUMBERS",
+            "segment": "Liam, in for Bear.",
+            "greeting": "Merhaba, Liam",
+            "command": "One dataset, four true numbers. How does a platform end up with one?",
+            "runningText": "tracing the picks…",
+            "output": [
+              "two parties · two picks · nobody lied",
+              "each reached past the number that limits the claim",
+              "what each chose — and what stayed behind"
+            ],
+            "folderLabel": "claude-liam-two-numbers-one-report/"
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B00.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "media",
+        "at": "2026-08-20T08:42:36"
+      },
+      "actual_duration_s": 12.07
+    },
+    {
+      "beat_id": "B01",
+      "act": "ADDRESS ONE — THE PAPER",
+      "narration_text": "It starts with a good study. Four detection tools, a hundred and sixty documents, known ground truth, preregistered before data collection, data and prompts published. Better than most of what gets cited in this kind of argument.",
+      "estimated_duration_s": 13,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": "0.0",
+            "event": "C2 scale: cream stage with four credential cards stacking"
+          },
+          {
+            "at": "Four detection tools",
+            "event": "Card 1: '4 TOOLS'"
+          },
+          {
+            "at": "a hundred and sixty documents",
+            "event": "Card 2: '160 DOCUMENTS · KNOWN GROUND TRUTH'"
+          },
+          {
+            "at": "preregistered",
+            "event": "Card 3: 'PREREGISTERED (AsPredicted #228383)'"
+          },
+          {
+            "at": "data and prompts published",
+            "event": "Card 4: 'DATA + PROMPTS OPEN — OSF'"
+          },
+          {
+            "at": "Better than most",
+            "event": "Stack pulses terracotta; checkmark appears"
+          }
+        ],
+        "remotion": {
+          "pattern": "ChipGrid",
+          "props": {
+            "title": "The Study",
+            "chips": [
+              "4 DETECTION TOOLS",
+              "160 DOCUMENTS · KNOWN GROUND TRUTH",
+              "PREREGISTERED (AsPredicted #228383)",
+              "DATA + PROMPTS OPEN — OSF"
+            ],
+            "sparkLine": "Better than most of what gets cited in this kind of argument.",
+            "cols": 2
+          },
+          "rendered": {
+            "out": "media/B01.mp4",
+            "at": ""
+          }
+        }
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "study credential stack (C2 scale)",
+          "mechanic": "Four credential cards appear on the spoken word. Each card: terracotta left border, ink serif label. Stack builds. Final: terracotta checkmark.",
+          "colors": [
+            "#F2F0E9",
+            "#3D3929",
+            "#D97757"
+          ]
+        }
+      },
+      "actual_duration_s": 12.65,
+      "audio_file": "mp3/beat-B01.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B01.mp4",
+        "filled_by": "media",
+        "at": "2026-08-20T08:42:36"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "ASK → TABLE",
+      "narration_text": "Rebuild the accuracy table from the detection-tools study.",
+      "estimated_duration_s": 8,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": "0.0",
+            "event": "ClaudeComposerAsk: prompt types in"
+          },
+          {
+            "at": "detection-tools study",
+            "event": "send button arms terracotta"
+          },
+          {
+            "at": "0.9",
+            "event": "running indicator: 'rebuilding the table…'"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "topic": "REBUILDING THE TABLE",
+            "segment": "Liam, in for Bear.",
+            "greeting": "Merhaba, Liam",
+            "command": "Rebuild the accuracy table from the detection-tools study.",
+            "runningText": "rebuilding the table…",
+            "output": [],
+            "folderLabel": "claude-liam-two-numbers-one-report/"
+          },
+          "rendered": {
+            "out": "media/B02.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 3.73,
+      "audio_file": "mp3/beat-B02.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B02.mp4",
+        "filled_by": "media",
+        "at": "2026-08-20T08:42:36"
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "RESULT — Table 4 rebuilt (MANIM)",
+      "narration_text": "On fully machine-written papers: one tool scored zero. A second scored zero. A third scored zero. The fourth scored highest — and it has two numbers in that table, not one.",
+      "estimated_duration_s": 12,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "show": [
+          {
+            "at": "0.0",
+            "event": "Four-row table; STRICT ACCURACY and INCLUSIVE ACCURACY columns; all cells blank"
+          },
+          {
+            "at": "one tool scored zero",
+            "event": "Row 1 STRICT: 0%"
+          },
+          {
+            "at": "A second scored zero",
+            "event": "Row 2 STRICT: 0%"
+          },
+          {
+            "at": "A third scored zero",
+            "event": "Row 3 STRICT: 0%"
+          },
+          {
+            "at": "The fourth",
+            "event": "Row 4 highlights; STRICT 65% and INCLUSIVE 97.5% both appear"
+          },
+          {
+            "at": "two numbers",
+            "event": "Both Row 4 cells pulse terracotta together"
+          }
+        ]
+      },
+      "graphic": {
+        "engine": "manim",
+        "manim": "B03_AccuracyTable",
+        "production_viz": {
+          "label": "rebuilt accuracy table — fully AI-generated papers (Table 4)",
+          "mechanic": "4-row table. STRICT | INCLUSIVE columns. TOOL 1–3: 0%. TOOL 4: 65% and 97.5% together; both pulse terracotta.",
+          "note": "Numbers from primary paper Table 4 (fully AI-generated condition, n=40). REBUILD LAW: no screenshot.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        }
+      },
+      "sub_beats": [
+        {
+          "at": "one tool scored zero",
+          "event": "Row 1 STRICT: 0%"
+        },
+        {
+          "at": "A second scored zero",
+          "event": "Row 2 STRICT: 0%"
+        },
+        {
+          "at": "A third scored zero",
+          "event": "Row 3 STRICT: 0%"
+        },
+        {
+          "at": "The fourth scored highest",
+          "event": "Row 4 highlights terracotta"
+        },
+        {
+          "at": "two numbers",
+          "event": "65% + 97.5% pulse simultaneously"
+        }
+      ],
+      "actual_duration_s": 9.88,
+      "audio_file": "mp3/beat-B03.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B03.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-20T08:42:36"
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "DIVERGENCE — 65 vs 97.5 (C2)",
+      "narration_text": "Sixty-five percent strict. Ninety-seven point five inclusive. The difference is what inclusive forgives: a score of sixty to eighty on a fully-machine document counts as a correct detection.",
+      "estimated_duration_s": 15,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": "0.0",
+            "event": "C2 divergence: two columns on cream stage, both at baseline"
+          },
+          {
+            "at": "Sixty-five percent strict",
+            "event": "LEFT column fills to 65%; label: 'STRICT 65%'"
+          },
+          {
+            "at": "Ninety-seven point five",
+            "event": "RIGHT column fills to 97.5%; label: 'INCLUSIVE 97.5%'"
+          },
+          {
+            "at": "Both from the same test",
+            "event": "Shared source label: 'SAME TABLE · SAME CONDITION'"
+          },
+          {
+            "at": "sixty to eighty",
+            "event": "Band on right column: '60–80% = CORRECT (inclusive)'"
+          },
+          {
+            "at": "one hundred percent machine",
+            "event": "Terracotta accent on the 60–80 band"
+          }
+        ],
+        "remotion": {
+          "pattern": "DeckPattern",
+          "props": {
+            "pattern": "divergence",
+            "title": "Two Numbers — Same Test",
+            "left": {
+              "label": "STRICT",
+              "note": "65%\n26 of 40 fully-machine papers detected."
+            },
+            "right": {
+              "label": "INCLUSIVE",
+              "note": "97.5%\n60–80% on 100%-machine doc counts as correct detection."
+            },
+            "note": "Table 4. Same test (n=40). 60-80 band from Table 3.",
+            "sparkLine": "Same table. Different thresholds."
+          },
+          "rendered": {
+            "out": "media/B04.mp4",
+            "at": ""
+          }
+        }
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "65% strict vs 97.5% inclusive divergence (C2)",
+          "mechanic": "Two side-by-side bars. Both visible simultaneously — hard constraint.",
+          "colors": [
+            "#F2F0E9",
+            "#3D3929",
+            "#D97757"
+          ]
+        }
+      },
+      "sub_beats": [
+        {
+          "at": "Sixty-five percent strict",
+          "event": "LEFT bar fills to 65%; STRICT label appears"
+        },
+        {
+          "at": "Ninety-seven point five",
+          "event": "RIGHT bar fills to 97.5%; INCLUSIVE label appears"
+        },
+        {
+          "at": "sixty to eighty",
+          "event": "band annotation on right bar"
+        },
+        {
+          "at": "one hundred percent machine",
+          "event": "terracotta accent on band"
+        }
+      ],
+      "actual_duration_s": 11.16,
+      "audio_file": "mp3/beat-B04.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B04.mp4",
+        "filled_by": "media",
+        "at": "2026-08-20T08:42:36"
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "human corpus and its date (MANIM)",
+      "narration_text": "The zero-false-positive result — forty human theses, not one flagged — comes from non-native English speakers writing before 2019.",
+      "estimated_duration_s": 13,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "show": [
+          {
+            "at": "0.0",
+            "event": "40 isotype dots on canvas, labeled HUMAN THESES"
+          },
+          {
+            "at": "forty human theses",
+            "event": "All 40 dots appear"
+          },
+          {
+            "at": "not one flagged",
+            "event": "Checkmark: '0 FALSE POSITIVES'"
+          },
+          {
+            "at": "non-native English",
+            "event": "Label: NON-NATIVE WRITERS"
+          },
+          {
+            "at": "before 2019",
+            "event": "Timeline bar; PRE-2019 zone highlighted terracotta"
+          }
+        ]
+      },
+      "graphic": {
+        "engine": "manim",
+        "manim": "B05_HumanCorpus",
+        "production_viz": {
+          "label": "human corpus — 40 theses, non-native, pre-2019",
+          "mechanic": "40 isotype dots in grid. '0 FALSE POSITIVES' label. NON-NATIVE label. Timeline bar: PRE-2019 zone terracotta.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        }
+      },
+      "actual_duration_s": 9.07,
+      "audio_file": "mp3/beat-B05.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B05.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-20T08:42:36"
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "pre-2019 reasoning (C2 threshold)",
+      "narration_text": "Pre-2019 text guarantees clean ground truth — nothing could have generated it. That makes it the easiest possible negative class: written before machine register entered academic style.",
+      "estimated_duration_s": 14,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": "0.0",
+            "event": "C2 threshold: timeline on cream stage"
+          },
+          {
+            "at": "guarantees clean",
+            "event": "PRE-2019 zone: 'CLEAN GROUND TRUTH'"
+          },
+          {
+            "at": "easiest possible",
+            "event": "Threshold fires: left clean, right LLM REGISTER PRESENT"
+          },
+          {
+            "at": "before machine register",
+            "event": "Right zone: 'academic style now carries LLM patterns'"
+          }
+        ],
+        "remotion": {
+          "pattern": "DeckPattern",
+          "props": {
+            "pattern": "threshold",
+            "title": "The Negative Class",
+            "note": "Pre-2019: no generation possible.\n\nAfter 2019: ambient LLM enters.\nEasiest negative class.",
+            "sparkLine": "Sound reasoning. Narrowest possible claim."
+          },
+          "rendered": {
+            "out": "media/B06.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 11.58,
+      "audio_file": "mp3/beat-B06.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B06.mp4",
+        "filled_by": "media",
+        "at": "2026-08-20T08:42:36"
+      }
+    },
+    {
+      "beat_id": "B07",
+      "act": "sole-evidence quote (MANIM)",
+      "narration_text": "The authors say it in the abstract: detection results should not be used as sole evidence in high-stakes decision-making, but should be implemented in a broader evaluation strategy. That sentence is the verdict.",
+      "estimated_duration_s": 15,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "show": [
+          {
+            "at": "0.0",
+            "event": "Blank quote card on canvas"
+          },
+          {
+            "at": "The authors say",
+            "event": "QuoteCard: header 'FROM THE ABSTRACT'"
+          },
+          {
+            "at": "detection results should not",
+            "event": "Quote line 1 types in"
+          },
+          {
+            "at": "sole evidence",
+            "event": "'sole evidence' highlights terracotta"
+          },
+          {
+            "at": "in high-stakes",
+            "event": "Remainder of quote types in"
+          },
+          {
+            "at": "broader evaluation strategy",
+            "event": "'broader evaluation strategy' highlights terracotta"
+          }
+        ]
+      },
+      "graphic": {
+        "engine": "manim",
+        "manim": "B07_SoleEvidenceQuote",
+        "production_viz": {
+          "label": "sole-evidence quote card — abstract verbatim",
+          "mechanic": "QuoteCard. 'sole evidence' highlights terracotta. 'broader evaluation strategy' highlights terracotta. Journal attribution only.",
+          "note": "VERBATIM — must match abstract character-for-character.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        }
+      },
+      "sub_beats": [
+        {
+          "at": "sole evidence",
+          "event": "terracotta highlight"
+        },
+        {
+          "at": "broader evaluation strategy",
+          "event": "terracotta highlight"
+        }
+      ],
+      "actual_duration_s": 12.1,
+      "audio_file": "mp3/beat-B07.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B07.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-20T08:42:36"
+      }
+    },
+    {
+      "beat_id": "BRA",
+      "act": "ACT — THE REPORT'S MENU · ASK",
+      "narration_text": "Pull up the Pangram report on AI writing rates across social-media platforms.",
+      "estimated_duration_s": 5,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": "0.0",
+            "event": "ClaudeComposerAsk: prompt types in"
+          },
+          {
+            "at": "social-media",
+            "event": "send button arms terracotta"
+          },
+          {
+            "at": "0.9",
+            "event": "running indicator: 'finding the report's menu…'"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "topic": "THE REPORT'S MENU",
+            "segment": "Liam, in for Bear.",
+            "greeting": "Merhaba, Liam",
+            "command": "Pull up the Pangram report on AI writing rates across social-media platforms.",
+            "runningText": "finding the report's menu…",
+            "output": [],
+            "folderLabel": "claude-liam-two-numbers-one-report/"
+          },
+          "rendered": {
+            "out": "media/BRA.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-BRA.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BRA.mp4",
+        "filled_by": "media",
+        "at": "2026-08-20T08:42:36"
+      },
+      "actual_duration_s": 5.23
+    },
+    {
+      "beat_id": "BRM",
+      "act": "RESULT — Report's Menu (MANIM)",
+      "narration_text": "The report has four numbers. All true. All from the same scan. Thirteen point eight percent — the global average, all platforms. Twenty-one point nine percent — Substack's own combined rate; the report calls Substack an exception. Twenty-five point seven two percent — longform over two hundred and fifty words, all platforms, fully AI. Forty percent — LinkedIn longform, fully AI. The number the announcement used was the last one on that list.",
+      "estimated_duration_s": 28,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "show": [
+          {
+            "at": "0.0",
+            "event": "Four-row menu; all blank"
+          },
+          {
+            "at": "Thirteen point eight",
+            "event": "Row 1: '13.8%' — 'global average, all platforms'"
+          },
+          {
+            "at": "Twenty-one point nine",
+            "event": "Row 2: '21.9%' — 'Substack own rate'"
+          },
+          {
+            "at": "the report calls Substack an exception",
+            "event": "Exception sentence appears below Row 2"
+          },
+          {
+            "at": "Twenty-five point seven two",
+            "event": "Row 3: '25.72%' — 'longform >250 words, all platforms, fully AI'"
+          },
+          {
+            "at": "Forty percent",
+            "event": "Row 4: '40%' highlights terracotta — largest"
+          },
+          {
+            "at": "The number the announcement used",
+            "event": "Arrow from Row 4 to 'USED IN ANNOUNCEMENT'; Rows 1–3 dim"
+          }
+        ]
+      },
+      "graphic": {
+        "engine": "manim",
+        "manim": "BRM_ReportMenu",
+        "production_viz": {
+          "label": "Pangram report — four-figure menu, 40% highlighted",
+          "mechanic": "Four rows on white canvas. Each row: big number (ACC terracotta for Row 4, INK for others), smaller label. Row 4 (40%) renders terracotta and larger. 'Substack was an exception' italic below Row 2. After all four appear, Rows 1–3 dim; arrow connects Row 4 to 'USED IN ANNOUNCEMENT'. HARD CONSTRAINT: 40% and 21.9% visible in same frame at 'Forty percent' cue.",
+          "note": "All four figures require build-day live verification. FACTCHECK rows 8–10.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757",
+            "#73705F",
+            "#A9A491"
+          ]
+        }
+      },
+      "sub_beats": [
+        {
+          "at": "Thirteen point eight",
+          "event": "Row 1 appears"
+        },
+        {
+          "at": "Twenty-one point nine",
+          "event": "Row 2 appears"
+        },
+        {
+          "at": "calls Substack an exception",
+          "event": "exception sentence appears"
+        },
+        {
+          "at": "Twenty-five point seven two",
+          "event": "Row 3 appears"
+        },
+        {
+          "at": "Forty percent",
+          "event": "Row 4 highlights terracotta — 40% and 21.9% both visible"
+        },
+        {
+          "at": "announcement used was the last",
+          "event": "Rows 1–3 dim; arrow to USED IN ANNOUNCEMENT"
+        }
+      ],
+      "audio_file": "mp3/beat-BRM.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/BRM.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-20T08:42:36"
+      },
+      "actual_duration_s": 22.4
+    },
+    {
+      "beat_id": "B08",
+      "act": "ADDRESS TWO — THE VENDOR · ASK",
+      "narration_text": "Rebuild the vendor's third-party evaluations page.",
+      "estimated_duration_s": 7,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": "0.0",
+            "event": "ClaudeComposerAsk: prompt types in"
+          },
+          {
+            "at": "evaluations page",
+            "event": "send button arms terracotta"
+          },
+          {
+            "at": "0.9",
+            "event": "running indicator: 'rebuilding the page…'"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "topic": "REBUILDING THE PAGE",
+            "segment": "Liam, in for Bear.",
+            "greeting": "Merhaba, Liam",
+            "command": "Rebuild the vendor's third-party evaluations page.",
+            "runningText": "rebuilding the page…",
+            "output": [],
+            "folderLabel": "claude-liam-two-numbers-one-report/"
+          },
+          "rendered": {
+            "out": "media/B08.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 3.63,
+      "audio_file": "mp3/beat-B08.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B08.mp4",
+        "filled_by": "media",
+        "at": "2026-08-20T08:42:36"
+      }
+    },
+    {
+      "beat_id": "B09",
+      "act": "RESULT — rebuilt Pangram page (C3 · INFERENCE labelled)",
+      "narration_text": "That study appears on Pangram's evaluations page — listed as institution name and month, no DOI, no authors, no title. Our match is an inference from four converging details. The page cites other academic studies and commercial reviews.",
+      "estimated_duration_s": 16,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": "0.0",
+            "event": "C3 rebuilt Pangram evaluations page — native Remotion, no screenshots"
+          },
+          {
+            "at": "listed as institution name",
+            "event": "Entry card: '[A University] · [Month Year]' — no DOI, no title, no authors"
+          },
+          {
+            "at": "no authors, no title",
+            "event": "Three absent fields shown as empty boxes"
+          },
+          {
+            "at": "Our match is an inference",
+            "event": "ON-SCREEN INFERENCE LABEL: 'INFERENCE — matched from four converging details, not a direct citation'"
+          },
+          {
+            "at": "other academic studies",
+            "event": "Other citation entries shown below; label: 'additional studies and reviews also cited'"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeConceptC3",
+          "props": {
+            "concept": "INFERENCE — Four Converging Details, No Direct Citation",
+            "nodeA": "THE PAPER",
+            "noteA": "65% strict · 97.5% inclusive · four tools · 160 docs · preregistered · OSF",
+            "accentA": false,
+            "nodeB": "PANGRAM EVALUATIONS PAGE",
+            "noteB": "[A University] · [Month Year] · no DOI · no authors · no title\n\nThree other academic studies and commercial reviews also cited.",
+            "accentB": true,
+            "connector": "inferred match",
+            "sparkLine": "Listed by institution and month. No DOI."
+          },
+          "rendered": {
+            "out": "media/B09.mp4",
+            "at": ""
+          }
+        }
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "rebuilt Pangram evaluations page — INFERENCE labelled on screen",
+          "mechanic": "Native Remotion C3. INFERENCE label in terracotta. Other citations shown. Node label reads 'PANGRAM EVALUATIONS PAGE'.",
+          "note": "HONESTY LAW 1: INFERENCE label MUST be visible. HONESTY LAW 2: other studies shown.",
+          "colors": [
+            "#F2F0E9",
+            "#3D3929",
+            "#D97757"
+          ]
+        }
+      },
+      "audio_file": "mp3/beat-B09.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B09.mp4",
+        "filled_by": "media",
+        "at": "2026-08-20T08:42:36"
+      },
+      "actual_duration_s": 13.85
+    },
+    {
+      "beat_id": "B10",
+      "act": "SECOND PICK — vendor figures (MANIM)",
+      "narration_text": "Same move. The page quotes two figures from that table — ninety-seven point five percent, and zero false positives on second-language academic writing. Not sixty-five. The year on the corpus does not appear. Same table, different number. Same move as the report.",
+      "estimated_duration_s": 16,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "show": [
+          {
+            "at": "0.0",
+            "event": "Split: study table (left) vs Pangram page (right). Title: 'Second Pick — Same Move'."
+          },
+          {
+            "at": "ninety-seven point five",
+            "event": "97.5% extracts from table; drawn large on vendor side"
+          },
+          {
+            "at": "zero false positives",
+            "event": "0 false positives extracts; drawn large on vendor side"
+          },
+          {
+            "at": "Not sixty-five",
+            "event": "65% circled in table; absent on vendor side (ghost/strikethrough)"
+          },
+          {
+            "at": "year on the corpus",
+            "event": "PRE-2019 in table; crossed-out slot on vendor side"
+          },
+          {
+            "at": "Same move as the report",
+            "event": "Bottom label: 'SAME MOVE AS THE REPORT' — terracotta"
+          }
+        ]
+      },
+      "graphic": {
+        "engine": "manim",
+        "manim": "B10_VendorFigures",
+        "production_viz": {
+          "label": "second pick — same visual grammar as BRM",
+          "mechanic": "Title: 'Second Pick — Same Move'. 97.5% and 0 FP animate across. 65% and PRE-2019 stay in table only — strikethrough on vendor side. Bottom label terracotta: 'SAME MOVE AS THE REPORT'. White canvas.",
+          "note": "Visual grammar echoes BRM_ReportMenu. This is the SECOND instance of the same move.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        }
+      },
+      "sub_beats": [
+        {
+          "at": "ninety-seven point five",
+          "event": "97.5% animates from table to vendor side"
+        },
+        {
+          "at": "zero false positives",
+          "event": "0 FP animates from table to vendor side"
+        },
+        {
+          "at": "Not sixty-five",
+          "event": "65% circled in table; strikethrough on vendor side"
+        },
+        {
+          "at": "year on the corpus",
+          "event": "PRE-2019 crossed out on vendor side"
+        },
+        {
+          "at": "Same move as the report",
+          "event": "terracotta label at bottom"
+        }
+      ],
+      "audio_file": "mp3/beat-B10.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B10.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-20T08:42:36"
+      },
+      "actual_duration_s": 15.04
+    },
+    {
+      "beat_id": "B11",
+      "act": "two picks, two tables (C2)",
+      "narration_text": "Two documents, two picks. From each one, the figure that stayed behind was the one that limits what the chosen figure can claim.",
+      "estimated_duration_s": 12,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": "0.0",
+            "event": "C2 divergence: LEFT = THE REPORT · 40%; RIGHT = THE STUDY · 97.5%"
+          },
+          {
+            "at": "Two documents",
+            "event": "Both columns visible; LEFT '40%'; RIGHT '97.5%'"
+          },
+          {
+            "at": "two picks",
+            "event": "Terracotta accent on both chosen numbers"
+          },
+          {
+            "at": "stayed behind",
+            "event": "Ghost labels appear below each: LEFT '13.8% / 21.9% stayed'; RIGHT '65% stayed'"
+          },
+          {
+            "at": "limits",
+            "event": "Bracket: 'THE LIMITING FIGURES — NOT TRANSMITTED'"
+          }
+        ],
+        "remotion": {
+          "pattern": "DeckPattern",
+          "props": {
+            "pattern": "divergence",
+            "title": "Two Documents — Two Picks",
+            "left": {
+              "label": "THE REPORT",
+              "note": "Chose: 40% (LinkedIn longform)\nStayed: 13.8% · 21.9%\n\"exception\""
+            },
+            "right": {
+              "label": "THE STUDY",
+              "note": "Chose: 97.5% (inclusive)\n\nStayed: 65% strict\nPre-2019 corpus\nGenerator confound\nSole-evidence sentence"
+            },
+            "sparkLine": "Both true. Both chosen. Neither limiting figure travelled."
+          },
+          "rendered": {
+            "out": "media/B11.mp4",
+            "at": ""
+          }
+        }
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "two picks — symmetric divergence",
+          "mechanic": "Two-column divergence. LEFT: 40% chosen; 13.8/21.9 stayed. RIGHT: 97.5% chosen; 65% stayed. Symmetric layout.",
+          "colors": [
+            "#F2F0E9",
+            "#3D3929",
+            "#D97757"
+          ]
+        }
+      },
+      "audio_file": "mp3/beat-B11.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B11.mp4",
+        "filled_by": "media",
+        "at": "2026-08-20T08:42:36"
+      },
+      "actual_duration_s": 7.47
+    },
+    {
+      "beat_id": "B12",
+      "act": "ADDRESS THREE — THE PLATFORM · ASK",
+      "narration_text": "Where does the platform's accuracy claim link to?",
+      "estimated_duration_s": 7,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": "0.0",
+            "event": "ClaudeComposerAsk: prompt types in"
+          },
+          {
+            "at": "accuracy claim",
+            "event": "send button arms terracotta"
+          },
+          {
+            "at": "0.9",
+            "event": "running indicator: 'tracing the link…'"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "topic": "TRACING THE LINK",
+            "segment": "Liam, in for Bear.",
+            "greeting": "Merhaba, Liam",
+            "command": "Where does the platform's accuracy claim link to?",
+            "runningText": "tracing the link…",
+            "output": [],
+            "folderLabel": "claude-liam-two-numbers-one-report/"
+          },
+          "rendered": {
+            "out": "media/B12.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 3.24,
+      "audio_file": "mp3/beat-B12.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B12.mp4",
+        "filled_by": "media",
+        "at": "2026-08-20T08:42:36"
+      }
+    },
+    {
+      "beat_id": "B13",
+      "act": "RESULT — rebuilt Substack announcement (C3) — named",
+      "narration_text": "Chris Best's post on Substack — 'Against Claudefishing,' twenty-first of July twenty twenty-six — says the tool is not perfect, but independent research suggests it detects AI-generated text with a high degree of accuracy. The link does not go to the research. It goes to Pangram's own evaluations page. And Pangram's self-reported false-positive rate of zero point zero one percent lives on that same page. Independent is doing unearned work at two separate hops. The companion video covers what a false-positive rate does and does not license.",
+      "estimated_duration_s": 32,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": "0.0",
+            "event": "C3 rebuilt announcement card on cream stage — no screenshot"
+          },
+          {
+            "at": "Against Claudefishing",
+            "event": "Source label: 'Substack · Chris Best · 21 Jul 2026'"
+          },
+          {
+            "at": "not perfect, but",
+            "event": "First clause appears: 'it is not perfect, but'"
+          },
+          {
+            "at": "independent research suggests",
+            "event": "'independent research suggests' highlights terracotta"
+          },
+          {
+            "at": "a high degree of accuracy",
+            "event": "Remainder; link indicator below quote"
+          },
+          {
+            "at": "Pangram's own evaluations page",
+            "event": "Resolution label: 'RESOLVES TO: Pangram evaluations page'"
+          },
+          {
+            "at": "zero point zero one percent",
+            "event": "0.01% label with note: 'SELF-REPORTED — same page'"
+          },
+          {
+            "at": "two separate hops",
+            "event": "'independent' highlighted terracotta at both hops"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeConceptC3",
+          "props": {
+            "concept": "PLATFORM ANNOUNCEMENT — Named and Verbatim",
+            "nodeA": "CHRIS BEST · SUBSTACK · 21 JUL 2026",
+            "noteA": "Against Claudefishing\n\n\"it is not perfect, but independent research suggests that it detects AI-generated text with a high degree of accuracy.\"",
+            "accentA": true,
+            "nodeB": "THE LINK + THE CLAIM",
+            "noteB": "Resolves to: Pangram evaluations page (not the paper).\n\nPangram's 0.01% FP rate: self-reported on the same page.\n\n\"Independent\" does unearned work at two separate hops.",
+            "accentB": false,
+            "connector": "links to",
+            "sparkLine": "Named. Linked. 'Independent' at two consecutive hops."
+          },
+          "rendered": {
+            "out": "media/B13.mp4",
+            "at": ""
+          }
+        }
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "rebuilt Substack announcement — named, verbatim, 0.01% self-reported",
+          "mechanic": "Native Remotion C3. Source label: Substack · Chris Best · 21 Jul 2026. Quote progressive. 'independent research suggests' terracotta. Link resolution label. 0.01% self-reported label.",
+          "note": "VERIFY: exact wording must match live post on build day. FACTCHECK rows 10, 14.",
+          "colors": [
+            "#F2F0E9",
+            "#3D3929",
+            "#D97757"
+          ]
+        }
+      },
+      "audio_file": "mp3/beat-B13.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B13.mp4",
+        "filled_by": "media",
+        "at": "2026-08-20T08:42:36"
+      },
+      "actual_duration_s": 30.55
+    },
+    {
+      "beat_id": "B14",
+      "act": "link graph — cited through the vendor (MANIM, updated)",
+      "narration_text": "Follow the link from Best's post. It resolves to Pangram's evaluations page, not to the paper. The chain: Best cites Pangram; Pangram cites itself on accuracy and cites itself on the false-positive rate.",
+      "estimated_duration_s": 14,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "show": [
+          {
+            "at": "0.0",
+            "event": "Three nodes: PAPER (left) · PANGRAM EVALUATIONS PAGE (center) · SUBSTACK POST (right)"
+          },
+          {
+            "at": "Follow the link",
+            "event": "Cursor on SUBSTACK POST; link arrow activates"
+          },
+          {
+            "at": "not to the paper",
+            "event": "Arrow toward PAPER — stops; X on that path"
+          },
+          {
+            "at": "Pangram's evaluations page",
+            "event": "Arrow routes to PANGRAM EVALUATIONS PAGE; highlights terracotta"
+          },
+          {
+            "at": "Pangram cites itself",
+            "event": "Self-arrow on PANGRAM PAGE; label: 'SELF-CITED ON ACCURACY + FP RATE'"
+          }
+        ]
+      },
+      "graphic": {
+        "engine": "manim",
+        "manim": "B14_LinkGraph",
+        "production_viz": {
+          "label": "link graph — named nodes; self-citation loop on Pangram",
+          "mechanic": "Three named nodes: PAPER, PANGRAM EVALUATIONS PAGE, SUBSTACK POST. Dashed arrow SUBSTACK POST → PAPER crossed out. Solid terracotta arrow SUBSTACK POST → PANGRAM PAGE. Self-loop on PANGRAM PAGE: 'SELF-CITED ON ACCURACY + FP RATE'. White canvas.",
+          "note": "Nodes now named. Self-citation loop is new in rev 4. VERIFY link resolution on build day.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        }
+      },
+      "sub_beats": [
+        {
+          "at": "Follow the link",
+          "event": "cursor activates on SUBSTACK POST"
+        },
+        {
+          "at": "not to the paper",
+          "event": "crossed-out arrow toward PAPER"
+        },
+        {
+          "at": "Pangram's evaluations page",
+          "event": "terracotta arrow to PANGRAM PAGE completes"
+        },
+        {
+          "at": "Pangram cites itself",
+          "event": "self-loop with label"
+        }
+      ],
+      "audio_file": "mp3/beat-B14.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B14.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-20T08:42:36"
+      },
+      "actual_duration_s": 12.29
+    },
+    {
+      "beat_id": "B15",
+      "act": "ADDRESS FOUR — THE BUTTON (C3)",
+      "narration_text": "And then it is a button. Any document, any reader, a score returned on request. The chain is complete. The qualifiers are not.",
+      "estimated_duration_s": 10,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": "0.0",
+            "event": "C3: abstract button on cream stage — no screenshot"
+          },
+          {
+            "at": "it is a button",
+            "event": "Single button element appears center frame"
+          },
+          {
+            "at": "Any document, any reader",
+            "event": "Rotating document/reader icons cycle"
+          },
+          {
+            "at": "score returned",
+            "event": "Score label: RESULT"
+          },
+          {
+            "at": "chain is complete",
+            "event": "Small chain: PAPER → VENDOR PAGE → ANNOUNCEMENT → BUTTON"
+          },
+          {
+            "at": "qualifiers are not",
+            "event": "Qualifier labels absent from BUTTON; terracotta gap marker"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeConceptC3",
+          "props": {
+            "concept": "THE INTERFACE — Chain Complete, Qualifiers Absent",
+            "nodeA": "THE CHAIN",
+            "noteA": "Paper → Vendor Page → Announcement → Button\n\nEach hop cites something real.\nThe chain is complete.",
+            "accentA": false,
+            "nodeB": "THE BUTTON",
+            "noteB": "Any document. Any reader. Score returned on request.\n\nNo qualifiers visible at this address.",
+            "accentB": true,
+            "connector": "ends at",
+            "sparkLine": "The chain ends here. The qualifiers did not arrive."
+          },
+          "rendered": {
+            "out": "media/B15.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B15.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B15.mp4",
+        "filled_by": "media",
+        "at": "2026-08-20T08:42:36"
+      },
+      "actual_duration_s": 7.3
+    },
+    {
+      "beat_id": "B16",
+      "act": "four-address chain animated (MANIM)",
+      "narration_text": "Four addresses. Paper to vendor page to announcement to button. Every hop cites something real. Every hop is one step shorter than the one before. Nothing at any link is false.",
+      "estimated_duration_s": 13,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "show": [
+          {
+            "at": "0.0",
+            "event": "Four nodes horizontal: PAPER · VENDOR PAGE · ANNOUNCEMENT · BUTTON"
+          },
+          {
+            "at": "Paper to vendor page",
+            "event": "Arrow 1: PAPER → VENDOR PAGE"
+          },
+          {
+            "at": "to announcement",
+            "event": "Arrow 2: VENDOR PAGE → ANNOUNCEMENT"
+          },
+          {
+            "at": "to button",
+            "event": "Arrow 3: ANNOUNCEMENT → BUTTON"
+          },
+          {
+            "at": "Every hop cites something",
+            "event": "Green checkmarks on all arrows"
+          },
+          {
+            "at": "Nothing at any link",
+            "event": "All nodes green; chain complete"
+          }
+        ]
+      },
+      "graphic": {
+        "engine": "manim",
+        "manim": "B16_FourAddressChain",
+        "production_viz": {
+          "label": "four-address chain — each hop shorter",
+          "mechanic": "Four nodes left-to-right. Arrows animate sequentially. Green checkmarks at 'cites something real'. White canvas.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        }
+      },
+      "sub_beats": [
+        {
+          "at": "Paper to vendor page",
+          "event": "arrow 1 draws"
+        },
+        {
+          "at": "to announcement",
+          "event": "arrow 2 draws"
+        },
+        {
+          "at": "to button",
+          "event": "arrow 3 draws"
+        },
+        {
+          "at": "Every hop cites",
+          "event": "green checkmarks"
+        },
+        {
+          "at": "Nothing at any link",
+          "event": "all nodes pulse green"
+        }
+      ],
+      "actual_duration_s": 9.94,
+      "audio_file": "mp3/beat-B16.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B16.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-20T08:42:36"
+      }
+    },
+    {
+      "beat_id": "B17",
+      "act": "what fell off — both picks (MANIM, restructured)",
+      "narration_text": "What did not travel — from the report: thirteen point eight and twenty-one point nine stayed behind, along with the sentence calling Substack the exception. From the study: sixty-five percent, the pre-2019 corpus, the single faculty, the generator confound — and the sentence.",
+      "estimated_duration_s": 22,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "show": [
+          {
+            "at": "0.0",
+            "event": "Canvas split: LEFT 'FROM THE REPORT'; RIGHT 'FROM THE STUDY'"
+          },
+          {
+            "at": "from the report",
+            "event": "LEFT column: three qualifier labels appear"
+          },
+          {
+            "at": "thirteen point eight",
+            "event": "'13.8% GLOBAL AVG' peels off LEFT"
+          },
+          {
+            "at": "twenty-one point nine",
+            "event": "'21.9% SUBSTACK RATE' peels off LEFT"
+          },
+          {
+            "at": "sentence calling Substack",
+            "event": "'SUBSTACK WAS AN EXCEPTION' peels off LEFT"
+          },
+          {
+            "at": "From the study",
+            "event": "RIGHT column: five qualifier labels appear"
+          },
+          {
+            "at": "sixty-five percent",
+            "event": "'65% STRICT' peels off RIGHT"
+          },
+          {
+            "at": "pre-2019 corpus",
+            "event": "'PRE-2019 CORPUS' peels off RIGHT"
+          },
+          {
+            "at": "single faculty",
+            "event": "'ONE FACULTY' peels off RIGHT"
+          },
+          {
+            "at": "generator confound",
+            "event": "'GENERATOR CONFOUND' peels off RIGHT"
+          },
+          {
+            "at": "and the sentence",
+            "event": "'SHOULD NOT BE SOLE EVIDENCE' peels off RIGHT — terracotta, largest, last"
+          }
+        ]
+      },
+      "graphic": {
+        "engine": "manim",
+        "manim": "B17_WhatFellOff",
+        "production_viz": {
+          "label": "what fell off — symmetric, both picks",
+          "mechanic": "Two-column layout. LEFT: 13.8%, 21.9%, SUBSTACK EXCEPTION — each peels and falls. RIGHT: 65%, PRE-2019, ONE FACULTY, GENERATOR CONFOUND, SOLE EVIDENCE (terracotta, last, largest) — each peels. Final frame: both columns empty; '40% · 97.5% — BOTH CHOSEN'. White canvas.",
+          "note": "Symmetric structure load-bearing. Both sides equally visible.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        }
+      },
+      "sub_beats": [
+        {
+          "at": "thirteen point eight",
+          "event": "13.8% peels LEFT"
+        },
+        {
+          "at": "twenty-one point nine",
+          "event": "21.9% peels LEFT"
+        },
+        {
+          "at": "sentence calling Substack",
+          "event": "SUBSTACK WAS AN EXCEPTION peels LEFT"
+        },
+        {
+          "at": "sixty-five percent",
+          "event": "65% STRICT peels RIGHT"
+        },
+        {
+          "at": "pre-2019 corpus",
+          "event": "PRE-2019 peels RIGHT"
+        },
+        {
+          "at": "single faculty",
+          "event": "ONE FACULTY peels RIGHT"
+        },
+        {
+          "at": "generator confound",
+          "event": "GENERATOR CONFOUND peels RIGHT"
+        },
+        {
+          "at": "and the sentence",
+          "event": "SOLE EVIDENCE peels RIGHT — terracotta, largest, last"
+        }
+      ],
+      "audio_file": "mp3/beat-B17.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B17.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-20T08:42:36"
+      },
+      "actual_duration_s": 15.89
+    },
+    {
+      "beat_id": "BDTL",
+      "act": "THE DECIMAL TELL (MANIM)",
+      "narration_text": "Six numbers, all with decimal points: thirteen point eight, twenty-one point nine, twenty-five point seven two, sixty-five point zero, ninety-seven point five, zero point zero one. Precision was not the question. Selection was. The decimal does rhetorical work the measurement never authorised.",
+      "estimated_duration_s": 18,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "show": [
+          {
+            "at": "0.0",
+            "event": "Six numbers land one by one; decimal point highlights terracotta on each"
+          },
+          {
+            "at": "thirteen point eight",
+            "event": "13.8 appears — decimal pulses"
+          },
+          {
+            "at": "twenty-one point nine",
+            "event": "21.9 appears — decimal pulses"
+          },
+          {
+            "at": "twenty-five point seven two",
+            "event": "25.72 appears — decimal pulses"
+          },
+          {
+            "at": "sixty-five point zero",
+            "event": "65.0 appears — decimal pulses"
+          },
+          {
+            "at": "ninety-seven point five",
+            "event": "97.5 appears — decimal pulses"
+          },
+          {
+            "at": "zero point zero one",
+            "event": "0.01 appears — decimal pulses"
+          },
+          {
+            "at": "Precision was not",
+            "event": "All six on screen. Bottom: 'PRECISION WAS NOT THE QUESTION'"
+          },
+          {
+            "at": "Selection was",
+            "event": "'SELECTION WAS.' — terracotta"
+          }
+        ]
+      },
+      "graphic": {
+        "engine": "manim",
+        "manim": "BDTL_DecimalTell",
+        "production_viz": {
+          "label": "decimal tell — six figures, decimals highlight, selection is the point",
+          "mechanic": "Six numbers in 2×3 grid, EB Garamond large. Each appears on spoken cue; decimal flashes terracotta briefly. All six visible from '65.0' onward. Bottom: 'PRECISION WAS NOT THE QUESTION · SELECTION WAS.' White canvas.",
+          "note": "13.8, 21.9, 25.72, 0.01 require live verification; 65.0 and 97.5 are primary-source verified.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        }
+      },
+      "sub_beats": [
+        {
+          "at": "thirteen point eight",
+          "event": "13.8 appears, decimal pulses"
+        },
+        {
+          "at": "twenty-one point nine",
+          "event": "21.9 appears, decimal pulses"
+        },
+        {
+          "at": "twenty-five point seven two",
+          "event": "25.72 appears, decimal pulses"
+        },
+        {
+          "at": "sixty-five point zero",
+          "event": "65.0 appears, decimal pulses"
+        },
+        {
+          "at": "ninety-seven point five",
+          "event": "97.5 appears, decimal pulses"
+        },
+        {
+          "at": "zero point zero one",
+          "event": "0.01 appears, decimal pulses"
+        },
+        {
+          "at": "Selection was",
+          "event": "SELECTION WAS. — terracotta"
+        }
+      ],
+      "audio_file": "mp3/beat-BDTL.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/BDTL.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-20T08:42:36"
+      },
+      "actual_duration_s": 16.62
+    },
+    {
+      "beat_id": "BVDT",
+      "act": "verdict",
+      "narration_text": "Nobody lied. The platform reached past the two numbers about Substack — its own rate of twenty-one point nine percent, the global average of thirteen point eight — to the highest figure in the report. The vendor reached past sixty-five percent strict to ninety-seven point five inclusive. Both true. Both chosen. A chain that loses a qualifier per hop needs no bad actor at any link. It needs only someone, at each address, to reach for the number that sounds best.",
+      "estimated_duration_s": 30,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": "0.0",
+            "event": "ClaudeVerdictArtifact opens; artifact title: 'Pick a Number, Any Number'"
+          },
+          {
+            "at": "Nobody lied",
+            "event": "Artifact heading: 'THE VERDICT'"
+          },
+          {
+            "at": "The platform reached",
+            "event": "Artifact lines type in sequentially"
+          },
+          {
+            "at": "Both true. Both chosen",
+            "event": "Terracotta accent on 'Both chosen'"
+          },
+          {
+            "at": "loses a qualifier per hop",
+            "event": "Final verdict lines; 'sounds best' in terracotta"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeVerdictArtifact",
+          "props": {
+            "artifactTitle": "Pick a Number, Any Number",
+            "artifactHeading": "THE VERDICT",
+            "artifactLines": [
+              "Nobody lied.",
+              "The platform reached past 21.9% and 13.8% — the numbers about Substack —",
+              "to 40%, the highest figure in the report.",
+              "The vendor reached past 65% strict to 97.5% inclusive.",
+              "Both true. Both chosen.",
+              "A chain that loses a qualifier per hop needs no bad actor at any link.",
+              "It needs only someone, at each address, to reach for the number that sounds best."
+            ]
+          },
+          "rendered": {
+            "out": "media/BVDT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-BVDT.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BVDT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-20T08:42:36"
+      },
+      "actual_duration_s": 22.66
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "handoff",
+      "narration_text": "Your turn. The prompt: take a statistic you've quoted recently — trace it back one source at a time until you reach the people who measured it, and tell me what qualifier fell off at each step. This is a five-minute habit. And this film gives you a place to start: Substack's post and Pangram's evaluations page are both named and live. You can run the trace right now.",
+      "estimated_duration_s": 26,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": "0.0",
+            "event": "ClaudeComposerAsk: greeting 'Your turn.'"
+          },
+          {
+            "at": "The prompt",
+            "event": "Prompt types into composer verbatim"
+          },
+          {
+            "at": "trace it back",
+            "event": "send button arms terracotta"
+          },
+          {
+            "at": "five-minute habit",
+            "event": "running text: 'paste this into Claude…'"
+          },
+          {
+            "at": "Substack's post",
+            "event": "Output hint: the addresses are named and live"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "topic": "YOUR TURN",
+            "segment": "in for Bear",
+            "greeting": "Your turn.",
+            "command": "Take a statistic I've quoted recently. Trace it back one source at a time until you reach the people who measured it, and tell me what qualifier fell off at each step.",
+            "runningText": "paste this into Claude…",
+            "output": [
+              "the qualifier that fell off first is usually the one that mattered",
+              "the addresses in this film are named and live — start here"
+            ],
+            "folderLabel": "claude-liam-two-numbers-one-report/"
+          },
+          "rendered": {
+            "out": "media/BHTF.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-BHTF.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BHTF.mp4",
+        "filled_by": "media",
+        "at": "2026-08-20T08:42:36"
+      },
+      "actual_duration_s": 18.39
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "narration_text": "Pick a Number, Any Number. Liam, in for Bear.",
+      "estimated_duration_s": 7,
+      "tail_silence_s": 1.0,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": "0.0",
+            "event": "ClaudeTitleOutro: title poster-style"
+          },
+          {
+            "at": "Pick a Number",
+            "event": "Title: 'Pick a Number, Any Number.' with terracotta period"
+          },
+          {
+            "at": "Liam, in for Bear",
+            "event": "@NikBearBrown handle; mascot"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "props": {
+            "title": "Pick a Number, Any Number.",
+            "handle": "@NikBearBrown",
+            "subline": "",
+            "slug": "claude-liam-two-numbers-one-report"
+          },
+          "rendered": {
+            "out": "media/BOUT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-BOUT.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BOUT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-20T08:42:36"
+      },
+      "actual_duration_s": 3.11
+    }
+  ]
+}

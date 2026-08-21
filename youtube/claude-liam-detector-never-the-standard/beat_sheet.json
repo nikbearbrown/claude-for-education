@@ -1,0 +1,2346 @@
+{
+  "metadata": {
+    "slug": "claude-liam-detector-never-the-standard",
+    "title": "The Detector Was Never the Standard",
+    "topic": "Claude for Education",
+    "purpose": "deep-explainer: five linked mechanisms showing how AI similarity detection replaced a doctoral integrity standard it was never designed to be",
+    "clock": "narration",
+    "style_preset": "claude-liam",
+    "channel": "claude-liam",
+    "channel_title": "@NikBearBrown",
+    "engine": "kokoro",
+    "voice": "am_onyx",
+    "palette": "claude",
+    "register": "Teardown",
+    "book": "claude-for-education",
+    "acts": [
+      "I — The Trace",
+      "II — The Instrument",
+      "III — The Rules of 2026",
+      "IV — The Counterfactual",
+      "V — The New Instruments"
+    ],
+    "build": {
+      "at": "2026-08-17T00:02:49",
+      "cut": "master",
+      "filled": 35,
+      "of": 43,
+      "slates": [
+        "B02",
+        "B03",
+        "B13",
+        "B14",
+        "B22",
+        "B29",
+        "B30",
+        "B36"
+      ],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "COLD OPEN",
+      "lane": "REMOTION",
+      "estimated_duration_s": 22,
+      "actual_duration_s": 19.75,
+      "audio_file": "mp3/beat-B00.mp3",
+      "lead_silence_s": 0.5,
+      "tail_silence_s": 1.5,
+      "new_visual_element": "ClaudeComposerAsk cold open — ask types, answer resolves",
+      "narration_text": "This is Liam, in for Bear. The answer on screen is no — and not because nobody looked. The text the 2015 case left behind was readable by the instrument that found it. Text produced in 2026 is not. What this episode examines: what the detector was actually measuring, what the rule it came to stand for actually says, and why those two things stopped being the same one.",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Salaam, Liam",
+            "command": "A 2015 PhD thesis reused 322 sentences from someone else's. If it had been written in 2026, would anyone have found out?",
+            "runningText": "searching…",
+            "output": [
+              "No.",
+              "The text is different.",
+              "The instrument cannot see it.",
+              "That gap is the episode."
+            ],
+            "sparkLine": "Salaam, Liam",
+            "segment": "The Detector Was Never the Standard"
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": ""
+          }
+        }
+      },
+      "remotion": "ClaudeComposerAsk",
+      "show": [
+        {
+          "at": 0.0,
+          "event": "Greeting appears: 'Salaam, Liam' in EB Garamond serif above composer"
+        },
+        {
+          "at": 0.1,
+          "event": "Ask types in: 'A 2015 PhD thesis reused 322 sentences from someone else’s. If it had been written in 2026, would anyone have found out?'"
+        },
+        {
+          "at": 0.55,
+          "event": "Send button arms in terracotta; running indicator pulses"
+        },
+        {
+          "at": 0.65,
+          "event": "Output lines appear: 'No. / The text is different. / The instrument cannot see it. / That gap is the episode.'"
+        },
+        {
+          "at": 0.75,
+          "event": "Liam narration begins over settled composer"
+        }
+      ],
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "media",
+        "at": "2026-08-17T00:02:49"
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "ACT I",
+      "lane": "CARD",
+      "estimated_duration_s": 5,
+      "actual_duration_s": 4.03,
+      "audio_file": "mp3/beat-B01.mp3",
+      "lead_silence_s": null,
+      "tail_silence_s": null,
+      "new_visual_element": "Act I title card — 'I. The Trace'",
+      "narration_text": "Act one. The trace. Where the evidence came from, and where it ended.",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "SparkLineActCard",
+          "props": {}
+        }
+      },
+      "remotion": "SparkLineActCard",
+      "props": {
+        "actNumber": "I.",
+        "actTitle": "The Trace"
+      },
+      "show": [
+        {
+          "at": 0.0,
+          "event": "Cream card — 'I.' fades in terracotta, then 'The Trace' in EB Garamond serif"
+        },
+        {
+          "at": 0.4,
+          "event": "Terracotta hairline draws beneath the title"
+        }
+      ],
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B01.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-17T00:02:49"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "ACT I",
+      "lane": "VOX",
+      "estimated_duration_s": 11.3,
+      "actual_duration_s": 12.74,
+      "audio_file": "mp3/beat-B02.mp3",
+      "lead_silence_s": null,
+      "tail_silence_s": null,
+      "new_visual_element": "Pantry still: 2009 Brunel thesis title page — kenburns slow zoom, Run R1 b1",
+      "narration_text": "2009. A doctoral thesis submitted to Brunel University. Its subject: reflective practice in student teachers. A framework its author built because no existing model in the literature fit what he was studying.",
+      "shot": {
+        "type": "STILL",
+        "source": "archive",
+        "motion": "kenburns",
+        "focus": [
+          0.5,
+          0.3
+        ],
+        "vox_run": "R1",
+        "handoff": {
+          "camera": {
+            "x": 0.5,
+            "y": 0.3,
+            "scale": 1.5
+          },
+          "objects": [
+            {
+              "id": "title-page-brunel-2009",
+              "x": 0.5,
+              "y": 0.5,
+              "scale": 1.0,
+              "opacity": 1.0
+            }
+          ]
+        }
+      },
+      "show": [
+        {
+          "at": 0.0,
+          "event": "2009 title page on cream stage, desaturated ~80%; terracotta label 'Brunel, 2009' springs in lower-left"
+        },
+        {
+          "at": 0.15,
+          "event": "Kenburns: slow drift toward the title text cluster at top of page"
+        },
+        {
+          "at": 0.6,
+          "event": "Serif label underlines the subject clause in terracotta as narration reaches it"
+        },
+        {
+          "at": 0.85,
+          "event": "Frame holds on title-area crop; camera at handoff coordinates"
+        }
+      ],
+      "pantry": {
+        "bid": "B02",
+        "subject": "2009 Brunel University thesis title page",
+        "tier": 2,
+        "note": "Public repository document — verify rights on the specific item. EThOS or Brunel repository. Fallback: typeset recreation labelled 'Brunel, 2009 (recreation)'."
+      },
+      "build": {
+        "status": "SLATE",
+        "src": null,
+        "filled_by": null,
+        "at": "2026-08-17T00:02:49",
+        "needs": "YOU → drop a historical image at media/B02.png (or .mp4)",
+        "suggested": "find: Pantry still: 2009 Brunel thesis title page — kenburns slow zoom, Run R1 b1"
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "ACT I",
+      "lane": "VOX",
+      "estimated_duration_s": 12,
+      "actual_duration_s": 13.65,
+      "audio_file": "mp3/beat-B03.mp3",
+      "lead_silence_s": null,
+      "tail_silence_s": null,
+      "new_visual_element": "Pantry still: 2015 LJMU thesis title page — cut-match, Run R1 b2",
+      "narration_text": "2015. A thesis submitted to Liverpool John Moores. Subject: peer monitoring to inform reflective practice within action research. Six years on. Nearly the same title. The two theses sit side by side in the record.",
+      "shot": {
+        "type": "STILL",
+        "source": "archive",
+        "motion": "kenburns",
+        "focus": [
+          0.5,
+          0.3
+        ],
+        "vox_run": "R1"
+      },
+      "show": [
+        {
+          "at": 0.0,
+          "event": "Cut-match: 2015 LJMU title page replaces 2009 page in identical frame position; terracotta label 'LJMU, 2015' springs in"
+        },
+        {
+          "at": 0.3,
+          "event": "Shared title clause underlined in terracotta — same position as the B02 underline; the match is visual"
+        },
+        {
+          "at": 0.7,
+          "event": "Frame holds; camera drifts slightly to settle"
+        }
+      ],
+      "pantry": {
+        "bid": "B03",
+        "subject": "2015 LJMU thesis title page",
+        "tier": 2,
+        "note": "May be unavailable — LJMU record blocks automated access; may be withdrawn. Fallback: typeset recreation labelled 'LJMU, 2015 (recreation)'. If unavailable and recreation declined, convert to Remotion C2 card."
+      },
+      "build": {
+        "status": "SLATE",
+        "src": null,
+        "filled_by": null,
+        "at": "2026-08-17T00:02:49",
+        "needs": "YOU → drop a historical image at media/B03.png (or .mp4)",
+        "suggested": "find: Pantry still: 2015 LJMU thesis title page — cut-match, Run R1 b2"
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "ACT I",
+      "lane": "REMOTION",
+      "estimated_duration_s": 13,
+      "actual_duration_s": 11.14,
+      "audio_file": "mp3/beat-B04.mp3",
+      "lead_silence_s": null,
+      "tail_silence_s": null,
+      "new_visual_element": "C2 rhetorical — two titles side by side, shared clause underlined terracotta",
+      "narration_text": "The shared clause in those two titles is not a coincidence of subject. It is the same clause — the same sequence of words, at the same position in the heading, linking the same pair of concepts.",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "FormACard",
+          "props": {
+            "lines": [
+              "The shared clause in those two titles is not a",
+              "coincidence of subject. It is the same clause — the",
+              "same sequence of words, at the same position in the",
+              "heading, linking the same pair of concepts."
+            ],
+            "dark": false
+          },
+          "rendered": {
+            "out": "media/B04.mp4",
+            "at": ""
+          }
+        }
+      },
+      "remotion": "C2TwoTitles",
+      "show": [
+        {
+          "at": 0.0,
+          "event": "Two thesis titles in EB Garamond, left/right columns on cream"
+        },
+        {
+          "at": 0.35,
+          "event": "On 'not a coincidence': terracotta underline draws under shared clause in both columns simultaneously"
+        },
+        {
+          "at": 0.65,
+          "event": "Rest of text dims to 40% opacity; shared clause is the focal point"
+        }
+      ],
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B04.mp4",
+        "filled_by": "media",
+        "at": "2026-08-17T00:02:49"
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "ACT I",
+      "lane": "MANIM",
+      "estimated_duration_s": 14,
+      "actual_duration_s": 16.3,
+      "audio_file": "mp3/beat-B05.mp3",
+      "lead_silence_s": null,
+      "tail_silence_s": null,
+      "new_visual_element": "Isotype grid: 322 matched sentences + 179 pairs; unverified-source caveat on screen",
+      "narration_text": "An independent analysis found three hundred and twenty-two matching sentences and one hundred and seventy-nine pairs sharing twelve or more consecutive identical words. Before we use these numbers: they come from a single pseudonymous analysis that no institution has independently tested.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own"
+      },
+      "graphic": {
+        "manim": "B05_MatchCountIsotype",
+        "production_viz": {
+          "label": "Isotype grid — matched sentences and high-similarity pairs",
+          "mechanic": "322 filled circles in a grid (each = one matched sentence); counter ticks to 322; 179 highlighted terracotta (each = one 12+-word pair); caveat line 'Source: single pseudonymous analysis — not independently verified' at bottom throughout",
+          "colors": [
+            "#3D3929",
+            "#D97757",
+            "#F2F0E9"
+          ],
+          "note": "Caveat MUST be visible on screen throughout this beat."
+        }
+      },
+      "show": [
+        {
+          "at": 0.0,
+          "event": "Empty grid on cream canvas"
+        },
+        {
+          "at": 0.2,
+          "event": "Circles fill; counter ticks to 322 on 'three hundred and twenty-two'"
+        },
+        {
+          "at": 0.5,
+          "event": "179 circles highlight terracotta; sub-counter '179 pairs / 12+ identical words' appears"
+        },
+        {
+          "at": 0.75,
+          "event": "Caveat line appears: 'Source: one pseudonymous analysis — not independently verified by any institution'"
+        }
+      ],
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B05.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-17T00:02:49"
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "ACT I",
+      "lane": "MANIM",
+      "estimated_duration_s": 14,
+      "actual_duration_s": 14.29,
+      "audio_file": "mp3/beat-B06.mp3",
+      "lead_silence_s": null,
+      "tail_silence_s": null,
+      "new_visual_element": "Grouped bars: 20.8% intro/lit-review vs 1.1% methodology",
+      "narration_text": "The overlap was not spread evenly. In the introduction and literature review: twenty point eight percent of sentences matched. In the methodology and findings: one point one percent. He conducted his own fieldwork. The original research is in the parts that count.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own"
+      },
+      "graphic": {
+        "manim": "B06_ConcentrationBars",
+        "production_viz": {
+          "label": "Two-bar comparison — overlap concentration by section",
+          "mechanic": "Horizontal bars: 'Introduction / Literature Review' (20.8%) and 'Methodology / Data / Findings' (1.1%); bars grow to values on spoken figure; source caveat repeated at bottom",
+          "colors": [
+            "#D97757",
+            "#3D3929",
+            "#F2F0E9"
+          ]
+        }
+      },
+      "show": [
+        {
+          "at": 0.0,
+          "event": "Two labelled bar slots on cream canvas"
+        },
+        {
+          "at": 0.2,
+          "event": "'Introduction / Literature Review' bar grows to 20.8%; terracotta label drops in"
+        },
+        {
+          "at": 0.5,
+          "event": "'Methodology / Data / Findings' bar grows to 1.1%; ink label drops in"
+        },
+        {
+          "at": 0.75,
+          "event": "'Fieldwork: his own' text line; source caveat at bottom"
+        }
+      ],
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B06.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-17T00:02:49"
+      }
+    },
+    {
+      "beat_id": "B07",
+      "act": "ACT I",
+      "lane": "REMOTION",
+      "estimated_duration_s": 14.7,
+      "actual_duration_s": 16.98,
+      "audio_file": "mp3/beat-B07.mp3",
+      "lead_silence_s": null,
+      "tail_silence_s": 1.5,
+      "new_visual_element": "Timeline card: 2023 → Aug 2026 five-event sequence",
+      "narration_text": "2023: the analysis circulates and the case is flagged. A panel convenes in early 2026 and makes a finding. July: the finding becomes public. Fifth of August: he resigns. Fourteenth of August: he is found dead, aged forty-one. The misconduct was never formally adjudicated.",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "FormACard",
+          "props": {
+            "lines": [
+              "2023: the analysis circulates and the case is flagged.",
+              "A panel convenes in early 2026 and makes a finding.",
+              "July: the finding becomes public. Fifth of August: he",
+              "resigns. Fourteenth of August: he is found dead, aged",
+              "forty-one. The misconduct was never formally",
+              "adjudicated."
+            ],
+            "dark": false
+          },
+          "rendered": {
+            "out": "media/B07.mp4",
+            "at": ""
+          }
+        }
+      },
+      "remotion": "TimelineCard",
+      "show": [
+        {
+          "at": 0.0,
+          "event": "Horizontal timeline on cream, five dots unlabelled"
+        },
+        {
+          "at": 0.1,
+          "event": "First dot lights terracotta: '2023 — flagged'"
+        },
+        {
+          "at": 0.25,
+          "event": "Second dot: 'Feb 2026 — honest error (internal panel)'"
+        },
+        {
+          "at": 0.45,
+          "event": "Third dot: 'July 2026 — public'"
+        },
+        {
+          "at": 0.6,
+          "event": "Fourth dot: '5 Aug — resigns'"
+        },
+        {
+          "at": 0.75,
+          "event": "Fifth dot lights; pause; label: '14 Aug — found dead, aged 41'"
+        },
+        {
+          "at": 0.9,
+          "event": "Below timeline in small italic: 'Misconduct never formally adjudicated.'"
+        }
+      ],
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B07.mp4",
+        "filled_by": "media",
+        "at": "2026-08-17T00:02:49"
+      }
+    },
+    {
+      "beat_id": "B08",
+      "act": "ACT II",
+      "lane": "REMOTION",
+      "estimated_duration_s": 5,
+      "actual_duration_s": 2.01,
+      "audio_file": "mp3/beat-B08.mp3",
+      "lead_silence_s": 0.3,
+      "tail_silence_s": null,
+      "new_visual_element": "Act II spark-line opener — 'II. The Instrument'",
+      "narration_text": "Act two. The instrument.",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "FormACard",
+          "props": {
+            "lines": [
+              "Act two. The instrument."
+            ],
+            "dark": false
+          },
+          "rendered": {
+            "out": "media/B08.mp4",
+            "at": ""
+          }
+        }
+      },
+      "remotion": "SparkLineActCard",
+      "props": {
+        "actNumber": "II.",
+        "actTitle": "The Instrument"
+      },
+      "show": [
+        {
+          "at": 0.0,
+          "event": "Spark line with act number 'II.' in terracotta; 'The Instrument' types in serif beneath"
+        }
+      ],
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B08.mp4",
+        "filled_by": "media",
+        "at": "2026-08-17T00:02:49"
+      }
+    },
+    {
+      "beat_id": "B09",
+      "act": "ACT II",
+      "lane": "MANIM",
+      "estimated_duration_s": 13,
+      "actual_duration_s": 11.48,
+      "audio_file": "mp3/beat-B09.mp3",
+      "lead_silence_s": null,
+      "tail_silence_s": null,
+      "new_visual_element": "State card: 'Similarity ≠ Dishonesty'",
+      "narration_text": "A similarity score is not a measure of dishonesty. It measures one thing: how much of this document already exists somewhere else. That is not nothing — but it is not the thing the proceeding treated it as.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own"
+      },
+      "graphic": {
+        "manim": "B09_SimilarityStateCard",
+        "production_viz": {
+          "label": "State card — definition of a similarity score",
+          "mechanic": "Large EB Garamond: 'Similarity score ≠ dishonesty'; below: 'Measures: overlap with existing documents.'; terracotta underline on '≠ dishonesty'",
+          "colors": [
+            "#3D3929",
+            "#D97757",
+            "#F2F0E9"
+          ]
+        }
+      },
+      "show": [
+        {
+          "at": 0.0,
+          "event": "'Similarity score' appears large on cream canvas"
+        },
+        {
+          "at": 0.2,
+          "event": "'≠ dishonesty' joins in terracotta"
+        },
+        {
+          "at": 0.45,
+          "event": "Definition: 'Measures: overlap with existing documents' appears"
+        },
+        {
+          "at": 0.8,
+          "event": "'not the thing the proceeding treated it as.' — last clause underlined terracotta"
+        }
+      ],
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B09.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-17T00:02:49"
+      }
+    },
+    {
+      "beat_id": "B10",
+      "act": "ACT II",
+      "lane": "REMOTION",
+      "estimated_duration_s": 13,
+      "actual_duration_s": 14.31,
+      "audio_file": "mp3/beat-B10.mp3",
+      "lead_silence_s": null,
+      "tail_silence_s": null,
+      "new_visual_element": "C3 concept: two-corpus Venn; expected intersection = zero",
+      "narration_text": "Between two independently written theses on overlapping subjects, the expected number of near-identical sentences — twelve or more consecutive identical words — is not \"small.\" It is zero. Prose does not collide at sentence length by accident.",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "FormACard",
+          "props": {
+            "lines": [
+              "Between two independently written theses on overlapping",
+              "subjects, the expected number of near-identical",
+              "sentences — twelve or more consecutive identical words",
+              "— is not \"small.\" It is zero. Prose does not collide at",
+              "sentence length by accident."
+            ],
+            "dark": false
+          },
+          "rendered": {
+            "out": "media/B10.mp4",
+            "at": ""
+          }
+        }
+      },
+      "remotion": "C3ZeroExpected",
+      "show": [
+        {
+          "at": 0.0,
+          "event": "Two labelled circles on cream: 'Thesis A' and 'Thesis B', overlapping"
+        },
+        {
+          "at": 0.25,
+          "event": "Intersection zone shows '?' "
+        },
+        {
+          "at": 0.55,
+          "event": "On 'It is zero': intersection shrinks to hairline; '?' replaced with '0'"
+        },
+        {
+          "at": 0.75,
+          "event": "'Prose does not collide at sentence length by accident.' appears below"
+        }
+      ],
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B10.mp4",
+        "filled_by": "media",
+        "at": "2026-08-17T00:02:49"
+      }
+    },
+    {
+      "beat_id": "B11",
+      "act": "ACT II",
+      "lane": "MANIM",
+      "estimated_duration_s": 13,
+      "actual_duration_s": 14.29,
+      "audio_file": "mp3/beat-B11.mp3",
+      "lead_silence_s": null,
+      "tail_silence_s": null,
+      "new_visual_element": "Control comparison: matched pair vs same-field control — 179 vs 0",
+      "narration_text": "The analysis ran a near control: another doctorate on reflective practice, same core literature, different author. Zero matches per million pairs at the high-similarity threshold. This is what background noise looks like for prose. It looks like silence.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own"
+      },
+      "graphic": {
+        "manim": "B11_ControlDesign",
+        "production_viz": {
+          "label": "Control comparison — matched pair vs same-field control",
+          "mechanic": "Two columns: 'Matched pair' (terracotta, high count) and 'Control: same field, different author' (ink, 0); source caveat visible",
+          "colors": [
+            "#D97757",
+            "#3D3929",
+            "#F2F0E9"
+          ]
+        }
+      },
+      "show": [
+        {
+          "at": 0.0,
+          "event": "Two columns unlabelled"
+        },
+        {
+          "at": 0.2,
+          "event": "Left: 'Matched pair' — hit count animates to 16.1/M (or 179 pairs equivalent)"
+        },
+        {
+          "at": 0.5,
+          "event": "Right: 'Same-field control' — count stays at 0; 'Zero.' in large type"
+        },
+        {
+          "at": 0.8,
+          "event": "'Background noise for prose: silence.' appears below"
+        }
+      ],
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B11.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-17T00:02:49"
+      }
+    },
+    {
+      "beat_id": "B12",
+      "act": "ACT II",
+      "lane": "MANIM",
+      "estimated_duration_s": 11,
+      "actual_duration_s": 12.03,
+      "audio_file": "mp3/beat-B12.mp3",
+      "lead_silence_s": null,
+      "tail_silence_s": null,
+      "new_visual_element": "Ratio bars: 16.1 vs 0.009 per million; ~1,800×",
+      "narration_text": "On the twelve-identical-words metric: sixteen point one per million for the matched pair, nought point nought nought nine for the controls. Roughly eighteen hundred times. Again: from the same single, unverified analysis.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own"
+      },
+      "graphic": {
+        "manim": "B12_RatioBars",
+        "production_viz": {
+          "label": "Ratio bars — per-million comparison",
+          "mechanic": "Two horizontal bars: '16.1 / million' (terracotta, long) and '0.009 / million' (ink, near-zero); ratio '~1,800×' appears in terracotta; caveat at bottom",
+          "colors": [
+            "#D97757",
+            "#3D3929",
+            "#F2F0E9"
+          ]
+        }
+      },
+      "show": [
+        {
+          "at": 0.0,
+          "event": "Two bar slots: 'Matched pair' and 'Control'"
+        },
+        {
+          "at": 0.2,
+          "event": "Matched bar grows to 16.1; terracotta label"
+        },
+        {
+          "at": 0.45,
+          "event": "Control bar: tiny stub at 0.009"
+        },
+        {
+          "at": 0.65,
+          "event": "'~1,800×' terracotta between bars"
+        },
+        {
+          "at": 0.85,
+          "event": "Caveat: 'Source: single pseudonymous analysis — unverified' small at bottom"
+        }
+      ],
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B12.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-17T00:02:49"
+      }
+    },
+    {
+      "beat_id": "B13",
+      "act": "ACT II",
+      "lane": "VOX",
+      "estimated_duration_s": 9,
+      "actual_duration_s": 7.64,
+      "audio_file": "mp3/beat-B13.mp3",
+      "lead_silence_s": null,
+      "tail_silence_s": null,
+      "new_visual_element": "Pantry still: pre-digital library index card, tight crop — Run R2 b1",
+      "narration_text": "Before any of this was software, it was a cabinet. Every word of every book, indexed by where it appeared. A clerk's job, then a machine's.",
+      "shot": {
+        "type": "STILL",
+        "source": "archive",
+        "motion": "kenburns",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "vox_run": "R2",
+        "handoff": {
+          "camera": {
+            "x": 0.5,
+            "y": 0.48,
+            "scale": 2.2
+          },
+          "objects": [
+            {
+              "id": "index-card",
+              "x": 0.5,
+              "y": 0.5,
+              "scale": 1.0,
+              "opacity": 1.0
+            }
+          ]
+        }
+      },
+      "show": [
+        {
+          "at": 0.0,
+          "event": "Index card still, tight crop, on cream; desaturated; terracotta label 'Before software.'"
+        },
+        {
+          "at": 0.3,
+          "event": "Kenburns: slow zoom inward toward handwritten text on card"
+        },
+        {
+          "at": 0.8,
+          "event": "Frame holds at handoff scale"
+        }
+      ],
+      "pantry": {
+        "bid": "B13",
+        "subject": "Pre-digital library index card — handwritten, close crop",
+        "tier": 1,
+        "note": "Generic. Run pantry_search.py 'library index card catalog handwriting'. Must match B14 register for run continuity."
+      },
+      "build": {
+        "status": "SLATE",
+        "src": null,
+        "filled_by": null,
+        "at": "2026-08-17T00:02:49",
+        "needs": "YOU → drop a historical image at media/B13.png (or .mp4)",
+        "suggested": "find: Pantry still: pre-digital library index card, tight crop — Run R2 b1"
+      }
+    },
+    {
+      "beat_id": "B14",
+      "act": "ACT II",
+      "lane": "VOX",
+      "estimated_duration_s": 9,
+      "actual_duration_s": 10.03,
+      "audio_file": "mp3/beat-B14.mp3",
+      "lead_silence_s": null,
+      "tail_silence_s": null,
+      "new_visual_element": "Pantry still: card catalogue cabinet, wide — Run R2 b2 pull-back",
+      "narration_text": "The mechanism never changed. Sort every position, find the repeats. The digital version is that cabinet with a web crawl attached — faster, not fundamentally smarter.",
+      "shot": {
+        "type": "STILL",
+        "source": "archive",
+        "motion": "kenburns",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "vox_run": "R2"
+      },
+      "show": [
+        {
+          "at": 0.0,
+          "event": "Cabinet wide shot; camera begins at handoff scale (tight) and pulls back"
+        },
+        {
+          "at": 0.4,
+          "event": "Hundreds of drawers visible; label 'Sort. Find repeats.' overlays"
+        },
+        {
+          "at": 0.75,
+          "event": "Small caption: 'That cabinet + a web crawl = the digital instrument'"
+        }
+      ],
+      "pantry": {
+        "bid": "B14",
+        "subject": "Card catalogue cabinet, wide view — library, many drawers",
+        "tier": 1,
+        "note": "Generic. Run pantry_search.py 'card catalog cabinet library drawers'. Must match B13 register."
+      },
+      "build": {
+        "status": "SLATE",
+        "src": null,
+        "filled_by": null,
+        "at": "2026-08-17T00:02:49",
+        "needs": "YOU → drop a historical image at media/B14.png (or .mp4)",
+        "suggested": "find: Pantry still: card catalogue cabinet, wide — Run R2 b2 pull-back"
+      }
+    },
+    {
+      "beat_id": "B15",
+      "act": "ACT II",
+      "lane": "REMOTION",
+      "estimated_duration_s": 13,
+      "actual_duration_s": 12.16,
+      "audio_file": "mp3/beat-B15.mp3",
+      "lead_silence_s": null,
+      "tail_silence_s": 1.5,
+      "new_visual_element": "C3 — the turn: instrument works / never measured credit / we let it stand in",
+      "narration_text": "So the instrument works. It finds string collisions, deterministically, at scale. What it never did was measure whether credit was owed. We let it stand in for that. That substitution is the move this episode is about.",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "FormACard",
+          "props": {
+            "lines": [
+              "So the instrument works. It finds string collisions,",
+              "deterministically, at scale. What it never did was",
+              "measure whether credit was owed. We let it stand in for",
+              "that. That substitution is the move this episode is",
+              "about."
+            ],
+            "dark": false
+          },
+          "rendered": {
+            "out": "media/B15.mp4",
+            "at": ""
+          }
+        }
+      },
+      "remotion": "C3TheTurn",
+      "show": [
+        {
+          "at": 0.0,
+          "event": "'The instrument works.' large; sub-line: 'String collisions — deterministic, at scale.'"
+        },
+        {
+          "at": 0.4,
+          "event": "Reframe: original text dims; 'Never measured: whether credit was owed.' rises terracotta"
+        },
+        {
+          "at": 0.7,
+          "event": "'We let it stand in for that.' underlined on 'stand in for'"
+        },
+        {
+          "at": 0.9,
+          "event": "'That substitution.' isolated on screen"
+        }
+      ],
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B15.mp4",
+        "filled_by": "media",
+        "at": "2026-08-17T00:02:49"
+      }
+    },
+    {
+      "beat_id": "B16",
+      "act": "ACT III",
+      "lane": "CARD",
+      "estimated_duration_s": 4,
+      "actual_duration_s": 3.37,
+      "audio_file": "mp3/beat-B16.mp3",
+      "lead_silence_s": 0.3,
+      "tail_silence_s": null,
+      "new_visual_element": "Act III title card — 'III. The Rules of 2026'",
+      "narration_text": "Act three. The rules of 2026.",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "SparkLineActCard",
+          "props": {}
+        }
+      },
+      "remotion": "SparkLineActCard",
+      "props": {
+        "actNumber": "III.",
+        "actTitle": "The Rules of 2026"
+      },
+      "show": [
+        {
+          "at": 0.0,
+          "event": "'III.' terracotta; 'The Rules of 2026' in serif beneath"
+        }
+      ],
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B16.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-17T00:02:49"
+      }
+    },
+    {
+      "beat_id": "B17",
+      "act": "ACT III",
+      "lane": "REMOTION",
+      "estimated_duration_s": 13,
+      "actual_duration_s": 12.31,
+      "audio_file": "mp3/beat-B17.mp3",
+      "lead_silence_s": null,
+      "tail_silence_s": null,
+      "new_visual_element": "C2 question — 'write by hand / because purer?'",
+      "narration_text": "Here is the question the case never got asked. In 2026, is a doctoral candidate expected to write every sentence by hand — because a human hand is somehow purer than a human hand using a tool?",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "FormACard",
+          "props": {
+            "lines": [
+              "Here is the question the case never got asked. In 2026,",
+              "is a doctoral candidate expected to write every",
+              "sentence by hand — because a human hand is somehow",
+              "purer than a human hand using a tool?"
+            ],
+            "dark": false
+          },
+          "rendered": {
+            "out": "media/B17.mp4",
+            "at": ""
+          }
+        }
+      },
+      "remotion": "C2HandQuestion",
+      "show": [
+        {
+          "at": 0.0,
+          "event": "'The question the case never got asked.' in EB Garamond"
+        },
+        {
+          "at": 0.3,
+          "event": "'Write every sentence by hand…' types in; reaches ellipsis; pauses"
+        },
+        {
+          "at": 0.6,
+          "event": "'…because a human hand is purer?' completes; clause strikes through"
+        }
+      ],
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B17.mp4",
+        "filled_by": "media",
+        "at": "2026-08-17T00:02:49"
+      }
+    },
+    {
+      "beat_id": "B18",
+      "act": "ACT III",
+      "lane": "MANIM",
+      "estimated_duration_s": 9.0,
+      "actual_duration_s": 10.52,
+      "audio_file": "mp3/beat-B18.mp3",
+      "lead_silence_s": null,
+      "tail_silence_s": null,
+      "new_visual_element": "Manim quote card — Policy A: declaration required; drafting/structuring permitted",
+      "narration_text": "One doctoral institution's guidance permits generative tools with required declaration on the thesis form — including for assistance with drafting and structuring written material.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own"
+      },
+      "graphic": {
+        "manim": "B18_UCLQuoteCard",
+        "production_viz": {
+          "label": "Policy quote card — Institution A",
+          "mechanic": "EB Garamond quote block: 'Permitted: generative tools / Required: declared on the thesis declaration form / Including: drafting ideas · planning · structuring written material'; each item underlines in terracotta on narration",
+          "colors": [
+            "#D97757",
+            "#3D3929",
+            "#F2F0E9"
+          ],
+          "note": "DO NOT name the institution. Verify language against primary source before ship — FACTCHECK.md row 14."
+        }
+      },
+      "show": [
+        {
+          "at": 0.0,
+          "event": "Quote block on cream canvas"
+        },
+        {
+          "at": 0.25,
+          "event": "'Permitted: generative tools' underlines terracotta"
+        },
+        {
+          "at": 0.5,
+          "event": "'Required: declaration on thesis form' underlines"
+        },
+        {
+          "at": 0.7,
+          "event": "'Including: drafting ideas / planning / structuring written material' each underlines in sequence"
+        }
+      ],
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B18.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-17T00:02:49"
+      }
+    },
+    {
+      "beat_id": "B19",
+      "act": "ACT III",
+      "lane": "REMOTION",
+      "estimated_duration_s": 10.0,
+      "actual_duration_s": 9.71,
+      "audio_file": "mp3/beat-B19.mp3",
+      "lead_silence_s": null,
+      "tail_silence_s": null,
+      "new_visual_element": "C2 gloss — 'Structuring: permitted. Purity: absent from the policy.'",
+      "narration_text": "Read that. The tools are permitted. The obligation is disclosure. The purity argument is not anywhere in that policy — the institution did not build its rule around it.",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "FormACard",
+          "props": {
+            "lines": [
+              "Read that. The tools are permitted. The obligation is",
+              "disclosure. The purity argument is not anywhere in that",
+              "policy — the institution did not build its rule around",
+              "it."
+            ],
+            "dark": false
+          },
+          "rendered": {
+            "out": "media/B19.mp4",
+            "at": ""
+          }
+        }
+      },
+      "remotion": "C2Gloss",
+      "show": [
+        {
+          "at": 0.0,
+          "event": "'Read that again.' large on cream"
+        },
+        {
+          "at": 0.2,
+          "event": "'Structuring: permitted.' rises terracotta"
+        },
+        {
+          "at": 0.45,
+          "event": "'Disclosure item, not an offence.' appears beneath"
+        },
+        {
+          "at": 0.7,
+          "event": "'Purity argument: absent from the policy.' — 'absent' in terracotta"
+        }
+      ],
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B19.mp4",
+        "filled_by": "media",
+        "at": "2026-08-17T00:02:49"
+      }
+    },
+    {
+      "beat_id": "B20",
+      "act": "ACT III",
+      "lane": "MANIM",
+      "estimated_duration_s": 6.7,
+      "actual_duration_s": 8.11,
+      "audio_file": "mp3/beat-B20.mp3",
+      "lead_silence_s": null,
+      "tail_silence_s": null,
+      "new_visual_element": "Manim quote card — Policy B: rephrase / express your ideas / not substance",
+      "narration_text": "A second institution's guidance permits AI assistance in expressing your own ideas — improving how they read, not generating them.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own"
+      },
+      "graphic": {
+        "manim": "B20_KingsQuoteCard",
+        "production_viz": {
+          "label": "Policy quote card — Institution B",
+          "mechanic": "Quote block: 'Permitted: rewrite · rephrase · paraphrase your own work / Assistance in expressing your ideas. / Not: generation of substance.'; 'Not:' in terracotta",
+          "colors": [
+            "#D97757",
+            "#3D3929",
+            "#F2F0E9"
+          ],
+          "note": "Verify language against primary source — FACTCHECK.md row 15."
+        }
+      },
+      "show": [
+        {
+          "at": 0.0,
+          "event": "Quote block appears"
+        },
+        {
+          "at": 0.3,
+          "event": "'Rewrite · rephrase · paraphrase' — each underlines on narration"
+        },
+        {
+          "at": 0.6,
+          "event": "'Assistance in expressing your ideas.' appears"
+        },
+        {
+          "at": 0.8,
+          "event": "'Not: generation of substance.' rises terracotta"
+        }
+      ],
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B20.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-17T00:02:49"
+      }
+    },
+    {
+      "beat_id": "B21",
+      "act": "ACT III",
+      "lane": "MANIM",
+      "estimated_duration_s": 11.7,
+      "actual_duration_s": 11.01,
+      "audio_file": "mp3/beat-B21.mp3",
+      "lead_silence_s": null,
+      "tail_silence_s": null,
+      "new_visual_element": "Manim quote card — Policy B hinge: unreviewed sections prohibited; lit reviews named",
+      "narration_text": "The same guidance draws one clear line: inserting AI-generated sections you have not reviewed into your thesis. The line is not about where the words came from. It is about whether you read them.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own"
+      },
+      "graphic": {
+        "manim": "B21_KingsHingeCard",
+        "production_viz": {
+          "label": "Policy hinge — the one prohibition: unreviewed sections",
+          "mechanic": "'One prohibition:' header; 'Inserting unreviewed sections into your thesis.' bold with terracotta underline on 'unreviewed'; '(Literature reviews cited as the example.)' smaller; reframe: 'The line is not provenance — it is review.'",
+          "colors": [
+            "#D97757",
+            "#3D3929",
+            "#F2F0E9"
+          ],
+          "note": "Verify language — FACTCHECK.md row 16."
+        }
+      },
+      "show": [
+        {
+          "at": 0.0,
+          "event": "'One prohibition:' header"
+        },
+        {
+          "at": 0.25,
+          "event": "'Inserting unreviewed sections.' in bold; 'unreviewed' underlined terracotta"
+        },
+        {
+          "at": 0.55,
+          "event": "'(Literature reviews cited as the example.)' smaller type"
+        },
+        {
+          "at": 0.8,
+          "event": "Reframe: 'The line is not provenance. It is review.' — 'review' terracotta"
+        }
+      ],
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B21.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-17T00:02:49"
+      }
+    },
+    {
+      "beat_id": "B22",
+      "act": "ACT III",
+      "lane": "VOX",
+      "estimated_duration_s": 11,
+      "actual_duration_s": 10.94,
+      "audio_file": "mp3/beat-B22.mp3",
+      "lead_silence_s": null,
+      "tail_silence_s": null,
+      "new_visual_element": "Pantry still: examination room, two chairs, table — kenburns",
+      "narration_text": "A room. Two examiners. A table. The viva is the oldest academic assessment mechanism we have. It predates the cabinet. It predates the algorithm. It is the room the rules moved toward.",
+      "shot": {
+        "type": "STILL",
+        "source": "archive",
+        "motion": "kenburns",
+        "focus": [
+          0.5,
+          0.5
+        ]
+      },
+      "show": [
+        {
+          "at": 0.0,
+          "event": "Examination room still on cream, desaturated; terracotta label 'The Viva'"
+        },
+        {
+          "at": 0.4,
+          "event": "Slow kenburns drift inward; label 'Oldest academic assessment mechanism'"
+        },
+        {
+          "at": 0.8,
+          "event": "'The room the rules moved toward.' appears small at bottom"
+        }
+      ],
+      "pantry": {
+        "bid": "B22",
+        "subject": "Examination room — two chairs, table, no people",
+        "tier": 1,
+        "note": "Generic. Run pantry_search.py 'examination room table chairs academic'. No people — the absence is the point."
+      },
+      "build": {
+        "status": "SLATE",
+        "src": null,
+        "filled_by": null,
+        "at": "2026-08-17T00:02:49",
+        "needs": "YOU → drop a historical image at media/B22.png (or .mp4)",
+        "suggested": "find: Pantry still: examination room, two chairs, table — kenburns"
+      }
+    },
+    {
+      "beat_id": "B23",
+      "act": "ACT III",
+      "lane": "REMOTION",
+      "estimated_duration_s": 11.0,
+      "actual_duration_s": 10.56,
+      "audio_file": "mp3/beat-B23.mp3",
+      "lead_silence_s": null,
+      "tail_silence_s": 1.5,
+      "new_visual_element": "C3 — test moved: 'Do not run detection. Defend the work out loud.'",
+      "narration_text": "The same institution's examiner guidance moves the test from the detector to the room. Can the candidate defend the work? That question predates every tool we have built to avoid asking it.",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "FormACard",
+          "props": {
+            "lines": [
+              "The same institution's examiner guidance moves the test",
+              "from the detector to the room. Can the candidate defend",
+              "the work? That question predates every tool we have",
+              "built to avoid asking it."
+            ],
+            "dark": false
+          },
+          "rendered": {
+            "out": "media/B23.mp4",
+            "at": ""
+          }
+        }
+      },
+      "remotion": "C3TestMoved",
+      "show": [
+        {
+          "at": 0.0,
+          "event": "'Examiners:' header; two bullets: 'Do not run detection software.' and 'Do not upload the thesis.'"
+        },
+        {
+          "at": 0.45,
+          "event": "'The test moved.' — bullets strike through; new: 'Can the candidate defend the work?'"
+        },
+        {
+          "at": 0.75,
+          "event": "'Out loud. In the room.' — terracotta on 'In the room.'"
+        }
+      ],
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B23.mp4",
+        "filled_by": "media",
+        "at": "2026-08-17T00:02:49"
+      }
+    },
+    {
+      "beat_id": "B24",
+      "act": "ACT IV",
+      "lane": "CARD",
+      "estimated_duration_s": 4,
+      "actual_duration_s": 2.35,
+      "audio_file": "mp3/beat-B24.mp3",
+      "lead_silence_s": 0.3,
+      "tail_silence_s": null,
+      "new_visual_element": "Act IV title card — 'IV. The Counterfactual'",
+      "narration_text": "Act four. The counterfactual.",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "SparkLineActCard",
+          "props": {}
+        }
+      },
+      "remotion": "SparkLineActCard",
+      "props": {
+        "actNumber": "IV.",
+        "actTitle": "The Counterfactual"
+      },
+      "show": [
+        {
+          "at": 0.0,
+          "event": "'IV.' terracotta; 'The Counterfactual' in serif beneath"
+        }
+      ],
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B24.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-17T00:02:49"
+      }
+    },
+    {
+      "beat_id": "B25",
+      "act": "ACT IV",
+      "lane": "REMOTION",
+      "estimated_duration_s": 10,
+      "actual_duration_s": 9.88,
+      "audio_file": "mp3/beat-B25.mp3",
+      "lead_silence_s": null,
+      "tail_silence_s": null,
+      "new_visual_element": "C2 reset — same field, same deadline, same weakness, now 2026",
+      "narration_text": "Same field. Same problem: a literature review that needs writing, sitting in front of a deadline that will not move. Same weakness. Only now it is 2026.",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "FormACard",
+          "props": {
+            "lines": [
+              "Same field. Same problem: a literature review that",
+              "needs writing, sitting in front of a deadline that will",
+              "not move. Same weakness. Only now it is 2026."
+            ],
+            "dark": false
+          },
+          "rendered": {
+            "out": "media/B25.mp4",
+            "at": ""
+          }
+        }
+      },
+      "remotion": "C2Reset2026",
+      "show": [
+        {
+          "at": 0.0,
+          "event": "Three-column card: 'Same field.' | 'Same deadline.' | 'Same weakness.'"
+        },
+        {
+          "at": 0.6,
+          "event": "'Only now: 2026.' appears bottom terracotta, full-width — reframes the three columns"
+        }
+      ],
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B25.mp4",
+        "filled_by": "media",
+        "at": "2026-08-17T00:02:49"
+      }
+    },
+    {
+      "beat_id": "B26",
+      "act": "ACT IV",
+      "lane": "REMOTION",
+      "estimated_duration_s": 9,
+      "actual_duration_s": 9.94,
+      "audio_file": "mp3/beat-B26.mp3",
+      "lead_silence_s": null,
+      "tail_silence_s": null,
+      "new_visual_element": "Onda code-block — the prompt anyone would type",
+      "narration_text": "He types the thing anyone would type. Summarise the literature on reflective practice in initial teacher education — Dewey, Schön, Carr and Kemmis. Twelve hundred words.",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "FormACard",
+          "props": {
+            "lines": [
+              "He types the thing anyone would type. Summarise the",
+              "literature on reflective practice in initial teacher",
+              "education — Dewey, Schön, Carr and Kemmis. Twelve",
+              "hundred words."
+            ],
+            "dark": false
+          },
+          "rendered": {
+            "out": "media/B26.mp4",
+            "at": ""
+          }
+        }
+      },
+      "remotion": "OndaCodeBlock",
+      "show": [
+        {
+          "at": 0.0,
+          "event": "Chat-style prompt block on cream; cursor blinks"
+        },
+        {
+          "at": 0.2,
+          "event": "Text types in: 'Summarise the literature on reflective practice in initial teacher education — Dewey, Schön, Carr and Kemmis. Twelve hundred words.'"
+        },
+        {
+          "at": 0.8,
+          "event": "Running indicator: generating… (output is B27)"
+        }
+      ],
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B26.mp4",
+        "filled_by": "media",
+        "at": "2026-08-17T00:02:49"
+      }
+    },
+    {
+      "beat_id": "B27",
+      "act": "ACT IV",
+      "lane": "MANIM",
+      "estimated_duration_s": 11,
+      "actual_duration_s": 10.67,
+      "audio_file": "mp3/beat-B27.mp3",
+      "lead_silence_s": null,
+      "tail_silence_s": null,
+      "new_visual_element": "State card: novel text — blend of corpus, no single source",
+      "narration_text": "What comes back is novel text. It resembles no single document, because it is a blend of all of them — a statistical aggregate of the corpus, expressed as a single readable sequence.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own"
+      },
+      "graphic": {
+        "manim": "B27_NovelTextCard",
+        "production_viz": {
+          "label": "State card — what generative text is",
+          "mechanic": "'Novel.' large; source-convergence diagram: many inbound arrows (Dewey, Schön, Carr, Kemmis…) merge to one output; 'No single source document.' terracotta",
+          "colors": [
+            "#D97757",
+            "#3D3929",
+            "#F2F0E9"
+          ]
+        }
+      },
+      "show": [
+        {
+          "at": 0.0,
+          "event": "'What comes back: Novel.' — large EB Garamond"
+        },
+        {
+          "at": 0.3,
+          "event": "Source-convergence: many inbound arrows merge to one output"
+        },
+        {
+          "at": 0.7,
+          "event": "'No single source document.' terracotta"
+        }
+      ],
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B27.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-17T00:02:49"
+      }
+    },
+    {
+      "beat_id": "B28",
+      "act": "ACT IV",
+      "lane": "MANIM",
+      "estimated_duration_s": 10,
+      "actual_duration_s": 9.69,
+      "audio_file": "mp3/beat-B28.mp3",
+      "lead_silence_s": null,
+      "tail_silence_s": null,
+      "new_visual_element": "Score gauge falling to near-zero; '322 sentences: never exist'",
+      "narration_text": "Run it through the instrument. The similarity score is near zero. The three hundred and twenty-two sentences never exist. There is nothing for anyone to lay side by side.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own"
+      },
+      "graphic": {
+        "manim": "B28_ScoreFalling",
+        "production_viz": {
+          "label": "Similarity score gauge — falls to near-zero",
+          "mechanic": "Gauge starts at 20.8% reference level; sweeps down to near-zero; '322 sentences: 0' — 322 struck through, 0 replaces in terracotta; 'Nothing to lay side by side.' at bottom",
+          "colors": [
+            "#D97757",
+            "#3D3929",
+            "#F2F0E9"
+          ]
+        }
+      },
+      "show": [
+        {
+          "at": 0.0,
+          "event": "Score gauge with 20.8% reference marker"
+        },
+        {
+          "at": 0.25,
+          "event": "Gauge drops to near-zero; '≈ 0%'"
+        },
+        {
+          "at": 0.55,
+          "event": "'322 sentences: 0' — 322 struck out"
+        },
+        {
+          "at": 0.8,
+          "event": "'Nothing to lay side by side.'"
+        }
+      ],
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B28.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-17T00:02:49"
+      }
+    },
+    {
+      "beat_id": "B29",
+      "act": "ACT IV",
+      "lane": "VOX",
+      "estimated_duration_s": 11,
+      "actual_duration_s": 9.77,
+      "audio_file": "mp3/beat-B29.mp3",
+      "lead_silence_s": null,
+      "tail_silence_s": null,
+      "new_visual_element": "Pantry still: desk, laptop, night — kenburns inward, Run R3 b1",
+      "narration_text": "A desk. A deadline. An open screen at eleven at night. One chapter still untouched — the one that requires reading papers the candidate has not had time to read.",
+      "shot": {
+        "type": "STILL",
+        "source": "archive",
+        "motion": "kenburns",
+        "focus": [
+          0.55,
+          0.55
+        ],
+        "vox_run": "R3",
+        "handoff": {
+          "camera": {
+            "x": 0.52,
+            "y": 0.52,
+            "scale": 1.9
+          },
+          "objects": [
+            {
+              "id": "desk-laptop-night",
+              "x": 0.5,
+              "y": 0.55,
+              "scale": 1.0,
+              "opacity": 1.0
+            }
+          ]
+        }
+      },
+      "show": [
+        {
+          "at": 0.0,
+          "event": "Desk/laptop still on cream, desaturated; warm screen glow; terracotta label '11 pm'"
+        },
+        {
+          "at": 0.5,
+          "event": "Kenburns drifts inward toward screen"
+        },
+        {
+          "at": 0.85,
+          "event": "Frame holds at handoff scale"
+        }
+      ],
+      "pantry": {
+        "bid": "B29",
+        "subject": "Desk with laptop, late night, papers; screen glow; no identifiable person",
+        "tier": 1,
+        "note": "Generic. Run pantry_search.py 'desk laptop night study'. Must match B30 visual register for run continuity."
+      },
+      "build": {
+        "status": "SLATE",
+        "src": null,
+        "filled_by": null,
+        "at": "2026-08-17T00:02:49",
+        "needs": "YOU → drop a historical image at media/B29.png (or .mp4)",
+        "suggested": "find: Pantry still: desk, laptop, night — kenburns inward, Run R3 b1"
+      }
+    },
+    {
+      "beat_id": "B30",
+      "act": "ACT IV",
+      "lane": "VOX",
+      "estimated_duration_s": 9,
+      "actual_duration_s": 7.68,
+      "audio_file": "mp3/beat-B30.mp3",
+      "lead_silence_s": null,
+      "tail_silence_s": 1.5,
+      "new_visual_element": "Pantry still: reading room, wide — kenburns pull-back, Run R3 b2",
+      "narration_text": "Pull back. The whole room. Every desk in it. Every screen open to the same interface. Every one of them doing the same thing, legally.",
+      "shot": {
+        "type": "STILL",
+        "source": "archive",
+        "motion": "kenburns",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "vox_run": "R3"
+      },
+      "show": [
+        {
+          "at": 0.0,
+          "event": "Wide reading room; camera begins at handoff scale and pulls back"
+        },
+        {
+          "at": 0.4,
+          "event": "Rows of desks and screens visible as pullback continues"
+        },
+        {
+          "at": 0.75,
+          "event": "Label: 'Every one. Legal.' — bottom-right terracotta"
+        }
+      ],
+      "pantry": {
+        "bid": "B30",
+        "subject": "Library reading room or study hall, wide angle — multiple desks, screens, no identifiable people",
+        "tier": 1,
+        "note": "Generic. Run pantry_search.py 'library study hall reading room desks'. Must be plausibly the same space as B29."
+      },
+      "build": {
+        "status": "SLATE",
+        "src": null,
+        "filled_by": null,
+        "at": "2026-08-17T00:02:49",
+        "needs": "YOU → drop a historical image at media/B30.png (or .mp4)",
+        "suggested": "find: Pantry still: reading room, wide — kenburns pull-back, Run R3 b2"
+      }
+    },
+    {
+      "beat_id": "B31",
+      "act": "ACT IV",
+      "lane": "REMOTION",
+      "estimated_duration_s": 10,
+      "actual_duration_s": 10.01,
+      "audio_file": "mp3/beat-B31.mp3",
+      "lead_silence_s": null,
+      "tail_silence_s": null,
+      "new_visual_element": "C3 substitution — 2015 (one source) vs 2026 (everyone's, uncitable)",
+      "narration_text": "In 2015 he took one person's prose. In 2026 he takes everyone's — from a source that cannot be cited, because it will not tell him whose it was.",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "FormACard",
+          "props": {
+            "lines": [
+              "In 2015 he took one person's prose. In 2026 he takes",
+              "everyone's — from a source that cannot be cited,",
+              "because it will not tell him whose it was."
+            ],
+            "dark": false
+          },
+          "rendered": {
+            "out": "media/B31.mp4",
+            "at": ""
+          }
+        }
+      },
+      "remotion": "C3Substitution",
+      "show": [
+        {
+          "at": 0.0,
+          "event": "Two-column diagram: '2015' | '2026'"
+        },
+        {
+          "at": 0.15,
+          "event": "2015: single document → arrow → thesis; 'One person’s prose'"
+        },
+        {
+          "at": 0.45,
+          "event": "2026: corpus stack → arrow → thesis; 'Everyone’s'"
+        },
+        {
+          "at": 0.7,
+          "event": "'Cannot be cited. / Will not tell him whose it was.' — 'Cannot be cited.' terracotta"
+        }
+      ],
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B31.mp4",
+        "filled_by": "media",
+        "at": "2026-08-17T00:02:49"
+      }
+    },
+    {
+      "beat_id": "B32",
+      "act": "ACT IV",
+      "lane": "REMOTION",
+      "estimated_duration_s": 15,
+      "actual_duration_s": 11.33,
+      "audio_file": "mp3/beat-B32.mp3",
+      "lead_silence_s": null,
+      "tail_silence_s": 2.0,
+      "new_visual_element": "C3 landing — breach invisible, caught only in viva; nobody dies",
+      "narration_text": "And he is still in breach — that is the unreviewed section the policy names. But the breach is invisible to every instrument. So it is caught, if at all, in a viva. In a room. In an afternoon. And nobody dies.",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "FormACard",
+          "props": {
+            "lines": [
+              "And he is still in breach — that is the unreviewed",
+              "section the policy names. But the breach is invisible",
+              "to every instrument. So it is caught, if at all, in a",
+              "viva. In a room. In an afternoon. And nobody dies."
+            ],
+            "dark": false
+          },
+          "rendered": {
+            "out": "media/B32.mp4",
+            "at": ""
+          }
+        }
+      },
+      "remotion": "C3Landing",
+      "show": [
+        {
+          "at": 0.0,
+          "event": "'Still in breach.' large — 'breach' terracotta"
+        },
+        {
+          "at": 0.25,
+          "event": "'Invisible to every instrument.' appears"
+        },
+        {
+          "at": 0.5,
+          "event": "'Caught, if at all: / In a viva. / In a room. / In an afternoon.'"
+        },
+        {
+          "at": 0.8,
+          "event": "Long pause; then: 'And nobody dies.' — full-screen, small type"
+        }
+      ],
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B32.mp4",
+        "filled_by": "media",
+        "at": "2026-08-17T00:02:49"
+      }
+    },
+    {
+      "beat_id": "B33",
+      "act": "ACT V",
+      "lane": "REMOTION",
+      "estimated_duration_s": 4,
+      "actual_duration_s": 2.35,
+      "audio_file": "mp3/beat-B33.mp3",
+      "lead_silence_s": 0.3,
+      "tail_silence_s": null,
+      "new_visual_element": "Act V spark-line opener — 'V. The New Instruments'",
+      "narration_text": "Act five. The new instruments.",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "FormACard",
+          "props": {
+            "lines": [
+              "Act five. The new instruments."
+            ],
+            "dark": false
+          },
+          "rendered": {
+            "out": "media/B33.mp4",
+            "at": ""
+          }
+        }
+      },
+      "remotion": "SparkLineActCard",
+      "props": {
+        "actNumber": "V.",
+        "actTitle": "The New Instruments"
+      },
+      "show": [
+        {
+          "at": 0.0,
+          "event": "'V.' terracotta; 'The New Instruments' in serif beneath"
+        }
+      ],
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B33.mp4",
+        "filled_by": "media",
+        "at": "2026-08-17T00:02:49"
+      }
+    },
+    {
+      "beat_id": "B34",
+      "act": "ACT V",
+      "lane": "MANIM",
+      "estimated_duration_s": 12.0,
+      "actual_duration_s": 10.5,
+      "audio_file": "mp3/beat-B34.mp3",
+      "lead_silence_s": null,
+      "tail_silence_s": null,
+      "new_visual_element": "Isotype: 50+ institution icons greyed out (switched off)",
+      "narration_text": "The sector tried to build a detector for the new problem. Many institutions have since switched off the tool they adopted. The instrument built for the old problem does not transfer to the new one.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own"
+      },
+      "graphic": {
+        "manim": "B34_SwitchoffIsotype",
+        "production_viz": {
+          "label": "Isotype — 50+ institutions that switched off AI detectors",
+          "mechanic": "Grid of ~60 institution icons; icons turn grey one by one; counter ticks '50+' in terracotta; 'The old instrument does not transfer.' below",
+          "colors": [
+            "#D97757",
+            "#3D3929",
+            "#F2F0E9"
+          ],
+          "note": "Verify count — FACTCHECK.md row 19."
+        }
+      },
+      "show": [
+        {
+          "at": 0.0,
+          "event": "Grid of institution icons, all active (ink)"
+        },
+        {
+          "at": 0.35,
+          "event": "Icons switch grey in sequence; counter ticks"
+        },
+        {
+          "at": 0.65,
+          "event": "'50+' terracotta; majority grey"
+        },
+        {
+          "at": 0.85,
+          "event": "'The old instrument does not transfer.' below"
+        }
+      ],
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B34.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-17T00:02:49"
+      }
+    },
+    {
+      "beat_id": "B35",
+      "act": "ACT V",
+      "lane": "MANIM",
+      "estimated_duration_s": 11.0,
+      "actual_duration_s": 13.01,
+      "audio_file": "mp3/beat-B35.mp3",
+      "lead_silence_s": null,
+      "tail_silence_s": null,
+      "new_visual_element": "Two case study cards: 100% machine on human text; 6,000 cases then dismissed",
+      "narration_text": "One institution found its detection tool flagging human writing as machine-generated with high confidence. A second opened hundreds of misconduct cases in a single year — then closed most of them on investigation.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own"
+      },
+      "graphic": {
+        "manim": "B35_CaseCards",
+        "production_viz": {
+          "label": "Two case study cards — detector failure modes",
+          "mechanic": "Card 1: 'Human text. / Verdict: 100% machine.' with terracotta error mark; Card 2: '≈6,000 cases. / Most dismissed.' with scale icon; no institution names",
+          "colors": [
+            "#D97757",
+            "#3D3929",
+            "#F2F0E9"
+          ],
+          "note": "DO NOT name institutions. Verify both cases — FACTCHECK.md rows 20–21."
+        }
+      },
+      "show": [
+        {
+          "at": 0.0,
+          "event": "Two blank cards on cream"
+        },
+        {
+          "at": 0.15,
+          "event": "Card 1: 'Human text. / Verdict: 100% machine.' — terracotta error mark"
+        },
+        {
+          "at": 0.5,
+          "event": "Card 2: '≈6,000 cases. / Most dismissed.' — scale icon"
+        },
+        {
+          "at": 0.85,
+          "event": "'Detector failure modes.' small label above both cards"
+        }
+      ],
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B35.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-17T00:02:49"
+      }
+    },
+    {
+      "beat_id": "B36",
+      "act": "ACT V",
+      "lane": "VOX",
+      "estimated_duration_s": 10,
+      "actual_duration_s": 9.19,
+      "audio_file": "mp3/beat-B36.mp3",
+      "lead_silence_s": null,
+      "tail_silence_s": null,
+      "new_visual_element": "Pantry still: exam hall with front screen — kenburns",
+      "narration_text": "A hall of desks. A screen at the front. The detector is projected. Students sitting the same examination they always sat, in the same room, by the same rules.",
+      "shot": {
+        "type": "STILL",
+        "source": "archive",
+        "motion": "kenburns",
+        "focus": [
+          0.5,
+          0.3
+        ]
+      },
+      "show": [
+        {
+          "at": 0.0,
+          "event": "Exam hall still, desaturated; screen at front visible; terracotta label 'The detector, projected.'"
+        },
+        {
+          "at": 0.3,
+          "event": "Kenburns drifts from screen toward student desks"
+        }
+      ],
+      "pantry": {
+        "bid": "B36",
+        "subject": "University examination hall with front screen — rows of desks, no identifiable people",
+        "tier": 1,
+        "note": "Generic. Run pantry_search.py 'exam hall university lecture screen projector'. Screen at front is important."
+      },
+      "build": {
+        "status": "SLATE",
+        "src": null,
+        "filled_by": null,
+        "at": "2026-08-17T00:02:49",
+        "needs": "YOU → drop a historical image at media/B36.png (or .mp4)",
+        "suggested": "find: Pantry still: exam hall with front screen — kenburns"
+      }
+    },
+    {
+      "beat_id": "B37",
+      "act": "ACT V",
+      "lane": "MANIM",
+      "estimated_duration_s": 11.7,
+      "actual_duration_s": 13.16,
+      "audio_file": "mp3/beat-B37.mp3",
+      "lead_silence_s": null,
+      "tail_silence_s": null,
+      "new_visual_element": "Disparity bars: 61% false-positive rate for EFL writers",
+      "narration_text": "Across the major tools, published studies found false-positive rates for non-native English writers substantially higher than for native speakers. The instrument had a demographic. It did not read the same writing the same way.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own"
+      },
+      "graphic": {
+        "manim": "B37_DisparityBars",
+        "production_viz": {
+          "label": "Disparity bars — false-positive rate by language background",
+          "mechanic": "Two bars: 'EFL writers' (terracotta, 61%) and 'Native English writers' (ink, lower reference); '61%' terracotta label; 'The instrument had a demographic.' below",
+          "colors": [
+            "#D97757",
+            "#3D3929",
+            "#F2F0E9"
+          ],
+          "note": "Verify 61% and study source — FACTCHECK.md row 22."
+        }
+      },
+      "show": [
+        {
+          "at": 0.0,
+          "event": "Two bar slots"
+        },
+        {
+          "at": 0.3,
+          "event": "EFL bar grows to 61%; terracotta label drops in"
+        },
+        {
+          "at": 0.55,
+          "event": "Native English bar at lower comparison value"
+        },
+        {
+          "at": 0.75,
+          "event": "'The instrument had a demographic.' — terracotta full-width below"
+        }
+      ],
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B37.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-17T00:02:49"
+      }
+    },
+    {
+      "beat_id": "B38",
+      "act": "ACT V",
+      "lane": "MANIM",
+      "estimated_duration_s": 13,
+      "actual_duration_s": 11.82,
+      "audio_file": "mp3/beat-B38.mp3",
+      "lead_silence_s": null,
+      "tail_silence_s": null,
+      "new_visual_element": "Watermark mechanism: statistical bias → word selection → z-score → p-value",
+      "narration_text": "Then watermarking. A statistical bias is introduced when each word is chosen — a thumb on the scale. Count how many words landed on the marked side. Compute a z-score. Elegant, and honest about what it measures.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own"
+      },
+      "graphic": {
+        "manim": "B38_WatermarkMechanism",
+        "production_viz": {
+          "label": "Watermark mechanism — word-selection bias pipeline",
+          "mechanic": "Flow: word-choice node → bias node (terracotta thumb) → marked/unmarked buckets → count → z-score → p-value; each stage lights on narration; 'Elegant. Honest.' end label",
+          "colors": [
+            "#D97757",
+            "#3D3929",
+            "#F2F0E9"
+          ]
+        }
+      },
+      "show": [
+        {
+          "at": 0.0,
+          "event": "Flow pipeline: word-choice → bias node"
+        },
+        {
+          "at": 0.2,
+          "event": "Bias node: 'statistical thumb on scale' — terracotta"
+        },
+        {
+          "at": 0.45,
+          "event": "Words land in marked/unmarked buckets; count accumulates"
+        },
+        {
+          "at": 0.65,
+          "event": "'z-score' and 'p-value' nodes light in sequence"
+        },
+        {
+          "at": 0.85,
+          "event": "'Elegant. Honest about what it measures.' — end label"
+        }
+      ],
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B38.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-17T00:02:49"
+      }
+    },
+    {
+      "beat_id": "B39",
+      "act": "ACT V",
+      "lane": "REMOTION",
+      "estimated_duration_s": 13.3,
+      "actual_duration_s": 14.49,
+      "audio_file": "mp3/beat-B39.mp3",
+      "lead_silence_s": null,
+      "tail_silence_s": 2.0,
+      "new_visual_element": "C3 — documentation's own limits: three claims, none about authorship",
+      "narration_text": "One such system's documentation is precise about what it measures: evidence of text-generator involvement. It cannot determine how much of that involvement was creative authorship. The line the policy drew is exactly the one the tool declines to draw.",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "FormACard",
+          "props": {
+            "lines": [
+              "One such system's documentation is precise about what",
+              "it measures: evidence of text-generator involvement. It",
+              "cannot determine how much of that involvement was",
+              "creative authorship. The line the policy drew is",
+              "exactly the one the tool declines to draw."
+            ],
+            "dark": false
+          },
+          "rendered": {
+            "out": "media/B39.mp4",
+            "at": ""
+          }
+        }
+      },
+      "remotion": "C3VendorLimits",
+      "show": [
+        {
+          "at": 0.0,
+          "event": "Three stacked cards; header: 'Documentation says:'"
+        },
+        {
+          "at": 0.2,
+          "event": "Card 1: 'Shows: text generator was likely involved.'"
+        },
+        {
+          "at": 0.45,
+          "event": "Card 2: 'Cannot separate: wrote this ↔ heavily edited this.'"
+        },
+        {
+          "at": 0.65,
+          "event": "Card 3: 'Says nothing about: authorship.' — 'authorship' terracotta"
+        },
+        {
+          "at": 0.82,
+          "event": "'The exact line the policy draws.' terracotta below"
+        }
+      ],
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B39.mp4",
+        "filled_by": "media",
+        "at": "2026-08-17T00:02:49"
+      }
+    },
+    {
+      "beat_id": "BVDT",
+      "act": "CLOSING BLOCK",
+      "lane": "REMOTION",
+      "estimated_duration_s": 22,
+      "actual_duration_s": 19.93,
+      "audio_file": "mp3/beat-BVDT.mp3",
+      "lead_silence_s": 0.5,
+      "tail_silence_s": 1.5,
+      "new_visual_element": "ClaudeVerdictArtifact — three-move verdict; statistics caveat ON SCREEN",
+      "narration_text": "In 2015: the act left a trace, the instrument found it. In 2026: the same act produces text the instrument cannot read. The rule that matters — did you review the work, can you defend it — has no instrument and never did. We built detectors instead of a standard. The central statistics in this episode are from a single, unreviewed analysis. The argument applied to itself.",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "ClaudeVerdictArtifact",
+          "props": {
+            "artifactTitle": "The Detector Was Never the Standard",
+            "artifactHeading": "Verdict",
+            "artifactLines": [
+              "The offence survives. The evidence does not.",
+              "The new instrument answers a question no rule turns on.",
+              "The central statistics: one unreviewed analysis."
+            ]
+          },
+          "rendered": {
+            "out": "media/BVDT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "remotion": "ClaudeVerdictArtifact",
+      "show": [
+        {
+          "at": 0.0,
+          "event": "Artifact page opens: 'Verdict' header in EB Garamond"
+        },
+        {
+          "at": 0.15,
+          "event": "Move 1: 'The offence survives. The evidence does not.'"
+        },
+        {
+          "at": 0.4,
+          "event": "Move 2: 'The new instrument answers a question no rule turns on.'"
+        },
+        {
+          "at": 0.65,
+          "event": "Move 3 (MUST BE TERRACOTTA, LARGE): 'The central statistics: one unreviewed analysis.'"
+        },
+        {
+          "at": 0.8,
+          "event": "'This is the argument applied to itself.' — italic below Move 3"
+        }
+      ],
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BVDT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-17T00:02:49"
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "CLOSING BLOCK",
+      "lane": "REMOTION",
+      "estimated_duration_s": 19,
+      "actual_duration_s": 16.04,
+      "audio_file": "mp3/beat-BHTF.mp3",
+      "lead_silence_s": null,
+      "tail_silence_s": 1.5,
+      "new_visual_element": "ClaudeComposerAsk — Your Turn; prompt typed and read aloud",
+      "narration_text": "The prompt on screen: take the last thing you wrote with a model, and try to name the five sources it is standing on. If you cannot — that is the finding. Not evidence of fraud. Evidence that the citation layer dissolved somewhere between the training corpus and the sentence you kept. Run it. See what you find.",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "YOUR TURN",
+            "command": "Take the last thing you wrote with a model. Try to name the five sources it is standing on. If you can't, that's the finding.",
+            "runningText": "paste this into Claude…",
+            "sparkLine": "Your turn.",
+            "segment": "The Detector Was Never the Standard"
+          },
+          "rendered": {
+            "out": "media/BHTF.mp4",
+            "at": ""
+          }
+        }
+      },
+      "remotion": "ClaudeComposerAsk",
+      "show": [
+        {
+          "at": 0.0,
+          "event": "Composer opens; greeting: 'Your turn.'"
+        },
+        {
+          "at": 0.1,
+          "event": "Prompt types in: 'Take the last thing you wrote with a model. Try to name the five sources it is standing on. If you can’t, that’s the finding.'"
+        },
+        {
+          "at": 0.45,
+          "event": "Liam reads prompt aloud while prompt remains visible"
+        },
+        {
+          "at": 0.85,
+          "event": "'Run it. See what you find.' — narration concludes"
+        }
+      ],
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BHTF.mp4",
+        "filled_by": "media",
+        "at": "2026-08-17T00:02:49"
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "CLOSING BLOCK",
+      "lane": "REMOTION",
+      "estimated_duration_s": 8,
+      "actual_duration_s": 3.84,
+      "audio_file": "mp3/beat-BOUT.mp3",
+      "lead_silence_s": null,
+      "tail_silence_s": 1.0,
+      "new_visual_element": "ClaudeTitleOutro — title restate + @NikBearBrown + mascot",
+      "narration_text": "The detector was never the standard. Liam, in for Bear.",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "props": {
+            "title": "The Detector Was Never the Standard",
+            "handle": "@NikBearBrown",
+            "subline": "",
+            "mascotSeed": "claude-liam-detector-never-the-standard"
+          },
+          "rendered": {
+            "out": "media/BOUT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "remotion": "ClaudeTitleOutro",
+      "show": [
+        {
+          "at": 0.0,
+          "event": "'The Detector Was Never the Standard.' in large EB Garamond serif with terracotta period"
+        },
+        {
+          "at": 0.4,
+          "event": "'@NikBearBrown' handle appears beneath"
+        },
+        {
+          "at": 0.6,
+          "event": "Mascot appears (slug-seeded, crisp-safe, no subline)"
+        }
+      ],
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BOUT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-17T00:02:49"
+      }
+    }
+  ]
+}

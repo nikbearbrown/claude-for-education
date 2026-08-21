@@ -1,0 +1,30 @@
+{
+  "beat": "B04",
+  "layout": "hierarchical-tb",
+  "safe": [96, 54, 1824, 1026],
+  "style_table": {
+    "process":  {"shape": "rect",    "fill": "none", "stroke": "ink",  "accent": false},
+    "terminal": {"shape": "rounded", "fill": "none", "stroke": "ink",  "accent": false},
+    "store":    {"shape": "cylinder","fill": "none", "stroke": "ink",  "accent": false},
+    "decision": {"shape": "diamond", "fill": "none", "stroke": "ink",  "accent": false},
+    "io":       {"shape": "parallelogram","fill": "none","stroke":"ink","accent": false}
+  },
+  "nodes": [
+    {"id":"platform_band","type":"process", "label":"PLATFORM",                     "x":380,"y":200,"w":480,"h":100},
+    {"id":"ceiling_line", "type":"terminal","label":"cannot disable safety policies","x":380,"y":280,"w":480,"h":20},
+    {"id":"operator_band","type":"process", "label":"OPERATOR",                     "x":380,"y":380,"w":480,"h":100},
+    {"id":"user_band",    "type":"process", "label":"USER",                         "x":380,"y":540,"w":480,"h":100}
+  ],
+  "edges": [
+    {"from":"platform_band","to":"ceiling_line","kind":"flow",
+     "path":[[380,250],[380,270]]},
+    {"from":"operator_band","to":"ceiling_line","kind":"flow",
+     "path":[[380,330],[380,290]],
+     "label":"cannot disable built-in safety guidelines or content policies",
+     "label_box":[640,260,1400,300]},
+    {"from":"operator_band","to":"user_band","kind":"flow",
+     "path":[[380,430],[380,490]],
+     "label":"documented, both directions",
+     "label_box":[640,440,1100,480]}
+  ]
+}

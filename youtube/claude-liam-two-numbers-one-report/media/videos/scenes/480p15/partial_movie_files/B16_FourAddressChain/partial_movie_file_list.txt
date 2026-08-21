@@ -1,0 +1,10 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-two-numbers-one-report/media/videos/scenes/480p15/partial_movie_files/B16_FourAddressChain/1592632320_3861103891_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-two-numbers-one-report/media/videos/scenes/480p15/partial_movie_files/B16_FourAddressChain/1636175790_1479422961_4121704054.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-two-numbers-one-report/media/videos/scenes/480p15/partial_movie_files/B16_FourAddressChain/1636175790_273533303_2312668662.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-two-numbers-one-report/media/videos/scenes/480p15/partial_movie_files/B16_FourAddressChain/1636175790_1009504511_2429155626.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-two-numbers-one-report/media/videos/scenes/480p15/partial_movie_files/B16_FourAddressChain/1636175790_722795650_3135841891.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-two-numbers-one-report/media/videos/scenes/480p15/partial_movie_files/B16_FourAddressChain/1636175790_1879598951_3744375220.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-two-numbers-one-report/media/videos/scenes/480p15/partial_movie_files/B16_FourAddressChain/1636175790_714130758_1045608256.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-two-numbers-one-report/media/videos/scenes/480p15/partial_movie_files/B16_FourAddressChain/1636175790_927683332_1045632076.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/claude-for-education/youtube/claude-liam-two-numbers-one-report/media/videos/scenes/480p15/partial_movie_files/B16_FourAddressChain/1636175790_3423249184_186124227.mp4'

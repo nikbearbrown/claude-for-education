@@ -1,0 +1,22 @@
+{
+  "beat": "B19",
+  "layout": "hierarchical-lr",
+  "safe": [96, 54, 1824, 1026],
+  "style_table": {
+    "process":  {"shape": "rect",    "fill": "none", "stroke": "ink",  "accent": false},
+    "terminal": {"shape": "rounded", "fill": "none", "stroke": "ink",  "accent": false},
+    "store":    {"shape": "cylinder","fill": "none", "stroke": "ink",  "accent": false},
+    "decision": {"shape": "diamond", "fill": "none", "stroke": "ink",  "accent": false},
+    "io":       {"shape": "parallelogram","fill": "none","stroke":"ink","accent": false}
+  },
+  "nodes": [
+    {"id":"committee","type":"process","label":"THE COMMITTEE","x":360, "y":540,"w":480,"h":400},
+    {"id":"console",  "type":"process","label":"THE CONSOLE",  "x":1560,"y":540,"w":480,"h":400}
+  ],
+  "edges": [
+    {"from":"committee","to":"console","kind":"flow",
+     "path":[[600,540],[1320,540]],
+     "label":"the missing conversation",
+     "label_box":[660,560,1260,600]}
+  ]
+}

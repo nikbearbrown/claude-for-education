@@ -1,0 +1,138 @@
+1
+00:00:00,000 --> 00:00:12,020
+Merhaba — this is Liam, in for Bear. One
+dataset can hand you four different true
+numbers. Two parties each got a menu. Both
+
+2
+00:00:12,070 --> 00:00:24,670
+It starts with a good study. Four
+detection tools, a hundred and sixty
+documents, known ground truth,
+
+3
+00:00:24,720 --> 00:00:28,400
+Rebuild the accuracy table from the
+detection-tools study.
+
+4
+00:00:28,450 --> 00:00:38,280
+On fully machine-written papers: one tool
+scored zero. A second scored zero. A third
+scored zero. The fourth scored highest —
+
+5
+00:00:38,330 --> 00:00:49,440
+Sixty-five percent strict. Ninety-seven
+point five inclusive. The difference is
+what inclusive forgives: a score of sixty
+
+6
+00:00:49,490 --> 00:00:58,510
+The zero-false-positive result — forty
+human theses, not one flagged — comes from
+non-native English speakers writing before
+
+7
+00:00:58,560 --> 00:01:10,090
+Pre-2019 text guarantees clean ground
+truth — nothing could have generated it.
+That makes it the easiest possible
+
+8
+00:01:10,140 --> 00:01:22,190
+The authors say it in the abstract:
+detection results should not be used as
+sole evidence in high-stakes decision-
+
+9
+00:01:22,240 --> 00:01:27,420
+Pull up the Pangram report on AI writing
+rates across social-media platforms.
+
+10
+00:01:27,470 --> 00:01:49,820
+The report has four numbers. All true. All
+from the same scan. Thirteen point eight
+percent — the global average, all
+
+11
+00:01:49,870 --> 00:01:53,450
+Rebuild the vendor's third-party
+evaluations page.
+
+12
+00:01:53,500 --> 00:02:07,300
+That study appears on Pangram's
+evaluations page — listed as institution
+name and month, no DOI, no authors, no
+
+13
+00:02:07,350 --> 00:02:22,340
+Same move. The page quotes two figures
+from that table — ninety-seven point five
+percent, and zero false positives on
+
+14
+00:02:22,390 --> 00:02:29,810
+Two documents, two picks. From each one,
+the figure that stayed behind was the one
+that limits what the chosen figure can
+
+15
+00:02:29,860 --> 00:02:33,050
+Where does the platform's accuracy claim
+link to?
+
+16
+00:02:33,100 --> 00:03:03,600
+Chris Best's post on Substack — 'Against
+Claudefishing,' twenty-first of July
+twenty twenty-six — says the tool is not
+
+17
+00:03:03,650 --> 00:03:15,890
+Follow the link from Best's post. It
+resolves to Pangram's evaluations page,
+not to the paper. The chain: Best cites
+
+18
+00:03:15,940 --> 00:03:23,190
+And then it is a button. Any document, any
+reader, a score returned on request. The
+chain is complete. The qualifiers are not.
+
+19
+00:03:23,240 --> 00:03:33,130
+Four addresses. Paper to vendor page to
+announcement to button. Every hop cites
+something real. Every hop is one step
+
+20
+00:03:33,180 --> 00:03:49,020
+What did not travel — from the report:
+thirteen point eight and twenty-one point
+nine stayed behind, along with the
+
+21
+00:03:49,070 --> 00:04:05,640
+Six numbers, all with decimal points:
+thirteen point eight, twenty-one point
+nine, twenty-five point seven two, sixty-
+
+22
+00:04:05,690 --> 00:04:28,300
+Nobody lied. The platform reached past the
+two numbers about Substack — its own rate
+of twenty-one point nine percent, the
+
+23
+00:04:28,350 --> 00:04:46,690
+Your turn. The prompt: take a statistic
+you've quoted recently — trace it back one
+source at a time until you reach the
+
+24
+00:04:46,740 --> 00:04:49,800
+Pick a Number, Any Number. Liam, in for
+Bear.
